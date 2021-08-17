@@ -14,16 +14,29 @@
 		<org.aspectj-version>1.6.10</org.aspectj-version>
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 	</properties>
-	<!-- 
-		maven 에서 jar 파일을 다운방법
-		pom.xml
-		dependency
-		c:\users\사용자명\.m2\repository\mysql mysql .jar
-		인터넷.. 받다가.. 읽기속성..
-		이클립스 끄고..
-		maven - > update Force 강제로..
-	 -->
+	<!-- maven 에서 jar 파일을 다운방법 pom.xml dependency c:\users\사용자명\.m2\repository\mysql 
+		mysql .jar 인터넷.. 받다가.. 읽기속성.. 이클립스 끄고.. maven - > update Force 강제로.. -->
 	<dependencies>
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>3.2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis-spring</artifactId>
+			<version>1.2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>${org.springframework-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>1.4</version>
+		</dependency>
 		<!-- mysql jar java @configuration.. cglib.jar -->
 		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>

@@ -3,6 +3,7 @@ package com.mh.org4.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,14 +14,22 @@ import com.mh.org4.dto.TestDto;
 @Controller
 public class ListController {
 
-	@Autowired
+	@Autowired	
 	TestDao dao;
+	
+//	@Autowired
+//	DriverManagerDataSource dataSource;
 	
 	@RequestMapping(value="list")
 	public String list(Model model) {
 		List<TestDto> rvalue = dao.doList();
 		model.addAttribute("a",rvalue);
+		
 		return "list";
 	}
-	
+	@RequestMapping(value="insert")
+	public String insert(Model model) {
+		dao.doInsert();
+		return "insert";
+	}
 }

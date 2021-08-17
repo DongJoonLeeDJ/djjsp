@@ -6,13 +6,34 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.stereotype.Component;
 
 import com.mh.org4.dto.TestDto;
 
+/*
+ * 나기주박사님..
+ * 수목금..
+ * 
+ * 화요일.. 
+ * mybatis
+ */
+
 @Component
 public class TestDao {
 
+	@Autowired
+	DriverManagerDataSource datasource;
+	
+	@Autowired
+	SqlSession sqlSession;
+	
+	public void doInsert() {
+		sqlSession.insert("test.insert");
+	}
+	
 	public ArrayList<TestDto> doList() {
 		ArrayList<TestDto> list = new ArrayList<TestDto>();
 		System.out.println("dolist");
@@ -52,5 +73,18 @@ public class TestDao {
 //		list.add("a");
 //		list.add("b");
 		return list;
+	}
+
+//	public List<Connection> mydatasource;
+	
+	public void mylist() {
+		Connection conn= null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		try {
+			conn = datasource.getConnection();
+//			pstmt = conn.prepareStatement("")
+		}catch (Exception e) {
+		}
 	}
 }
