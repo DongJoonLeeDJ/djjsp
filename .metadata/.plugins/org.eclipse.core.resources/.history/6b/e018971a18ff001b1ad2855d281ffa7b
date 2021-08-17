@@ -1,0 +1,36 @@
+package com.mh.org4.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class TestDao {
+
+	public ArrayList<String> doList() {
+		ArrayList<String> list = new ArrayList<String>();
+		System.out.println("dolist");
+		
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		String url = "jdbc:mysql://localhost:3306/test_db"; // 연결문자열 String user = "root"; // 데이터베이스 ID String pw = "1234"; // 데이터베이스 PW
+
+		출처: https://allg.tistory.com/21 [프로그래밍 해볼까]
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			
+		}catch (Exception e) {
+			
+		}finally {
+			
+		}
+		
+		list.add("a");
+		list.add("b");
+		return list;
+	}
+}

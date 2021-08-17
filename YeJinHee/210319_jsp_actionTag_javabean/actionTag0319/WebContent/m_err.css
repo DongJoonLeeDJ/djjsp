@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+div {
+	text-align: center;
+}
+
+p {
+	margin-top: 0.8em;
+	margin-bottom: 0;
+}
+
+.code {
+	font-family: 'Russo One', sans-serif;
+	font-weight: 900;
+	font-size: 6em;
+	display: block;
+	margin-bottom: 0.5em;
+	background: #C9C9C9;
+	background: -webkit-linear-gradient(to bottom right, #C9C9C9 0%, #545454 100%);
+	background: -moz-linear-gradient(to bottom right, #C9C9C9 0%, #545454 100%);
+	background: linear-gradient(to bottom right, #C9C9C9 0%, #545454 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

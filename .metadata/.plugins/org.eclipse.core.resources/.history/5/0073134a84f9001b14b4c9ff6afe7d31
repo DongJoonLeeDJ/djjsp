@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>bb page</h1>
+${bb.aa}
+<%
+	BB bb = request.getAttribute("bb");
+	
+%>
+<form>
+	<input type="text" name="bb">
+	<input type="submit" value="bb값전송"/>
+</form>
+</body>
+</html>

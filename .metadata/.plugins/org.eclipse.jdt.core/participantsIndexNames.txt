@@ -1,0 +1,23 @@
+INDEX VERSION 1.131
+D:\DJJSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1280894125.index
+\20210805\src\main\java
+D:\DJJSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2689413285.index
+\20210817\src\main\java
+D:\DJJSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1591368824.index
+\Test\src\main\java
+D:\DJJSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2603276280.index
+\STUN_TEAM\StunProjects\src\main\java
+D:\DJJSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1103512165.index
+\webapp0326\src
+D:\DJJSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2250064451.index
+\20210811\src\main\java
+D:\DJJSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\361869620.index
+\DJ_JSP\src\main\java
+D:\DJJSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2939561089.index
+\webapp_20210325\src
+D:\DJJSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3990655388.index
+\StunProjects\src\main\java
+D:\DJJSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2298129042.index
+\20210810\src\main\java
+D:\DJJSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\16253281.index
+\20210809\src\main\java

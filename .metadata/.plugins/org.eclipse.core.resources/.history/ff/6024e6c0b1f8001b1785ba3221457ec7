@@ -1,0 +1,8 @@
+package org20210809;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class AnnoConf {
+
+}

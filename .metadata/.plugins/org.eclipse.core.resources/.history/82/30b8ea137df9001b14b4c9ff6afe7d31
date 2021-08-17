@@ -1,0 +1,13 @@
+package org20210810;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Lib {
+
+	@Autowired
+	AA aa;
+	
+	public void print() {
+		aa.doAA();
+	}
+}

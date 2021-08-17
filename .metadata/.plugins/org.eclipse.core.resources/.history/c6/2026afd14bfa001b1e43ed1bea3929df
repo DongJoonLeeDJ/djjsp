@@ -1,0 +1,5 @@
+package com.mh.org3.db;
+
+public class DBManager {
+
+}

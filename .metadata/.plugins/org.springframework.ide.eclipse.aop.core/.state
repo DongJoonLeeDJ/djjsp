@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="sp5-chap02"/>
+<aop-project name="sp5-chap03"/>
+<aop-project name="20210809"/>
+<aop-project name="20210810"/>
+<aop-project name="20210811"/>
+<aop-project name="org20210809"/>
+</aop-reference-model>

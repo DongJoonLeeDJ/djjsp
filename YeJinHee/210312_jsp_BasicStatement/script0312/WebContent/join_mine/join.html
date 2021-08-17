@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입</title>
+<style>
+    h3{color : red;}
+</style>
+<script>
+    function send_go(){
+        if(document.f.name.value == ""){
+            alert("이름을 입력하세요");
+            document.f.name.focus();
+            return;
+        }
+       
+        if(document.f.id.value == ""){
+            alert("아이디를 입력하세요");
+            document.f.id.focus();
+            return;
+        }
+       
+        if(document.f.pw.value == ""){
+            alert("패스워드를 입력하세요");
+            document.f.pw.focus();
+            return;
+        } else if (document.f.pw.value != document.f.pwc.value){
+            alert("암호가 일치하지 않습니다. 다시 입력하세요");
+            document.f.pw.value = "";
+            document.f.pwc.value = "";
+            document.f.pwd.focus();
+            return;
+        }
+   
+       
+        //요청 URL
+        document.f.action = "join_script_mine.jsp";
+       
+        //서버쪽에 보내기
+        document.f.submit();
+    }
+ 
+ 
+</script>
+</head>
+<body>
+    <h1>회원가입</h1>
+    <form name="f">
+        <fieldset>
+            <h3>*는 필수입력 사항입니다.</h3>
+            *이름 : <input type="text" name= "name"><br><br>
+            *아이디 : <input type="text" name= "id"><br><br>
+            *패스워드 : <input type="text" name= "pw"><br><br>
+            *패스워드 확인 : <input type="text" name= "pwc"><br><br>
+            이메일 : <input type="email" name="email"><br><br>
+            취미 : <input type="checkbox" name="hobby" value="운동"> 운동
+            <input type="checkbox" name="hobby" value="게임"> 게임
+            <input type="checkbox" name="hobby" value="영화"> 영화
+            <input type="checkbox" name="hobby" value="독서"> 독서<br><br>
+            <input type="submit" value="회원가입" onclick="send_go()">
+            <input type="reset" value="취소">
+        </fieldset>
+    </form>
+</body>
+</html>

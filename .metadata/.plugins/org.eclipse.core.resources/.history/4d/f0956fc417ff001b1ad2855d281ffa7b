@@ -1,0 +1,17 @@
+package com.mh.org4.dao;
+
+import java.util.ArrayList;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class TestDao {
+
+	public ArrayList<String> doList() {
+		ArrayList<String> list = new ArrayList<String>();
+		System.out.println("dolist");
+		list.add("a");
+		list.add("b");
+		return list;
+	}
+}

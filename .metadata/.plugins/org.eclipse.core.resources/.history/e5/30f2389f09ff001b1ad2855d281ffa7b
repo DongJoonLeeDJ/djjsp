@@ -1,0 +1,11 @@
+package com.mh.org4.dao;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class TestDao {
+
+	public String doList() {
+		System.out.println("dolist");
+	}
+}

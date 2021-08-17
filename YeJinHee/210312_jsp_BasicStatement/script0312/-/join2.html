@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>form태그 학습</title>
+</head>
+<body>
+    <form name="해당 폼의 이름" action="값을 보낼 주소" method="post"><!-- post 방식인지 get 방식인지 -->
+        <table>
+            <tr>
+                <td>이름</td>
+                <td><input type="text" name="user_name" /></td>
+            </tr>
+            <tr>
+                <td>아이디</td>
+                <td><input type="text" name="user_id" /></td>
+            </tr>
+            <tr>
+                <td>비밀번호</td>
+                <td><input type="password" name="user_pw" /></td>
+            </tr>
+            <tr>
+                <td>비밀번호 확인</td>
+                <td><input type="text" name="user_pw2" /></td>
+            </tr>
+            <tr>
+                <td>주소</td>
+                <td><input type="text" name="user_address" /></td>
+            </tr>
+            <tr>
+                <td>생년월일</td>
+                <td><select name="user_birth_year">
+                        <option value="2000" selected>2000</option>
+                        <option value="2001" selected>2001</option>
+                        <option value="2002" selected>2002</option>
+                        <option value="2003" selected>2003</option>
+                        <option value="2004" selected>2004</option>
+                    </select>
+                    년
+                    <select name="user_birth_month">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    월
+                    <select name="user_birth_day">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    일
+                </td>
+            </tr>
+            <tr>
+                <td>직업</td>
+                <td><select name="user_job">
+                        <option value="student">학생</option>
+                        <option value="teacher">교사</option>
+                        <option value="developer">개발자</option>
+                        <option value="publisher">퍼블리셔</option>
+                        <option value="driver">운전사</option>
+                        <option value="architecture">건축가</option>
+                        <option value="actor">배우</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="submit" value="완료" />
+                <input type="reset" name="reset" value="리셋" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

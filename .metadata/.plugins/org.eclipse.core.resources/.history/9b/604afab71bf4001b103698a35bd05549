@@ -1,0 +1,10 @@
+
+public class ExampleMethod {
+
+	public static void main(String[] args) {
+		
+		Student s = new Student("이동준",33,"09");
+		Student s2 = new Student("이동준",33,"09");
+		
+	}
+}

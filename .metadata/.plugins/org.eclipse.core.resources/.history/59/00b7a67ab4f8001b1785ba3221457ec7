@@ -1,0 +1,16 @@
+package org20210809;
+
+public class A {
+	
+	private int aa;
+
+	//alt +shift + s -> r
+	public int getAa() {
+		return aa;
+	}
+
+	public void setAa(int aa) {
+		this.aa = aa;
+	}
+
+}

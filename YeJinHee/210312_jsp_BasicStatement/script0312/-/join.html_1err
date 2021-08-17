@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입 폼</title>
+</head>
+<body>
+</head>
+
+
+
+<style>
+.table1 {
+	width: 600px;
+	border: 1px solid #cccccc;
+	border-collapse: collapse; /*여백제거*/
+}
+
+.td1 {
+	padding: 5px;
+	border: 1px solid #cccccc;
+}
+
+.text_box1 {
+	width: 150px;
+	font-size: 12px;
+	color: #a7a7a7;
+}
+</style>
+
+<script>
+function fn_submit() {
+
+     var f = document.frm;
+
+     if(f.userid.value == "") {
+         alert(‎"아이디를 입력해주세요.");
+         f.userid.focus();  // 커서이동
+         return false;  // 스크립트 종료
+      }
+      var len = f.userid.value.length;
+      if( len < 4 || len > 12 ) {
+              alert(‎"아이디는 4자~12자 사이로 ~");
+              f.userid.focus();
+              return false;
+      }
+      if(f.pass.value == "") {
+            alert(‎"암호를 입력해주세요.");
+            f.pass.focus();
+            return false;  // 스크립트 종료
+       }
+       if(f.name.value == "") {
+            alert(‎"이름를 입력해주세요.");
+            f.name.focus();
+            return false;  // 스크립트 종료
+       }
+
+       f.submit();  // 전송
+}
+</script>
+
+
+
+
+<body>
+
+	<form name="frm" method="post" action="save.jsp">
+
+		<table class="table1">
+			<tr>
+				<th class="td1">아이디</th>
+				<td class="td1"><input type="text" name="userid"
+					class="text_box1"></td>
+			</tr>
+			<tr>
+				<th class="td1">패스워드</th>
+				<td class="td1"><input type="password" name="pass"
+					class="text_box1"></td>
+			</tr>
+			<tr>
+				<th class="td1">이름</th>
+				<td class="td1"><input type="text" name="name"
+					class="text_box1"></td>
+			</tr>
+			<tr>
+				<th class="td1">성별</th>
+				<td class="td1"><input type="radio" name="gender" value="M">
+					남성 , <input type="radio" name="gender" value="F"> 여성</td>
+			</tr>
+			<tr>
+				<th class="td1">생일</th>
+				<td class="td1"><select name="year">
+						<option value="2018">2018</option>
+						<option value="2019">2019</option>
+						<option value="2020">2020</option>
+				</select> 년 <select name="month">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+				</select> 월 <select name="day">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+				</select></td>
+			</tr>
+			<tr>
+				<th colspan="2" class="td1">
+					<!--<input type="submit" value="저장">
+<input type="reset" value="취소"> --> <!--<button type="submit" xxxxonclick="fn_submit();return false;">저장</button>
+-->
+					<button type="button" xxxxonclick="fn_submit()">저장</button>
+
+					<button type="reset">취소</button>
+
+				</th>
+			</tr>
+		</table>
+
+	</form>
+</body>
+</html>
+</body>
+</html>

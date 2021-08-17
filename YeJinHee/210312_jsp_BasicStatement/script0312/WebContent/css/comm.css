@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+#wrap {
+	width: 530px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid skyblue
+}
+
+td {
+	border: 1px solid skyblue
+}
+
+#title {
+	background-color: skyblue
+}

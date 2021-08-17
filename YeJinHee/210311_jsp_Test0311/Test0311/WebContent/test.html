@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>이미지 처리</title>
+<script type="text/javascript"
+	src="http://code.jquery.com/jquery-1.11.3.min.js">
+	
+</script>
+
+<!-- jquery == $ -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#displayDiv").css("display", "none");
+
+		$("#btn").click(function() {
+			if ($("#displayDiv").css("display") == "none") {
+				$("#displayDiv").css("display", "block");
+			} else {
+				$("#displayDiv").css("display", "none");
+			}
+			
+		});
+	});
+</script>
+</head>
+<body>
+	한글 테스트
+	<h1>이미지 출력 및 숨기기</h1>
+	<button type="button" id="btn">보기 또는 숨기기</button>
+	<div id="displayDiv">
+		<br>
+		<h3>상대경로</h3>
+		<img src="images/view.jpg" width="640" height="480">
+		<img src="./images/view.jpg" width="640" height="480">
+		<h3>절대경로</h3>
+		<img src="/Test0311/images/view.jpg" width="640" height="480">
+
+		<h3>URL경로</h3>
+		<img src="http://localhost:8080/Test0311/images/view.jpg" width="640"
+			height="480">
+	</div>
+
+</body>
+</html>

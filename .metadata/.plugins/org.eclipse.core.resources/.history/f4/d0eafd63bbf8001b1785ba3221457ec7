@@ -1,0 +1,14 @@
+package com.mh.org1.conf;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class AppConf {
+
+	@Bean
+	public AA aa() {
+		AA aa = new AA();
+		return aa;
+	}
+}

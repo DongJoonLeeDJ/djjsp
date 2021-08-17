@@ -1,0 +1,33 @@
+package com.mh.org4.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class TestDao {
+
+	public ArrayList<String> doList() {
+		ArrayList<String> list = new ArrayList<String>();
+		System.out.println("dolist");
+		
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		
+		try {
+			
+		}catch (Exception e) {
+			
+		}finally {
+			
+		}
+		
+		list.add("a");
+		list.add("b");
+		return list;
+	}
+}

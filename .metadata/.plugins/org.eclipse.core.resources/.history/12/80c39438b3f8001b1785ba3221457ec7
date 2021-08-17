@@ -1,0 +1,23 @@
+package org20210809;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.GenericXmlApplicationContext;
+
+public class XmlMain {
+
+	public static void main(String[] args) {
+		GenericXmlApplicationContext gxac = 
+			new GenericXmlApplicationContext();
+		
+		// 싱글톤...
+		A a1 = gxac.getBean(A.class);
+		A a2 = gxac.getBean(A.class);
+		B b = gxac.getBean(B.class);
+		
+		System.out.println(a1);
+		System.out.println(a2);
+		System.out.println(b);
+		
+		gxac.close();
+	}
+}

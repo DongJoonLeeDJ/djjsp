@@ -1,0 +1,8 @@
+package com.mh.org2.cls;
+
+public class BB {
+
+	private int aa;
+	private int bb;
+	
+}

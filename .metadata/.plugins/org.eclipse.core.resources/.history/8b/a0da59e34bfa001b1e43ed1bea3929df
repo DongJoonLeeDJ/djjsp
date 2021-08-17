@@ -1,0 +1,11 @@
+package com.mh.org3.db;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class DBManager {
+
+	public void inserttest() {
+		
+	}
+}

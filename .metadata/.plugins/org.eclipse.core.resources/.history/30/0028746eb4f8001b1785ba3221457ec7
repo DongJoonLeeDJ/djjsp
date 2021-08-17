@@ -1,0 +1,19 @@
+package org20210809;
+
+public class A {
+	
+	private int aa;
+
+	public int getAa() {
+		return aa;
+	}
+
+	public void setAa(int aa) {
+		this.aa = aa;
+	}
+
+	@Override
+	public String toString() {
+		return "A [aa=" + aa + "]";
+	}
+}

@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Aug 17 14:27:31 KST 2021
+org.eclipse.jst.jee.server\:20210811=D\:\\tomserver\\apache-tomcat-8.5.69\\wtpwebapps\\20210811
+org.eclipse.jst.jee.server\:20210817=D\:\\tomserver\\apache-tomcat-8.5.69\\wtpwebapps\\20210817

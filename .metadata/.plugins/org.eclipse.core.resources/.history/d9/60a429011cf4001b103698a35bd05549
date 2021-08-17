@@ -1,0 +1,41 @@
+
+public class Student {
+
+	//인스턴스 변수
+	private String name;
+	private int age;
+	private String hakbeon;
+	
+	//클래스 변수
+	public static String GyoHoon;
+	
+	
+	
+	public Student(String name, int age, String hakbeon) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.hakbeon = hakbeon;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public String getHakbeon() {
+		return hakbeon;
+	}
+	public void setHakbeon(String hakbeon) {
+		this.hakbeon = hakbeon;
+	}
+	
+	
+}

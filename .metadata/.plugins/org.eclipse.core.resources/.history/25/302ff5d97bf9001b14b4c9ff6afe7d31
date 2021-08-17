@@ -1,0 +1,13 @@
+package org20210810;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class AnnoConf {
+
+	@Bean
+	public AA aa() {
+		return new AA();
+	}
+}

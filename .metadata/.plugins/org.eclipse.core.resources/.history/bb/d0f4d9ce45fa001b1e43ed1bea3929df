@@ -1,0 +1,26 @@
+package com.mh.org3;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+public class InsertProcController {
+
+	@RequestMapping(value="/insertproc", method = RequestMethod.POST)
+	public String insertproc(Model model) {
+		
+		/*
+		 * para1 para2 가져와서.. mysql 연결해가지고 db저장...
+		 * 
+		 */
+		try {
+			
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return "insertproc";
+	}
+}

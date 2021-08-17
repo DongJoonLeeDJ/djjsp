@@ -1,0 +1,21 @@
+package com.mh.org4.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.mh.org4.dao.TestDao;
+
+@Controller
+public class ListController {
+
+	TestDao dao = new TestDao();
+	
+	@RequestMapping(value="list")
+	public String list(Model model) {
+		String rvalue = dao.doList();
+		
+		return "list";
+	}
+	
+}

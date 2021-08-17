@@ -1,0 +1,8 @@
+package com.mh.org3;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class InsertProcController {
+
+}
