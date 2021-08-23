@@ -8,6 +8,10 @@
 <title>Insert title here</title>
 </head>
 <body>
+<h1>list page 입니다.</h1>
+<div >
+	<a href="insertform">insertform</a>
+</div>
 ${a}
 <p>
 <!-- 

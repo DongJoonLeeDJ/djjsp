@@ -26,7 +26,7 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 
-	<beans:bean id="abccc"
+	<beans:bean id="qqq"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<beans:property name="driverClassName"
 			value="com.mysql.jdbc.Driver"></beans:property>
@@ -38,7 +38,7 @@
 	</beans:bean>
 
 	<beans:bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-		<beans:property name="dataSource" ref="abccc"/>
+		<beans:property name="dataSource" ref="qqq"/>
 		<beans:property name="mapperLocations" value="classpath*:aa/bb.xml" />
 	</beans:bean>
 	

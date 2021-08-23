@@ -1,0 +1,20 @@
+package com.mh.org5;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class MemberController {
+	/*
+	 * MemberController -> MemberService -> MemberDao -> MemberDto -> member.xml 
+	 */
+	@RequestMapping(value="memberlist")
+	public String memberlist() {
+		return "member/list";
+	}
+	
+	@RequestMapping(value="memberinsert")
+	public String memberinsert() {
+		return "member/insert";
+	}
+}

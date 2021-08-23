@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.mh.org4.controller.ListController&apos; to &apos;TestController&apos;&#x0D;&#x0A;- Original project: &apos;20210817&apos;&#x0D;&#x0A;- Original element: &apos;com.mh.org4.controller.ListController&apos;&#x0D;&#x0A;- Renamed element: &apos;com.mh.org4.controller.TestController&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ListController&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.mh.org4.controller{ListController.java[ListController" matchStrategy="1" name="TestController" qualified="false" references="true" similarDeclarations="false" stamp="1629678443874" textual="false" version="1.0"/>
+</session>

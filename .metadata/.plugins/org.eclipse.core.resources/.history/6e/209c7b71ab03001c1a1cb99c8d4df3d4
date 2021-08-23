@@ -1,0 +1,49 @@
+package com.mh.org4.controller;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.mh.org4.dao.TestDao;
+import com.mh.org4.dto.TestDto;
+
+@Controller
+public class TestController {
+
+	@Autowired	
+	TestDao dao;
+	
+	/*
+	 * Testcontroller(requestMapping) 
+	 * -> TestDao
+	 * -> TestDto 
+	 * -> b.xml
+	 */
+//	@Autowired
+//	DriverManagerDataSource dataSource;
+	
+	@RequestMapping(value="list")
+	public String list(Model model) {
+		List<TestDto> rvalue = dao.doList();
+		model.addAttribute("a",rvalue);
+		
+		return "list";
+	}
+	@RequestMapping(value="insert")
+	public String insert(Model model,
+				HttpServletRequest request,
+				String para1) {
+		String va1 = request.getParameter("para1");
+		System.out.println(va1);
+		System.out.println("para1 = " + para1);
+		System.out.println("para2 = " + para2);
+		dao.doInsert();
+		return "insert";
+	}
+}

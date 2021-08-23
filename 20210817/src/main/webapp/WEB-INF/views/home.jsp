@@ -6,9 +6,13 @@
 </head>
 <body>
 <h1>
-	Hello world!  
+	Hello world!
 </h1>
 
-<P>  The time on the server is ${serverTime}. </P>
+<P>
+	<a href="insertform">insertform</a>
+	<br>
+	<a href="list">list</a>
+</P>
 </body>
 </html>

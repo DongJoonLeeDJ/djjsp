@@ -30,8 +30,12 @@ public class TestDao {
 	@Autowired
 	SqlSession sqlSession;
 	
-	public void doInsert() {
-		sqlSession.insert("test.insert");
+	public void doInsert(String para1,String para2) {
+//		String para1 = "333";
+		TestDto dto = new TestDto();
+		dto.setPara1(para1);
+		dto.setPara2(para2);
+		sqlSession.insert("test.insert",dto);
 	}
 	
 	public ArrayList<TestDto> doList() {

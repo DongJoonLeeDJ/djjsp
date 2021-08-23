@@ -1,0 +1,11 @@
+package com.mh.org5;
+
+/*
+ * table 1:1 맵핑 관계 class
+ * 
+ */
+public class MemberDto {
+
+	private int idx;
+	private 
+}

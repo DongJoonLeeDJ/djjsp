@@ -7,9 +7,15 @@
 	<select id="select">
 		select * from test
 	</select>
-	<insert id="insert">
+<!-- 	<insert id="insert" parameterType="java.lang.String"> -->
+<!-- 		insert into test -->
+<!-- 		values -->
+<!-- 		(#{para1},'2222') -->
+<!-- 	</insert> -->
+<!-- eclipse intelij-->
+	<insert id="insert" parameterType="com.mh.org4.dto.TestDto">
 		insert into test
 		values
-		('1111','2222')
+		(#{para1},#{para2})
 	</insert>
 </mapper>
