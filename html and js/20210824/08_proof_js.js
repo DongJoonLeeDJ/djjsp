@@ -49,5 +49,8 @@ document.addEventListener('DOMContentLoaded',
     //1. 지금 로직의 잘못된 점 : for이 1000번 돌면, 화면을 1000번 수정함...
     //2. jQuery에서 태그의 text 가져오는 방법
     //$('h1.num1').text()
+
+    //로직을 향상시키는 법  힌트 : 배열을 이용하시라
+    
 }
 )
