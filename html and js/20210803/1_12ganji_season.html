@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>당신의 띠는?</p>
+    <img id="year" src="" alt="">
+    <br>
+    
+    <p>당신이 태어난 계절은?</p>
+    <img id="month" src="" alt="">
+
+    <script>
+        var myYear = prompt("당신은 몇 년도에 태어났습니까?")
+        var myMonth = prompt("당신은 몇 월에 태어났습니까?")
+        
+        //푸는 방법1
+       // document.getElementById('year').src 
+       //         = Number(myYear)%12  +'.png'
+
+
+        //푸는 방법2
+    //     let twelve = document.getElementById('year')
+    //    switch (Number(myYear)%12  ) {
+    //        case 0:
+    //             twelve.src = "0.png"
+    //            break
+    //         case 1:
+    //         twelve.src = "1.png"
+
+    //             break
+    //             case 2:
+    //             twelve.src = "2.png"
+
+    //            break
+    //         case 3:
+    //         twelve.src = "3.png"
+
+    //             break
+    //             case 4:
+    //             twelve.src = "4.png"
+
+    //            break
+    //         case 5:
+    //         twelve.src = "5.png"
+
+    //             break
+    //             case 6:
+    //             twelve.src = "6.png"
+
+    //            break
+    //         case 7:
+    //         twelve.src = "7.png"
+
+    //             break
+    //             case 8:
+    //             twelve.src = "8.png"
+
+    //            break
+    //         case 9:
+    //         twelve.src = "9.png"
+
+    //             break        
+    //             case 10:
+    //             twelve.src = "10.png"
+
+    //            break
+    //         case 11:
+    //         twelve.src = "11.png"
+
+    //             break
+    //        default:
+    //            break
+    //    }
+
+
+    //푸는 방법 3
+    let twelveArray = ["0.png", "1.png", "2.png", 
+                       "3.png", "4.png", "5.png",
+                       "6.png", "7.png", "8.png", 
+                       "9.png", "10.png", "11.png"]
+    
+    document.getElementById('year').src = twelveArray[Number(myYear)%12]
+
+
+    //4계절 문제
+    switch (Number(myMonth)) {
+        case 12:
+        case 1:
+        case 2:
+            document.getElementById('month').src = "winter.jpg"
+            break
+        case 3:
+        case 4:
+        case 5:
+            document.getElementById('month').src = "spring.jpg"
+            break    
+        case 6:
+        case 7:
+        case 8:
+            document.getElementById('month').src = "summer.jpg"
+            break   
+        case 9:
+        case 10:
+        case 11:
+            document.getElementById('month').src = "autumn.jpg"
+            break   
+        default:
+            alert(myMonth+ "은/는 이상한 값입니다")
+            break
+    }
+    </script>
+</body>
+</html>

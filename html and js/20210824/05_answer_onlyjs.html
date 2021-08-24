@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* h1:nth-child(2), :first-child, :last-child 등 이용해도 됨 */
+        .box
+        {
+            width:60px;
+            height: 60px;
+            float:left;
+            margin:15px;
+            background:blueviolet
+        }
+        /* .border-box */
+        div:nth-child(2),div:nth-child(4),div:last-of-type
+        {
+            /* background는 색깔 그리고 이미지등도 들어감 */
+            /* background-color는 색깔만 들어감 */
+            background: #00FF00;
+            border:4px solid black
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <script>
+        // let list = document.querySelectorAll('div')
+        let list = document.getElementsByTagName('div')
+        for(let i = 0; i < list.length; i++)
+        {
+            list[i].setAttribute('class','box')
+            if(i==1 || i==3 || i == 7)
+                list[i].classList.add('border-box')
+        }
+    </script>
+</body>
+</html>

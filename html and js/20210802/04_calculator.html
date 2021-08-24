@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <input class="one" type="text">
+        <span>+</span>
+        <input class="two" type="text">
+        <span>=</span>
+        <span class="result">결과가 여기 나옴</span>
+        <div>
+            <input type="button" value="합" onclick="calculator('+')"/*onclick="sum()"*/> </div> </div> <div>
+            <input class="one" type="text">
+            <span>-</span>
+            <input class="two" type="text">
+            <span>=</span>
+            <span class="result">결과가 여기 나옴</span>
+            <div>
+                <input type="button" value="빼기" onclick="calculator('-')">
+            </div>
+        </div>
+        <div>
+            <input class="one" type="text">
+            <span>x</span>
+            <input class="two" type="text">
+            <span>=</span>
+            <span class="result">결과가 여기 나옴</span>
+            <div>
+                <input type="button" value="곱" onclick="calculator('*')">
+            </div>
+        </div>
+        <div>
+            <input class="one" type="text">
+            <span>/</span>
+            <input class="two" type="text">
+            <span>=</span>
+            <span class="result">결과가 여기 나옴</span>
+            <div>
+                <input type="button" value="나누기" onclick="calculator('/')">
+            </div>
+        </div>
+        <script>
+            function calculator(배예슬) {
+                switch (배예슬) {
+                    case '+':
+                        var one = document.getElementsByClassName('one')[0].value
+                        var two = document.getElementsByClassName('two')[0].value
+                        document.getElementsByClassName('result')[0].innerHTML = Number(one) + Number(two)
+                        break;
+                    case '-':
+                        var one = document.getElementsByClassName('one')[1].value
+                        var two = document.getElementsByClassName('two')[1].value
+                        document.getElementsByClassName('result')[1].innerHTML = Number(one) - Number(two)
+                        break;
+                    case '*':
+                        var one = document.getElementsByClassName('one')[2].value
+                        var two = document.getElementsByClassName('two')[2].value
+                        document.getElementsByClassName('result')[2].innerHTML = Number(one) * Number(two)
+                        break;
+                    case '/':
+                        var one = document.getElementsByClassName('one')[3].value
+                        var two = document.getElementsByClassName('two')[3].value
+                        document.getElementsByClassName('result')[3].innerHTML = Number(one) / Number(two)
+                        break;
+
+                    default:
+                        break;
+                }
+            }
+
+
+            function sum() {
+                var one = document.getElementsByClassName('one')[0].value
+                var two = document.getElementsByClassName('two')[0].value
+                document.getElementsByClassName('result')[0].innerHTML = Number(one) + Number(two)
+            }
+
+            function sub() {
+                var one = document.getElementsByClassName('one')[1].value
+                var two = document.getElementsByClassName('two')[1].value
+                document.getElementsByClassName('result')[1].innerHTML = Number(one) - Number(two)
+            }
+
+            function mul() {
+                var one = document.getElementsByClassName('one')[2].value
+                var two = document.getElementsByClassName('two')[2].value
+                document.getElementsByClassName('result')[2].innerHTML = Number(one) * Number(two)
+            }
+
+            function dv() {
+                var one = document.getElementsByClassName('one')[3].value
+                var two = document.getElementsByClassName('two')[3].value
+                document.getElementsByClassName('result')[3].innerHTML = Number(one) / Number(two)
+            }
+        </script>
+</body>
+
+</html>

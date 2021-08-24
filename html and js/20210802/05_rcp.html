@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id ="com" src="" alt="">
+    <script>
+        function practice() {
+            //어떻게 컴퓨터 가위 or 바위 or 보를 내게 할 것인가?
+            //prompt = 입력창
+            const mine = prompt("가위나 바위나 보 중 하나 입력해라.")
+            const computer = Math.floor(Math.random() * 3) //0,1,2
+            //Math.random : 0.0이상 ~ 1.0미만
+            //Math.floor : 소수점을 버리는 객체
+
+            //자바스크립트 배열
+            const comChoice = ["가위", "바위", "보", 0, 1, 2, [1,2,3]]
+            console.log("나 : " + mine)
+            console.log(`컴퓨터 : ${comChoice[computer]}`)
+
+            let com = document.getElementById('com') 
+            com.src = 'rock.png';
+        }
+        practice()
+    </script>
+</body>
+</html>

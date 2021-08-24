@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <style>
+        .redtext {color:red} /*클래스 이름이 redtext인 것의 스타일 지정*/
+        .border {border : 1px solid crimson}
+    </style>
+</head>
+<body>
+    <h1 style="color:blue">不作揽仍人揽皇德的。</h1>
+    <h1 id="first">لورم لورم ایپسوم متن ساختگی با  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo laboriosam inventore qui odio. Ipsam veniam suscipit nobis blanditiis repellendus, ullam quo officia numquam. Sint delectus ipsa rerum minus placeat dolore.</h1>
+    <h1 id="second" class="aaa">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo laboriosam inventore qui odio. Ipsam veniam suscipit nobis blanditiis repellendus, ullam quo officia numquam. Sint delectus ipsa rerum minus placeat dolore.</h1>
+
+    <script>
+        //자바스크립트 혹은 jQuery 이용해서 태그를 선택하고
+        //스타일을 지정하는 것
+        let firstTag = document.getElementById('first')
+        firstTag.setAttribute('class', 'redtext border')
+        firstTag.style.background = 'yellow'
+        //<h1 id="first" class="redtext border">
+        //jQuery : 자바스크립트 라이브러리
+        //자바스크립트를 쉽게 쓰고자 만들었다.
+        //리액트나 뷰 혹은 자바스크립트 자체 기능 업그레이드로 인하여
+        //점점 안 쓰이고 있다.
+        //하지만 지금까지 우리가 쓰는 대부분의 웹페이지는 jQ로 되어 있음
+
+        $('#second').addClass('redtext').addClass('border').css('background', 'springgreen')
+        //$ 표시 = document
+        //$랑 선택자만 잘 알면... 모든 태그를 다 선택 가능해요.
+        //메소드 채이닝... 뒤에다 기능 추가가 계속됨.
+
+
+
+    </script>
+</body>
+</html>

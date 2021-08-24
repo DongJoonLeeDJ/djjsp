@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="scissors" onclick="start('가위')">가위</button>
+    <button id="rock" onclick="start('바위')">바위</button>
+    <button id="paper" onclick="start('보')">보</button>
+    <!-- 한 줄 띄는 용도 -->
+    <div></div>
+    
+    나 <img id="mine">
+    컴터 <img id="computer">
+    <h1 id="result">결과</h1>
+    
+    <script>
+        function start(mychoice) {
+            let myResult = document.getElementById('mine')
+            let computerResult = document.getElementById('computer')
+            let result = document.getElementById('result')
+
+            //컴퓨터값
+            let comchoice = Math.floor(Math.random() * 3 )
+
+            let rcp = ["가위", "바위", "보"]
+            let image = ["scissors.png", "rock.png", "paper.png"]
+            computerResult.src = image[comchoice]
+
+            switch (mychoice) {
+                case "가위":
+                    myResult.src = image[0]
+                    switch (rcp[comchoice]) {
+                        case "가위":
+                            //image 배열쓰는 게 힘드시면 하나하나 다 적어도 됨
+                            computerResult.src = "scissors.png"
+                            result.innerText = "비김"
+                            break
+                        case "바위":
+                            result.innerText = "짐"
+                            break
+                        case "보":
+                            result.innerText = "이김"
+                            break
+                        default:
+                            break
+                    }
+                    break
+
+                    case "바위":
+                    myResult.src = image[1]
+                    switch (rcp[comchoice]) {
+                        case "가위":
+                            result.innerText = "이김"
+                            break
+                        case "바위":
+                            result.innerText = "비김"
+                            break
+                        case "보":
+                            result.innerText = "짐"
+                            break
+                        default:
+                            break
+                    }
+                    break
+
+                    case "보":
+                    myResult.src = image[2]
+                    switch (rcp[comchoice]) {
+                        case "가위":
+                            result.innerText = "짐"
+                            break
+                        case "바위":
+                            result.innerText = "이김"
+                            break
+                        case "보":
+                            result.innerText = "짐"
+                            break
+                        default:
+                            break
+                    }
+                    break
+            
+                default:
+                    break
+            }
+        }
+    </script>
+
+</body>
+</html>

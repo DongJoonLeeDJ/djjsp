@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="a">a 버튼</button>
+    <button id="b">b 버튼</button>
+    <button id="c">c 버튼</button>
+    <button id="d" onclick="func()">d 버튼</button>
+    <script>
+        var a = document.getElementById('a')
+        a.addEventListener
+        ("click",
+            function () {
+                alert('click')
+            }
+        )
+
+        let func = function () {
+            alert("안냐떼요")
+        }
+        var b = document.getElementById('b')
+        b.addEventListener
+        ("click", func)
+
+        var c = document.getElementById('c')
+        c.onclick = function () {
+            alert("안녕하세요. 이동준이에요.")
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .box
+        {
+            width:60px;
+            height: 60px;
+            float:left;
+            margin:15px;
+            background:skyblue
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box border-box"></div>
+    <div class="box"></div>
+    <div class="box border-box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box border-box"></div>
+    <script>
+        //querySelector : 무조건 한 개만 선택
+        //querySelectorAll : 선택자에 해당하는 모든 태그를 선택함
+        //클래스명이 box이면서 border-box인 거를 선택한다.
+        let list = document.querySelectorAll('.box.border-box')
+
+        for(let i = 0; i < list.length; i++)
+        {
+            list[i].style.border = '4px solid pink'
+            list[i].style.background = '#0000FF'
+        }
+    </script>
+</body>
+</html>

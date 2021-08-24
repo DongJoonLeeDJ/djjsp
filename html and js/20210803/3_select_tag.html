@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+            border: 1px solid rgba(153, 61, 61, 0.63);
+        }
+    </style>
+</head>
+<body>
+    <!-- div[id=aaa] -->
+    <div id="aaa">
+        <h1>小弄天故。</h1>
+        <div id="bbb">
+            <p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפי
+                סינג אלית סחטיר בלובק.</p>
+        </div>
+    </div>
+
+    <br><br><br>
+    
+    <div>
+        <h1>
+            .أبجد هوز حطى كلمن هوى ، إجراءات المراقبة المعززة. التوازن ، الاحتياجات
+        </h1>
+        <div>
+            <h1>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea eveniet perspiciatis exercitationem nihil voluptatum officiis, harum sint delectus temporibus consequuntur rem natus impedit hic nam cum asperiores magni velit iure?
+            </h1>
+        </div>
+    </div>
+
+
+    <script>
+      //부모를 선택하는 두 가지 방법  
+      //그냥 아이디 지정
+      var tag_aaa = document.getElementById('aaa')
+      tag_aaa.style.background = "springgreen"
+      //내가 지정한 태그의 부모를 선택하는 방법
+      var parent_of_bbb = document.getElementById('bbb').parentNode
+      parent_of_bbb.style.color = "rgb(255,255,0)"
+      
+    </script>
+</body>
+</html>

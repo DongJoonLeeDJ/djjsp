@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*p태그이면서 id값이 one인 녀석*/
+        p#one
+        {
+            color:blue
+        }
+        p#two
+        {
+            color:magenta
+        }
+        /* 클래스명이 colorbaby인 태그의 속성 지정 */
+        .colorbaby
+        {
+            background-color: gold;
+        }
+
+    </style>
+</head>
+<body>
+
+    <p id="one">为人量你。</p>
+    <p id="two">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק.</p>
+    <p class="colorbaby">.أبجد هوز حطى كلمن هوى ، إجراءات المراقبة المعززة. التوازن ، الاحتياجات</p>
+    <img src="https://picsum.photos/id/1020/300/200" alt="">
+
+    <p id="three"></p>
+    <script>
+        var now = new Date()
+        // br : 한 줄 띄기
+        document.write("현재 시각 : "+now+"<br>")
+
+        //js코드로 태그를 선택하고 스타일 등 지정하는 방법
+        document.getElementById('three').innerText="크롬 자동번역도 모르는 이동준은 바보다"
+        document.getElementById('three').style.color = "springgreen"
+        document.getElementById('one').style.background = "yellow"
+        
+    </script>
+</body>
+</html>

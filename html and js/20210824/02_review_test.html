@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #first {background-color: yellow;}
+        #second {background-color: springgreen;}
+        #third {background-color: salmon;}
+    </style>
+</head>
+<body>
+    <h1 >לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק.</h1>
+    <h1 >马发而土人将皇榜死交命二在商，爱切到足。</h1>
+    <h1 >لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت </h1>
+    <!-- 3개의 h1태그를 만드세요. -->
+    <!-- 각 태그의 id값은 first second third라고 지정 -->
+    <!-- h1태그인 것에 대해서 글자색은 (255,0,255) -->
+    
+    <!-- 위의 스타일 태그를 이용해야 합니다. -->
+    <!-- first태그는 백그라운드를 yellow -->
+    <!-- second태그는 백그라운드를 springgreen -->
+    <!-- third태그는 백그라운드를 아무거나 하고싶은거 -->
+    <script>
+        // javaScript 버전
+        //id 추가(보통 id정도는 태그에 직접 적어줌)
+        //대신에 클래스는 태그를 통해서 추가한다.
+        document.getElementsByTagName('h1')[0].setAttribute('id', 'first')
+        document.getElementsByTagName('h1')[1].setAttribute('id', 'second')
+        document.getElementsByTagName('h1')[2].setAttribute('id', 'third')
+        //스타일 추가
+        document.getElementsByTagName('h1')[0].style.color = 'rgb(255,0,255)'
+        document.getElementsByTagName('h1')[1].style.color = '#FF00FF'
+        document.getElementsByTagName('h1')[2].style.color = '#FF00FF'
+
+
+        
+    </script>
+</body>
+</html>
