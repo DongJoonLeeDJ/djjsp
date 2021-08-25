@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 태그의 '타입'을 선택하는 선택자 */
+        input[type=text]
+        {
+            background: yellow;
+        }
+    </style>
+    <style>
+        /* input[type=checkbox] -> type이 checkbox인 태그 */
+        /* input[type=checkbox]:checked -> check가 된 상태인 태그 */
+        /* + : 동위 선택자 */
+        /* input[type=checkbox]:checked의 바로 옆(아래? 뒤?)에 있는 태그 */
+        input[type=checkbox]:checked+div
+        {
+            height:300px;
+            color:red
+        }
+        div
+        {
+            /* 태그의 크기를 뛰어넘는 많은 양의 객체가 있으면 그건 다 숨김  */
+            overflow: hidden; 
+            height: 0;
+            /* 애니메이션 효과 */
+            transition-duration: 1s;
+            /* 만약에 웹브라우저가 오래된 거라면...? 아래의 코드들을 추가해줘야 함*/
+            -ms-trainsiton-duration:1s; /*ms의 웹브라우저들*/
+            -webkit-transition-duration:1s; /*크롬이랑 아마 사파리도 될껄*/
+            -moz-transition-duration:1s; /*파이어폭스 */
+            /* ms, webkit, moz 이런 걸 벤더프리픽스 */
+            /* 일종의 테스트기능(베타기능)을 써보는 거... 정식출시는 아니고 카카오톡의 */
+            /* 실험실 기능같은 느낌 */
+
+        }
+    </style>
+</head>
+<body>
+    <!-- 둘 다 사실상 type이 텍스트인데 -->
+    <!-- css 입장에서는 type이 'text'라고 정의가 안 되어 있으면 -->
+    <!-- 걔에 대해서는 스타일을 적용하지 않는다. -->
+    <input type="text">
+    <input>  <!-- 사실상 type=text인 것처럼 동작해요. -->
+
+    <input type="checkbox">
+    <div>
+        <h1>Lorem.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laudantium deleniti est animi quaerat dolore, dolores debitis unde illum aut temporibus consectetur pariatur neque necessitatibus rerum odit doloribus autem maxime?</p>
+    </div>
+</body>
+</html>
