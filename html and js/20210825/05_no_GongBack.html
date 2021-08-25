@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    /* 선택자 삽입 및 스타일 지정시 '공백'에 대한 주의 필요함! */
+        div:first-child{color:red} 
+        /* 첫번째 태그를 선택하는 건 맞는 데 여기서 말하는 첫번째는 */
+        /* 내가 선택한 그 태그의 첫번째 자손 */
+        div :first-child{background: springgreen;}
+        /* 일단은 body에서 첫번째 자손 태그 발견하고 */
+        /* 그 다음에 기존 div 태그 안에 있는 div를 선택한다. */
+        div:first-child{border: solid black 3px;}
+    </style>
+</head>
+<body>
+    <div>
+        <p>活国厄谓。1</p>
+        <p>活国厄谓。2</p>
+        <p>活国厄谓。3</p>
+        <div>
+            <p>活国厄谓。1-1</p>
+            <p>活国厄谓。2-2</p>
+            <p>活国厄谓。3-3</p>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <h6>111活国厄谓。</h6>
+            <h6>222活国厄谓。</h6>
+        </div>
+    </div>
+    <p>01活国厄谓。</p>
+    <p>02活国厄谓。</p>
+    <p>03活国厄谓。</p>
+</body>
+</html>

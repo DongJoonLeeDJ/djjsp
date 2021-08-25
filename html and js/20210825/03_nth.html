@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* child : 무조건 순서가 중요함... */
+        h2:first-child{color:red} /*첫번째 태그이면서 h2여야 함*/
+        /* of-type : 특정 태그들 중에서 몇 번째 */
+        h2:first-of-type{background-color: hotpink;}  /*h2태그들 중에서 첫번째*/
+
+        h3:nth-child(2){color:blue}/*2번째 태그인데 그게 h3여야 함*/
+        h3:nth-of-type(2){background: skyblue;} /*h3중 2번째*/
+        h3:nth-of-type(2n){border: 1px solid black;} /*h3중 2n번째 여기서 n값은 1부터 시작.*/
+        /* n=1부터 시작이니까, 2n = 2 즉 2번째에 대해서 테두리 칠함 */
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing.</h1>
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing.</h2>
+    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
+    <h6>Lorem ipsum dolor sit amet, consectetur adipisicing.</h6>
+    <h3>Lorem ipsum dolor sit.</h3>
+    <script>
+        let name = prompt("이름이 뭐니", "이동준")
+        console.log("내 이름은 "+ name + " 입니다.")
+        //` 백틱과 달러를 이용하여 중간에 변수 삽입하기
+        //씨샵에서는...
+        //$"내 이름은 {name}입니다. " // 백틱 안 씀 ㅜㅜ
+        console.log(`내 이름은 ${name} 입니다.`)
+    </script>
+</body>
+</html>
