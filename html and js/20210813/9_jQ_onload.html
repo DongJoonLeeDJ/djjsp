@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jQuery.js"></script>
+    <title>Document</title>
+    <script>
+        //이거 셋다 됨
+        // $(document).ready(
+        $().ready(
+        //$.ready( //이건 안 되 므ㅡ;;;
+            function()
+            {
+                let ex = $('#ex')
+                ex.css('background', 'pink')
+
+                //이벤트 추가(js에선 onclick나
+                //addEventListener 쓴다.)
+                ex.click(function()
+                {
+                    ex.css('background', 'gray')
+                })
+            }
+        )
+    </script>
+</head>
+<body>
+    <h1 id="ex">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus minima consectetur optio atque sapiente beatae veniam. Nihil quaerat reprehenderit iure placeat sunt voluptate provident maiores beatae voluptas, distinctio itaque id?</h1>
+</body>
+</html>

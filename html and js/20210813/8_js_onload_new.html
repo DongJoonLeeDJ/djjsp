@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //창이 불러와지자마자 수행하시오
+        //좀더 최신문법이래요... 일단은요...;;
+        document.addEventListener('DOMContentLoaded', ()=>  {
+            let ex = document.getElementById('ex')
+            ex.style.background = 'springgreen'
+
+            //이벤트 추가
+            // ex.onclick = function(){
+            //     this.style.color='gold'
+            // }
+            //click 이벤트 추가하는 방법 2번째
+            ex.addEventListener('click', function() { this.style.color='gold'})
+
+        })
+       
+    </script>
+</head>
+<body>
+    <h1 id="ex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eveniet, maxime odio est obcaecati illum harum esse eaque eius culpa optio vel inventore quas corporis beatae placeat facere molestiae a.</h1>
+</body>
+</html>

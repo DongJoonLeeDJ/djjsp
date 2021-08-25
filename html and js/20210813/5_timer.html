@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/babel">
+    class MyTimer extends React.Component {
+        constructor(prop)//뮤츠)
+        {
+            super(prop)////(뮤츠)
+            this.state = {
+                time:new Date()
+            }
+        }
+        render() {
+            return <h1>{this.state.time.toLocaleTimeString()}</h1>
+        }
+//컴포넌트가 화면에 나타날 때 
+        componentDidMount()
+        {
+            this.timerId = setInterval(() => {
+                this.setState(
+                    {
+                        time:new Date()
+                    }
+                )
+            }, 1000)
+        }
+        //화면에서 지워질 때
+        componentWillUnmount()
+        {
+            clearInterval(this.timerId)
+        }
+   
+    }
+    
+    //출력하기
+    const container = document.getElementsByTagName('body')[0]
+    ReactDOM.render(<MyTimer />, container)
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        .redtext { color : red }
+        .border {border : 1px solid green}
+    </style>
+</head>
+<body>
+    <h1 id="firsth1">aksdjfljsdaflkjsdlf</h1>
+    <h2 id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo temporibus velit, ea necessitatibus libero obcaecati vitae eligendi dolorem, quae saepe facilis repudiandae nobis minima enim perferendis eos. Cupiditate, similique non.</h2>
+
+    <script>
+        //자바 스크립트를 이용해서 태그선택 및 스타일 변경
+        let firstHeadTag = document.getElementById('firsth1')
+        firstHeadTag.setAttribute('class', 'redtext border')
+        firstHeadTag.style.background = 'yellow'
+
+        //jQuery 이용하기
+        $('#second').css('background','pink').addClass('redtext').addClass('border')
+    </script>
+</body>
+</html>

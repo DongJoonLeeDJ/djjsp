@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <script type="text/babel">
+    //클래스 이름은 무조건 대문자로 시작해야 함
+    //소문자로 시작하면 안 나와요
+    class Abcd extends React.Component
+    {
+        render()
+        {
+            //return 바로 옆에 태그 하나 적어야 되요.
+            //return 하고 한 줄 띄면 안 된 데요~~~~ ㅠㅠ
+            return <div>
+                <h1>{this.props.name}님 안녕하세요!</h1>
+                <img src={this.props.imgUrl}/>
+                </div>
+        }
+    }
+
+    const container = document.getElementsByTagName('body')[0]
+
+
+    ReactDOM.render(<Abcd name='dog' imgUrl='dog.jpg' />, container)
+    </script>
+</body>
+</html>

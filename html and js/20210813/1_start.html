@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ready to use react -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <!-- div#root -->
+    <div id="root"></div>
+    <script type="text/babel">
+    const component = <h1>리액트기본</h1>
+    const container = document.getElementById('root')
+    ReactDOM.render(component, container)
+    </script>
+</body>
+</html>

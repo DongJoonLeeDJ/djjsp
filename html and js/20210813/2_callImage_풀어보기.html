@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- ready to use react -->
+   <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+   <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+   <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body id="root">
+    <script type="text/babel">
+    const container = document.getElementById('root')
+    const name = prompt("이름이 뭐니?")
+    const imgUrl = name+'.jpg'
+    
+    //JSX 라는 문법
+    //따옴표를 쓰면 안 된다
+
+    let component = <div>
+        <h1>그런 거 없다</h1>
+        </div>
+
+    //const arr = ['dog', '히드라', '이동준']
+
+    //if(arr.includes(name))
+    if(name == 'dog' || name == '히드라' || name=='이동준')
+    {  component = <div>
+        <h1>{name}은/는 귀엽습니다.</h1>
+        <img src={imgUrl}/>
+        </div>
+    }
+        
+  
+    //container에 component 삽입
+    //출력하기
+    ReactDOM.render(component,container)
+    </script>
+</body>
+</html>

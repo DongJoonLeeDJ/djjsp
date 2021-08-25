@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 만약 인터넷 안 되는 경우라면!? -->
+    <script src="jQuery.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quis? Tempore illo delectus eligendi quibusdam ratione animi. Deleniti dolore sequi cupiditate labore. Illo eligendi commodi tenetur facilis optio delectus obcaecati.</h1>
+    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quis? Tempore illo delectus eligendi quibusdam ratione animi. Deleniti dolore sequi cupiditate labore. Illo eligendi commodi tenetur facilis optio delectus obcaecati.</h1>
+    <button id="btn1">자바스크립트 버튼</button>
+    <button id="btn2">제이쿼리 버튼</button>
+    <script>
+        //jQuery
+        $('h1').css('background','yellow')
+
+        //js
+        let myButton = document.getElementById('btn1')
+        myButton.onclick = function()
+        {
+            document.getElementsByTagName('h1')[0].style.color = 'red'
+        }
+        //jQ로 이벤트 추가하기
+        let myButton2 = $('#btn2')
+        myButton2.click(function() {$('h1:first').css('color', 'blue')})
+        
+        //두번째 태그에 글짜색 바꾸기(jQuery)
+        $('h1:nth-child(2)').css('color', 'springgreen')
+    </script>
+
+</body>
+</html>

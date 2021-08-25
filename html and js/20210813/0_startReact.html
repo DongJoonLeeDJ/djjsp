@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- 리액트 사용 준비 -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- 리액트를 사용하는 코드 입력 -->
+    <script type="text/babel">
+      // 애플리케이션 클래스 생성하기
+      class App extends React.Component {
+        constructor (props) {
+          super(props)
+          this.state = { 
+            text: '',
+            length: 0
+          }
+          this.handleChange = this.handleChange.bind(this)
+        }
+
+        handleChange (event) {
+          this.setState({ text: event.target.value })
+        }
+ 
+        componentDidMount () {
+          // 컴포넌트가 화면에 출력되었을 때
+          this.timerId = setInterval(() => {
+            this.setState({
+              length: this.state.text.length
+            })
+          }, 500)
+        }
+        componentWillUnmount () {
+          // 컴포넌트가 화면에서 제거될 때
+          clearInterval(this.timerId)
+        }
+
+        render() {
+          return <div>
+           <h1>글자 수: {this.state.length}</h1>
+           <textarea
+             value={this.state.text}
+             onChange={this.handleChange}></textarea>
+          </div>
+        }
+      }
+
+      // 출력하기
+      const container = document.getElementById('root')
+      ReactDOM.render(<App />, container)
+    </script>
+  </head>
+  <body></body> 
+</html>
+ 
