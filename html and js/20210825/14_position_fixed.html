@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box { width: 100px; height: 100px;}
+        .red {
+            background: red;
+            left:50px;
+            top:50px;
+            position: fixed;
+        }
+        .green{
+            background: green;
+            left:0px;
+            top:0px;
+            position: fixed;
+        }
+        .blue{
+            background: blue;
+            position: fixed;
+            top: 300px; /*원래 있어야 하는 위치보다 300px 아래로 내려감*/
+        } 
+        .yellow{
+            /* position이 정해지지 않았으므로 static */
+            margin-top: 50px; /*원래 있어야 하는 위치에서 50px만큼 아래로 내린*/
+            /* 대신 이건 여백값을 줘서 내린 거 */
+            background: yellow
+        }
+        .square
+        {
+            width: 30px;
+            height: 30px;
+            border:solid black 1px;
+            background: fuchsia;
+            position:fixed;/*부모태그가 static이면 fixed와 똑같이 적용됨*/
+            left:25px;
+            top:25px;
+        }
+        /* position */
+        /* static relative absolute fixed */
+        /* 4. fixed*/
+        /* 그냥 절대 좌표 */
+    </style>
+</head>
+<body>
+    <div class="box red"></div>
+    <div class="box green"></div>
+    <div class="box blue">
+        <div class="square"></div>
+    </div>
+    <div class="box yellow">
+        <div class="square"></div>
+    </div>
+</body>
+</html>

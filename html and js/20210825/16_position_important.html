@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box
+        {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+        .red
+        {
+            background: red;
+            left:10px; top:10px;
+        }
+        .green
+        {
+            background: green;
+            left:50px; top:50px;
+        }
+        .blue
+        {
+            background: blue;
+            left:90px; top:90px;
+        }
+        body>div
+        {
+            /* 핵심 */
+            /* 1. 높이 주는 거*/
+            /* 2. position값을 static 이외의 값으로 하는 거 */
+            /* 3. overflow 값을 주는 것 */
+            /* 일단 높이라도 주게 되면  영역이 우선 확보됨*/
+            border:1px solid black;
+            height: 100px;
+         
+            /* position값을 relative로 주게 되면 사각형의 위치도 바뀌게 됨 */
+            position: relative;
+
+            /* 영역을 넘칠 경우 짤라버리기 */
+            overflow: hidden;
+            /* 만약 영역이 넘쳤더라도 스크롤 표시로 다 표시하고 싶을 경우엔 scroll 옵션 쓰면 됨*/
+            /* overflow:scroll */
+        }
+    </style>
+</head>
+<body>
+    <h1>แอปเปิล เชฟโปรเจคท์ ฟีด</h1>
+    <div>
+        <div class="box red"></div>
+        <div class="box green"></div>
+        <div class="box blue"></div>
+    </div>
+    <h1>为也之韩秦曰使牛足。</h1>
+</body>
+</html>

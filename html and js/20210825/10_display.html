@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box
+        {
+            display: inline-block;
+            /* inline처럼 수평정렬은 되고, block과는 다르게 한 줄을 다 차지하지는 않지만 */
+            /* width랑 height값은 있음 */
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+        #box2
+        {
+            display: inline;
+            /* inline은 width, height가 없음 */
+            width: 200px;
+            height: 200px;
+            background: cyan;
+        }
+        #box3
+        {
+            width: 200px;
+            height: 200px;
+            background: cornflowerblue;
+        }
+        /* 만약 첫번째 span태그를 block 속성으로 바꾸려면...? */
+        /* span:first-child
+        {
+            display: block;
+        } */
+    </style>
+</head>
+<body>
+    <!-- span은 inline -->
+    <!-- div는 block -->
+    <span>Dummy</span>
+    <div id="box">
+        <span>Lorem, ipsum dolor.
+        </span>
+    </div>
+    <div id="box2">
+        <span>Lorem ipsum dolor sit amet.</span>
+    </div>
+    <div id="box3">
+        <span>慧则上之。</span>
+    </div>
+    <span>Dummy2</span>
+</body>
+</html>

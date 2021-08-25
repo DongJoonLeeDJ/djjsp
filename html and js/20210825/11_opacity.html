@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #opa
+        {
+            background: cyan;
+            opacity: 0.3; /*투명도, 0부터 1사이의 값을 갖고, 자식태그까지 같이 투명하게 해버림*/
+        }
+        #alpha
+        {
+            /* alpha값은 0부터 1사이의 값인데, 자식태그에게 영향을 주지는 않음 */
+            background: rgba(39, 140, 140, 0.294);
+        }
+    </style>
+</head>
+<body>
+    <div id="opa">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <div id="alpha">
+        <p>แอปเปิล เชฟโปรเจคท์ ฟีด คอร์ป  谓订壬慨洪通，杀句。</p>
+    </div>
+</body>
+</html>

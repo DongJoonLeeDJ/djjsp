@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box { width: 100px; height: 100px;}
+        .red {
+            background: red;
+        }
+        .green{
+            background: green;
+        }
+        .blue{
+            background: blue;
+            position: relative;
+            left:100px;
+        } 
+        .yellow{
+            margin-top: 50px; 
+            background: yellow
+            /* position:static */             
+        }
+        .square
+        {
+            width: 30px;
+            height: 30px;
+            border:solid black 1px;
+            background: fuchsia;
+            position: fixed;
+            left:25px;
+            top:25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box red"></div>
+    <div class="box green"></div>
+    <div class="box blue">
+        <div class="square">1</div>
+    </div>
+    <div class="box yellow">
+        <div class="square">2</div>
+    </div>
+</body>
+</html>

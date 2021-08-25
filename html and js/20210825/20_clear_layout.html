@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            /* 중앙 정렬 공식 */
+            /* 너비 지정해주고 margin은 0 auto 주면 중앙에 정렬 됨 */
+            width: 960px;
+            margin: 0 auto; 
+        }
+        #aside
+        {
+            width: 200px;
+            float:left;
+            background: cyan;
+        }
+        #section
+        {
+            width: 740px; /*나머지 20px 어디갔냐면 '여백'*/
+            float:right;
+            background: hotpink;
+        }
+        .clear
+        {
+            clear:both
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>header</h1>
+        <div id="navigation">
+            <h1>navi</h1>
+        </div>
+    </div>
+    <div id="wrap">
+        <div id="aside">
+            <h1>Lorem, ipsum.</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea ipsam, eaque id ipsa necessitatibus natus asperiores doloribus incidunt quisquam, quam rerum voluptatibus aspernatur iure cumque qui provident. Eos, commodi recusandae?</p>
+        </div>
+        <div id="section">
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni assumenda corporis dolores animi aperiam sit ex nemo beatae ducimus repudiandae?</p>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+    
+    <div id="footer">
+        <h1>footer</h1>
+    </div>
+</body>
+</html>
