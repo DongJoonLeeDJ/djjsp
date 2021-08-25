@@ -15,10 +15,16 @@
         let earth = document.querySelector('#earth')
         let moon = document.querySelector('#moon')
 
+        // h1 안에 img 태그 삽입
+        sun.innerHTML = '<img src="sun.png">'
+        earth.innerHTML = '<img src="earth.png">'
+        moon.innerHTML = '<img src="moon.png">'
+
         // 백그라운드
         document.querySelector('body').style.backgroundImage = "url('밤하늘.jpg')"
         document.querySelector('body').style.width = '700px'
         document.querySelector('body').style.height = '700px'
+        // 너비100% 높이100%
         document.querySelector('body').style.backgroundSize = "100% 100%"
         document.querySelector('body').style.backgroundRepeat = 'no-repeat'
 
