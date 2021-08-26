@@ -4,13 +4,21 @@
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="member">
+	<select id="selectone" parameterType="int" resultType="com.mh.org5.MemberDto">
+		select * from member where idx=#{idx}
+	</select>
 	<select id="select" resultType="com.mh.org5.MemberDto">
 		select * from member
 	</select>
-	<insert id="insert">
+	<insert id="insert" parameterType="com.mh.org5.MemberDto">
 		insert into member
 		(id, pw, age, gender)
 		values
-		('aa', 'aa', 12, 'male')
+		(#{id}, #{pw}, #{age}, #{gender})
 	</insert>
+	<update id="update" parameterType="com.mh.org5.MemberDto">
+		update member
+		set id=#{id}, pw=#{pw}, age=#{age}, gender=#{gender}
+		where idx=#{idx} 
+	</update>
 </mapper>

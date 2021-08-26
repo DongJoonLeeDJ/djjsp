@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-insert
+<h1>insert success</h1>
+<a href="memberlist">list</a>
 </body>
 </html>
