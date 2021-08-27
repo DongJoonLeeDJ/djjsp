@@ -26,6 +26,7 @@
 .left_panel{
 	width: 43%;
 	height: 100%;
+	color: #ccc;
 }
 .left_panel > img{
 	width: 100%;
