@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="UTF-8"></script>
+    <style>
+        svg{
+            margin-left: 50px;
+            width:320px;
+            height: 240px;
+            border : 1px solid black;
+        }
+        text{
+            fill:black;
+        }
+    </style>
+</head>
+<body>
+    <h1>문자열 위치지정</h1>
+    <h3>text-anchor속성지정</h3>
+    <svg>
+        <text x="25" y="80" text-anchor="start">svg 텍스트 예제</text>
+        <text x="25" y="120" text-anchor="middle">svg 텍스트 예제</text>
+        <text x="25" y="160" text-anchor="end">svg 텍스트 예제</text>
+    </svg>
+</body>
+</html>

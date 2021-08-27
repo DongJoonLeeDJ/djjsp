@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>SVG</title>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<style>
+			svg { width: 320px; height: 300px; border: 1px solid black; }
+			rect { 
+                fill : orange; 
+            }
+		</style>
+	</head>
+	<body>
+		<h1>D3.js를 이용한 SVG 요소 생성</h1>
+		<div id="myGraph">
+            <svg>
+                <rect class="mybar" x="10" y="40" height="40" width="150"></rect>
+                <rect class="mybar" x="10" y="90" height="40" width="150"></rect>
+                <rect class="mybar" x="10" y="140" height="40" width="150"></rect>
+                <rect class="mybar" x="10" y="190" height="40" width="150"></rect>
+                <rect class="mybar" x="10" y="240" height="40" width="150"></rect>
+            </svg>
+        </div>
+		<script src="sample07.js"></script>
+	</body>
+</html>

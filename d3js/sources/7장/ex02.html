@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="d3.v3.min.js" charset="utf-8"></script>
+    <style>
+        svg {width: 230px; height: 240px; border: 1px solid black}
+        .bar { fill: orange }
+        .barNum { font-size: 9px; text-anchor: middle; writing-mode: vertical-lr;}
+    </style>
+</head>
+<body>
+    <h1>세로형 막대그래프에 값을 표시</h1>
+    <svg id="myGraph"></svg>
+</body>
+</html>
+<script>
+    var svgHeight = 240;    //svg 요소의 높이
+    var barElements;
+    var dataSet = [120,70,175,90,220];
+
+    //그래프그리기
+    barElements = d3.select("#myGraph")
+                    .selectAll("rect")
+                    .data(dataSet)
+    
+    // 데이터 추가
+    barElements.enter()
+        .append("rect")
+        .attr("class","bar")
+        .attr("height",function(d,i){
+            return d;
+        })
+        .attr({ 
+            "width":20,
+            "x":function(d,i){ return i*25; },
+            "y":function(d,i){ return svgHeight -d; }
+        })
+    
+    barElements.enter()
+        .append("text")
+        .attr( {
+             "class":"barNum" ,
+             "x": function( d,i ){ return i * 25 + 10; },
+             "y":svgHeight -5,
+        })
+        .text(function(d,i){ return d;})
+</script>

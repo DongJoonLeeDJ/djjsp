@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="UTF-8"></script>
+    <style>
+        svg{
+            margin-left: 50px;
+            width:320px;
+            height: 240px;
+            border : 1px solid black;
+        }
+        rect{
+            stroke-width: 4px;
+            stroke:black;
+            fill:orange;
+        }
+        circle{
+            opacity: 0.75;
+            fill: blue;
+        }
+    </style>
+    
+</head>
+<body>
+    <svg>
+        <rect x="10" y="20" width="180" height="160"/>
+        <circle cx="190" cy="140" r="80"/>
+    </svg>
+    <div id="graphArea">
+    </div>
+    <svg>
+        <rect x="30" y="40" width="200" height="300" rx="20" ry="30"/>
+    </svg>
+</body>
+</html>
+<script>
+    d3.select("#graphArea")
+        .append("svg")
+        .attr("width","320px").attr("height","180px")
+    d3.select("#graphArea>svg").append("rect")
+        .attr("x","30")
+        .attr("y","30")
+        .attr("width","200")
+        .attr("height","150")
+</script>

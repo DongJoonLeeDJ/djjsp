@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="d3.v3.min.js"></script>
+    <title>Document</title>
+    <style>
+        svg{ width: 320px; height: 240px; border: 1px solid black; }
+        .bar { fill :orange; }
+        .barNum{
+            font-size: 9pt;
+            text-anchor: middle;
+        }
+        .axis text{
+            font-family: sans-serif;
+        }
+        .axis line{
+            fill : none;
+            stroke : black;
+        }
+    </style>
+</head>
+<body>
+    <h1>세로형 막대그래프에 눈금을 표시</h1>
+    <svg id="myGraph"></svg>
+    <script>
+        var svgHeight = 240;
+        var barElements;
+        var dataSet = [120,70,175,80,220];
+
+        barElements = d3.select("#myGraph")
+                        .selectAll("rect")
+                        .data(dataSet)
+                        
+        barElements.enter()
+                   .append("rect")
+                   .attr("class","bar")
+                   .attr("height", function(d,i){return d;} )
+                   .attr("width",20)
+                   .attr("x",function(d,i){return i*25;})
+                   .attr("y",function(d,i){return svgHeight - d;})
+
+        barElements.enter()
+                   .append("text")
+                   .attr("class","barNum")
+                   .attr("x",function(d,i){return i*25+10;})
+                   .attr("y",function(d,i){return svgHeight - 5;})
+                   .text(function(d,i){return d;})
+
+        var yScale = d3.scale.linear()      // 스케일 설정
+                       .domain([0,300])     // 원래 크기 입력
+                       .range([300,0])     // 실제 출력크기
+
+        d3.select("#myGraph").append("g")
+          .attr("class","axis")
+          .attr("transform","translate(30,0)")
+          .call(
+              d3.svg.axis()
+              .scale(yScale)
+              .orient("left")
+          )
+    </script>
+</body>
+</html>
