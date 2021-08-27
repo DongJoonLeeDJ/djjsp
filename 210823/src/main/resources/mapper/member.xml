@@ -21,4 +21,12 @@
 		set id=#{id}, pw=#{pw}, age=#{age}, gender=#{gender}
 		where idx=#{idx} 
 	</update>
+	<delete id="delete" parameterType="int">
+		delete from member where idx = #{idx}
+	</delete>
 </mapper>
+
+
+
+
+

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+*{
+	font-family: 'Noto Sans KR', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+#root,html,body{
+	height: 100%;
+	width: 100%;
+	/* r g b*/
+	background-color: #0022cc;
+	color: #fff;
+	/* ffffff */
+	/* 255 -> ff */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+	display: flex;
+	width: 1200px;
+	height: 393px;
+	background-color: #fff;
+}
+.left_panel{
+	width: 43%;
+	height: 100%;
+}
+.left_panel > img{
+	width: 100%;
+	height: 100%;
+}
+.right_panel{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width: 53%;
+	height: 100%;
+}
+.right_panel_main{
+	color: #999;
+	width: 400px;
+	height: 300px;
+}
+.right_panel_main input{
+	width: 100%;
+	height: 30x;
+	font-size: 25px;
+}
+.right_panel_main input[type='submit']{
+	width: 100%;
+	height: 35x;
+	font-size: 25px;
+	background-color: #0000cc;
+	color: white;
+	cursor: pointer;
+}
+.right_panel_main > div{
+	margin: 20px 0;
+}
+
+
+
+

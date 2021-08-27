@@ -33,6 +33,19 @@ public class MemberController {
 	 * 	insertform -> insert 
 	 *  updateform -> update
 	 *  delete
+	 *  
+	 *   
+	 *  spring...
+	 *  프로젝트 새로 생성..
+	 *  d3js...차트 그리거 바차트.. 파이차트..
+	 *  게시판... mybatis sqllog 설정..
+	 *  
+	 *  오전...
+	 *  비전프로그래밍..
+	 *  이미지 합치고..
+	 *  오후... 
+	 *  python 딥러닝..
+	 *  
 	 */
 	@Autowired
 	SqlSession sqlsession;
@@ -93,6 +106,11 @@ public class MemberController {
 		return "redirect:memberlist";
 	}
 	
+	@RequestMapping(value="memberdelete")
+	public String memberdelete(int idx) {
+		sqlsession.delete("member.delete",idx);
+		return "redirect:memberlist";
+	}
 	
 }
 

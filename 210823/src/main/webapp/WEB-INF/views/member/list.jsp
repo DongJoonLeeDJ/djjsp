@@ -44,6 +44,13 @@
 <%-- 	${dto}<br> --%>
 <%-- </c:forEach> --%>
 <!-- <br> -->
+<!-- /org5/memberlist -->
+<!-- 
+/org5/memberlist 
+<a href='memberupdatefrom'>update</a> 
+ memberupdatefrom -> /org5/memberupdateform
+-->
+<div style="margin-bottom: 30px;"><a href="/org5">home</a></div>
 <div>
 	<table>
 		<tr>
@@ -67,7 +74,7 @@
 <!-- 					<button id="update">수정</button> -->
 				</td>
 				<td>
-					<a href="delete">삭제</a>
+					<a href="memberdelete?idx=${dto.idx}">삭제</a>
 <!-- 					<button id="delete">삭제</button> -->
 				</td>
 			</tr>
