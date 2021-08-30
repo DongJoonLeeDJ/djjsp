@@ -2,12 +2,12 @@
 <!DOCTYPE mapper
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-
 <mapper namespace="member">
 	<select id="loginchk" 
 			parameterType="com.mh.mocom.dto.MemberDto" 
 			resultType="com.mh.mocom.dto.MemberDto">
 		select * from member where id=#{id} and pw=#{pw}
+		limit 0,1
 	</select>
 	<select id="selectone" parameterType="int" resultType="com.mh.mocom.dto.MemberDto">
 		select * from member where idx=#{idx}
