@@ -12,7 +12,7 @@
 <div id="root">
 	<div class="container">
 		<div class="left_panel">
-			<img src="/mocom/resources/images/main.jpg">
+			<img src="/mocom/resources/images/mainLog.jpg">
 		</div>
 		<div class="right_panel">
 			<div class="right_panel_main">

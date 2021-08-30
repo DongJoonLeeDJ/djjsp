@@ -21,8 +21,30 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
+	<beans:bean id="connpol"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<!-- <beans:property name="driverClassName" -->
+		<!-- value="com.mysql.jdbc.Driver"></beans:property> -->
+		<!-- <beans:property name="url" -->
+		<!-- value="jdbc:mysql://127.0.0.1:3306/mh?useSSL=false&amp;serverTimezone=UTC"> -->
+		<!-- </beans:property> -->
+		<beans:property name="driverClassName"
+			value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy" />
+		<beans:property name="url"
+			value="jdbc:log4jdbc:mysql://127.0.0.1:3306/mh?allowPublicKeyRetrieval=true&amp;useSSL=false&amp;serverTimezone=UTC" />
+		<beans:property name="username" value="root"></beans:property>
+		<beans:property name="password" value="1234"></beans:property>
+	</beans:bean>
+	
+	<beans:bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<beans:property name="dataSource" ref="connpol" />
+		<beans:property name="mapperLocations" value="classpath*:mapper/*.xml" />
+	</beans:bean>
+
+	<beans:bean id="sqlSession"	class="org.mybatis.spring.SqlSessionTemplate">
+		<beans:constructor-arg ref="sqlSessionFactory" />
+	</beans:bean>
+	
 	<context:component-scan base-package="com.mh.mocom" />
-	
-	
 	
 </beans:beans>
