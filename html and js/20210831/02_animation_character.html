@@ -35,8 +35,13 @@
         let canvasHeight = 400
 
         //얘를 객체처럼 쓸거임
+        //class MovingText 
+        //사실상 class 즉 객체
         function MovingText()
         {
+
+            //this 키워드 뜻
+            //MovingText라는 객체의 멤버라는 뜻
             //x, y, vx, vy, body 라는 멤버가 있음
             this.x = nextRandomInteger(canvasWidth)//0~700까지의 값 리턴
             this.y = nextRandomInteger(canvasHeight)//0~400까지의 값 리턴
@@ -78,7 +83,9 @@
             let movingTexts = []
             for(let i = 0; i < 100; i++)
             {
-                movingTexts.push(new MovingText())
+                //movingTexts 라는 배열은 처음에 0칸짜리 배열
+                movingTexts.push(new MovingText()) //push 키워드 통해서 배열에 값 추가
+                //즉 movingTexts의 크기를 한 칸 늘리고 그 늘려놓은 거 안에 값을 집어넣음
             }
 
             //움직입니다.
