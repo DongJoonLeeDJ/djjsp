@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 표준화 스타일 -->
+    <style>
+        /* 웹 페이지 표준화 css */
+        /* 웹 브라우저별로 공백, 폰트등 고유의 스타일이 조금씩 있음*/
+        /* 모든 웹 브라우저가 다 똑같이 나오게 하는 css들이 있음(html 책에도 있음) */
+        /* 초기화 코드 */
+        /* 에릭마이어의 reset css등이 있음 */
+        
+        /* 여백통일 */
+        *
+        {
+            margin:0;
+            padding:0;
+        }
+        /* 폰트통일 */
+        body
+        {
+            font-family:sans-serif;
+        }
+        /* li 태그 스타일 통일 */
+        li
+        {
+            list-style: none;
+        }
+        a {text-decoration:  none;}
+        img { border:0 }
+    </style>
+    <!-- header부분 -->
+    <style>
+        #main_header
+        {
+            /* 중앙정렬 */
+            width: 960px;
+            margin:0 auto;
+            /* 중앙정렬 */
+
+            height: 160px;
+            /* 왜 relative일까...? 생각해봅시다. */
+            position: relative;
+            /* 자손태그의 position을 absolute로 두면, */
+            /* 부모 태그의 position은 static이 아니어야지만, 부모 태그 안에서 */
+            /* 절대 위치를 잡습니다. */
+        }
+        /* title, gnb, lnb에 css 주기 */
+        #main_header>#title
+        {
+            position: absolute;
+            left:20px;
+            top:30px;
+        }
+        #main_header>#main_gnb
+        {
+            position:absolute;
+            right:0;
+            top:0;
+        }
+        #main_header>#main_lnb
+        {
+            position:absolute;
+            right:0;
+            bottom:10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 윗부분 -->
+    <header id="main_header">
+        <div id="title">
+            <h1>쭈니의 자기소개</h1>
+            <h2>쭈니는 사람입니다. 쭈니는 이씨입니다. 쭈니는 남자입니다. 쭈니는 지금 예비역입니다.</h2>
+        </div>
+        <!-- gnb : global navigation 외부 사이트 연결시 씀 -->
+        <nav id="main_gnb">
+
+            <!-- li>a[href=#]*4 -->
+            <!-- <li>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </li> -->
+            <!-- (li>a[href=#])*4 -->
+            <li><a href="#">a</a></li>
+            <li><a href="#">ab</a></li>
+            <li><a href="#">abc</a></li>
+            <li><a href="#">abcd</a></li>
+        </nav>
+        <!-- lnb : local navigation 내부 사이트에서 어딘가로 가고 싶을 때 -->
+        <nav id="main_lnb">
+            <li><a href="#">가</a></li>
+            <li><a href="#">나</a></li>
+            <li><a href="#">다</a></li>
+            <li><a href="#">라</a></li>
+        </nav>
+    </header>
+    <!-- 내용물 -->
+    <div id="content">
+        <section id="main_section">
+            <article class="main_article">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam unde laboriosam quas excepturi quis reiciendis delectus? Magni veniam deserunt quae praesentium dolor sequi, repellendus doloremque unde accusamus odio neque voluptates!</p>
+            </article>
+            <article class="main_article">
+                <h1>Lorem, ipsum.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quas ea possimus delectus repudiandae doloribus praesentium, necessitatibus eum ipsa, numquam consequuntur expedita omnis saepe magni quia reiciendis a, animi iusto.</p>
+            </article>
+            <article class="main_article">
+                <h1>Lorem ipsum dolor sit.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, odio explicabo officiis tempore in voluptate cum maiores dignissimos. Magni nam tenetur necessitatibus facilis. Dicta voluptate vel, soluta voluptas corporis iure.</p>
+            </article>
+        </section>
+        <aside id="main_aside">
+
+        </aside>
+    </div>
+    <!-- footer 아랫부분(저작권이나 연락처 등 표시) -->
+    <footer id="main_footer">
+
+    </footer>
+</body>
+</html>
