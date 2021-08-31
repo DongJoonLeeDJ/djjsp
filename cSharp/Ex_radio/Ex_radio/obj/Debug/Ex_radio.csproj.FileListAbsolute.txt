@@ -1,0 +1,10 @@
+D:\MHJSP\djjsp\cSharp\Ex_radio\Ex_radio\bin\Debug\Ex_radio.exe.config
+D:\MHJSP\djjsp\cSharp\Ex_radio\Ex_radio\bin\Debug\Ex_radio.exe
+D:\MHJSP\djjsp\cSharp\Ex_radio\Ex_radio\bin\Debug\Ex_radio.pdb
+D:\MHJSP\djjsp\cSharp\Ex_radio\Ex_radio\obj\Debug\Ex_radio.csprojAssemblyReference.cache
+D:\MHJSP\djjsp\cSharp\Ex_radio\Ex_radio\obj\Debug\Ex_radio.Form1.resources
+D:\MHJSP\djjsp\cSharp\Ex_radio\Ex_radio\obj\Debug\Ex_radio.Properties.Resources.resources
+D:\MHJSP\djjsp\cSharp\Ex_radio\Ex_radio\obj\Debug\Ex_radio.csproj.GenerateResource.cache
+D:\MHJSP\djjsp\cSharp\Ex_radio\Ex_radio\obj\Debug\Ex_radio.csproj.CoreCompileInputs.cache
+D:\MHJSP\djjsp\cSharp\Ex_radio\Ex_radio\obj\Debug\Ex_radio.exe
+D:\MHJSP\djjsp\cSharp\Ex_radio\Ex_radio\obj\Debug\Ex_radio.pdb
