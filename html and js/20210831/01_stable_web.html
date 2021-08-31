@@ -67,7 +67,94 @@
             right:0;
             bottom:10px;
         }
+
+        #main_gnb>ul{overflow: hidden;}
+        #main_lnb>ul{overflow: hidden;}
+
+        /* 수평정렬 */
+        #main_gnb>ul>li{float:left}
+        #main_lnb>ul>li{float:left}
+
+        /* a 태그에 테두리선 긋고 hover시 색 바뀌게 하기 */
+        #main_gnb>ul>li>a
+        {
+            display: block;
+            padding: 2px 10px; /*여백 2 10*/
+            border: 1px solid black; /*1px 실선 */
+        }
+        #main_lnb>ul>li>a
+        {
+            display: block;
+            padding: 10px 20px; /*여백 10 20 */
+            border: 1px solid black; /*1px 실선 */
+        }
+        #main_gnb>ul>li>a:hover
+        {
+            background-color: black;
+            color: white;
+        }
+        #main_lnb>ul>li>a:hover
+        {
+            background-color: black;
+            color: white;
+        }
+
+        /* id가 main_gnb인 태그의 자손인 ul의 자손인 첫번째 태그인 li태그의 자손인 a */
+        #main_gnb>ul>li:first-child>a
+        {
+            border-radius: 10px 0 0 10px;
+        }
+        #main_gnb>ul>li:last-child>a
+        {
+            border-radius: 0 10px 10px 0;
+        }
+        #main_lnb>ul>li:first-child>a
+        {
+            border-radius: 10px 0 0 10px;
+        }
+        #main_lnb>ul>li:last-child>a
+        {
+            border-radius: 0 10px 10px 0;
+        }
+        #title>h1
+        {
+            font-family: 'Gugi', cursive;
+        }
+        #title>h2
+        {
+            font-family: 'East Sea Dokdo', cursive;
+        }
+
     </style>
+    <style>
+        #content
+        {
+            width: 960px;
+            margin:0 auto;
+            overflow: hidden;
+        }
+        #content>#main_section
+        {
+            width: 750px;
+            float: left;
+        }
+        /* section과 aside 사이에 10px 여백 */
+        #content>#main_aside
+        {
+            width: 200px;
+            float: right;
+        }
+        /* 본문에 선 긋기 */
+        #main_section>article.main_article
+        {
+            margin-bottom: 10px; /*선 바깥쪽*/ 
+            padding: 20px; /*선 안쪽 여백*/
+            border:1px solid black
+        }
+    </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Gugi&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- 윗부분 -->
@@ -87,17 +174,23 @@
                 <a href="#"></a>
             </li> -->
             <!-- (li>a[href=#])*4 -->
-            <li><a href="#">a</a></li>
-            <li><a href="#">ab</a></li>
-            <li><a href="#">abc</a></li>
-            <li><a href="#">abcd</a></li>
+            <!-- ul: unordered list -->
+            <!-- ol : ordered list -->
+            <ul>
+                <li><a href="#">a</a></li>
+                <li><a href="#">ab</a></li>
+                <li><a href="#">abc</a></li>
+                <li><a href="#">abcd</a></li>
+            </ul>
         </nav>
         <!-- lnb : local navigation 내부 사이트에서 어딘가로 가고 싶을 때 -->
         <nav id="main_lnb">
-            <li><a href="#">가</a></li>
-            <li><a href="#">나</a></li>
-            <li><a href="#">다</a></li>
-            <li><a href="#">라</a></li>
+            <ul>
+                <li><a href="#">가</a></li>
+                <li><a href="#">나</a></li>
+                <li><a href="#">다</a></li>
+                <li><a href="#">라</a></li>
+            </ul>
         </nav>
     </header>
     <!-- 내용물 -->
@@ -117,12 +210,17 @@
             </article>
         </section>
         <aside id="main_aside">
+            <input type="radio" name="tab" id="first" checked>
+            <input type="radio" name="tab" id="second">
 
+            <input type="checkbox" name="" id="">
+            <input type="checkbox" name="" id="">
+            <input type="checkbox" name="" id="">
         </aside>
     </div>
     <!-- footer 아랫부분(저작권이나 연락처 등 표시) -->
     <footer id="main_footer">
-
+ 
     </footer>
 </body>
 </html>
