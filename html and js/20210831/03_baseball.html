@@ -113,6 +113,9 @@
 
             //정답 확인 기능(제출기능)
 
+            //내가 입력했던 값들 보여주기(무슨 숫자 입력했고, 스트라이크, ball 여부 등)
+            let h3input = document.querySelector('#input')
+
             let submit = document.querySelector('#submit')
 
             submit.addEventListener('click', function()
@@ -126,10 +129,77 @@
                 if(parseInt(output) == parseInt(h1output.innerHTML))
                 {
                     alert('정답!')
+
+                    //timecount값(=현재 시간값?)에 따라서 조건문 다르게주기
+                    if(timecount < 50)
+                    {
+                        alert("are you 천재?")
+                    }
+
+                    //여태까지 입력한 값들 지우기(해보기)
+                    //숫자 다시 섞어서 새로운 숫자 나타나게 하기(해보기)
+                    //answer 버튼의 text들 원래대로 두기(해보기)
+
+                    //timecount값도 0으로 돌리기
+                    //timer도 다시 돌려야 함
+                    timecount = 0;
+                    
+                    // clearInterval을 해서 기존의 timer를 제거해야만 함
+                    // 이거 냅두면 타이머가 계속 누적되서 숫자가 엄청 빠르게 증가함
+                    clearInterval(timeCountInterval)
+
+                    timeCountInterval = setInterval(() => {
+                        timecount++;
+                        time.innerHTML = timecount
+                    }, 150);
+                    
                 }
                 else
                 {
                     alert('오답!')
+
+                    //strike, ball 여부 나타내기
+                    let arr = [ output[0],  output[1],  output[2]]
+                    let ball = 0
+                    let strike = 0
+
+                    //쉽게 말해서 3번 돈다.
+                    for(let j = 0; j < h1output.innerHTML.length; j++)
+                    {
+                        let test = arr.indexOf(h1output.innerHTML[j])
+                        if(test != -1)
+                        {
+                            if(arr[j] == h1output.innerHTML[j])
+                            {
+                                strike++
+                            }
+                            else
+                            {
+                                ball++
+                            }
+                        }
+                    }
+
+                    if(ball == 0 && strike == 0)
+                    {
+                        h3input.innerHTML += '['+h1output.innerHTML+']'+'   ' + 'out'
+                        h3input.innerHTML += '<br>'
+                        h1output.innerHTML = ''
+                    }
+                    else
+                    {
+                        h3input.innerHTML += '['+h1output.innerHTML+']'+'   ' + strike+'S' +ball+ 'B'
+                        h3input.innerHTML += '<br>'
+                        h1output.innerHTML = ''
+                    }
+
+                    //시도 회수에 따라서 정답이 아닌 숫자를 무작위로 하나씩 제거
+                    //3번째 5번째 7번째 8번째일 때 숫자를 하나씩 제거
+                    //제거 하는 방법
+                    //글자색을 빨간색으로 해도 되고 해당 버튼을 안 보이게 하거나
+                    //비활성화하거나 등등....
+
+                    //9번째가 되면 게임오버
                 }
             })
 
