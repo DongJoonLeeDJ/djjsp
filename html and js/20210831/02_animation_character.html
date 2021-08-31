@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //0이상 limit미만 혹은의 랜덤한 숫자를 뽑아내는 함수
+        function nextRandomInteger(limit)
+        {
+            //round 반올림
+            return Math.round(Math.random()*limit)
+        }
+        //랜덤한 알파벳을 리턴
+        let randomAlphabet = (
+            function()
+            {
+                let alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+                return function() {
+                    return alphabet.charAt(nextRandomInteger(25));
+                }
+            }
+        )();
+        //randomAlphabet 안에는 함수가 들어감
+        //속도관련된 함수
+        function randomSpeed(maxSpeed)
+        {
+            return Math.random()*maxSpeed - Math.random() * maxSpeed
+        }
+    </script>
+    <script>
+        //글자들이 움직일 영역
+        let canvasWidth = 700
+        let canvasHeight = 400
+
+        //얘를 객체처럼 쓸거임
+        function MovingText()
+        {
+            //x, y, vx, vy, body 라는 멤버가 있음
+            this.x = nextRandomInteger(canvasWidth)//0~700까지의 값 리턴
+            this.y = nextRandomInteger(canvasHeight)//0~400까지의 값 리턴
+            this.vx = randomSpeed(10); //매개변수 10이면, 속도조절 0부터 10까지의 속도나옴
+            this.vy = randomSpeed(10);
+
+            this.body = document.createElement('h1')
+            this.body.innerHTML = randomAlphabet() 
+            this.body.style.position = 'absolute'
+
+
+            //body태그안에 body라는 이름의 구성요소?를 집어넣음
+            document.body.appendChild(this.body)
+        }
+
+        //Prototype(함수를 바깥으로 뺌)
+        //생성자를 만드는 중
+        MovingText.prototype.move = function()
+        {
+            //글자가 어느쪽으로든 끝까지 가게되면
+            if(this.x <0 || this.x > canvasWidth) {this.vx *= -1;}
+            if(this.y <0 || this.y > canvasHeight) {this.vy *= -1;}
+
+            //방향 전환
+            this.x += this.vx;
+            this.y += this.vy;
+
+            //실질적 이동
+            //this.body는 body태그
+            this.body.style.left = this.x+'px'
+            this.body.style.top = this.y+'px'
+        }
+
+    </script>
+
+    <script>
+        window.onload = function()
+        {
+            let movingTexts = []
+            for(let i = 0; i < 100; i++)
+            {
+                movingTexts.push(new MovingText())
+            }
+
+            //움직입니다.
+            //0.03초에 한 번 움직임
+            setInterval(function()
+            {
+                for(var i in movingTexts)
+                {
+                    movingTexts[i].move()
+                }
+            }
+            , 1000/30)
+        }
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
