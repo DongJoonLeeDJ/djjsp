@@ -10,6 +10,7 @@
         function nextRandomInteger(limit)
         {
             //round 반올림
+            //0부터 limit까지의 값
             return Math.round(Math.random()*limit)
         }
         //랜덤한 알파벳을 리턴
@@ -48,13 +49,24 @@
             this.vx = randomSpeed(10); //매개변수 10이면, 속도조절 0부터 10까지의 속도나옴
             this.vy = randomSpeed(10);
 
+            //body는 h1 태그임
+            //MovingText의 멤버변수 body임... body태그 아님
             this.body = document.createElement('h1')
             this.body.innerHTML = randomAlphabet() 
             this.body.style.position = 'absolute'
 
-
             //body태그안에 body라는 이름의 구성요소?를 집어넣음
             document.body.appendChild(this.body)
+
+            //만약에 글자가 처음 생길 때 색깔 부여하고
+            //그 뒤에는 그 글자색만 유지하고 싶다면 여기에 적는다.
+            //그리고 정답코드부분은 주석처리한다.
+            let a = nextRandomInteger(255) //0부터 255까지의 값
+            let b = nextRandomInteger(255)
+            let c = nextRandomInteger(255)
+            this.body.style.color = `rgb(${a},${b},${c})`
+
+
         }
 
         //Prototype(함수를 바깥으로 뺌)
@@ -73,6 +85,28 @@
             //this.body는 body태그
             this.body.style.left = this.x+'px'
             this.body.style.top = this.y+'px'
+
+            ////////////////정답 코드//////////////////
+            let value = nextRandomInteger(2); // 0,1,2 중 하나의 값이 나옴
+
+            if(value == 0)
+            {
+                //여기서 body는 body태그의 body가 아니고
+                //MovingText안에 있는 멤버변수 body임
+                this.body.style.color = 'red'
+            }
+            else if (value == 1)
+            {
+                this.body.style.color = 'green'
+                document.bgColor = 'gray'
+            }
+            else
+            {
+                this.body.style.color = 'blue'
+                document.bgColor = 'pink'
+            }
+            /////////////////////////////////////////
+
         }
 
     </script>
