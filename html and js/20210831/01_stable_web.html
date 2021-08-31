@@ -152,6 +152,58 @@
             border:1px solid black
         }
     </style>
+    <!-- 탭 컨트롤 -->
+    <style>
+        /* none : 완전히 사라지게 하는 거 */
+        /* visibility: hidden 이랑은 다른 거... 이건 영역은 잡히는 데 안 보이는 거  */
+        input:nth-of-type(1) { display:  none; }
+        input:nth-of-type(1)~div:nth-of-type(1) {display: none;}
+        input:nth-of-type(1):checked~div:nth-of-type(1) {display: block;}
+
+        
+        input:nth-of-type(2) { display:  none;}
+        input:nth-of-type(2)~div:nth-of-type(2) {display: none;}
+        input:nth-of-type(2):checked~div:nth-of-type(2) {display: block;}
+
+        section.buttons { overflow: hidden;}
+
+        section.buttons>label 
+        {
+            display: block;
+            float: left;
+            width: 100px;
+
+            /* height, line-height를 똑같이 하면 수직정렬 */
+            height: 30px;
+            line-height: 30px;
+
+            /* 가운데 정렬 */
+            text-align: center; 
+
+            /* content-box, 
+            border-box 어떤 걸로 하냐에 따라서 넓이가 다름 
+            content-box : 기본
+            */
+            /* 박스 사이즈 지정시 (=width랑 height값 지정시) */
+            /* border-box로 되어 있을 때의 width는 테두리까지를 고려한 값 */
+            /* content-box는 width 구하면 테두리 부분은 배제한 거 */
+            box-sizing: border-box;
+
+            background:black;
+            color:white;
+        }
+        /* 내가 체크한 걸 흰색으로 바꿔라 */
+        input:nth-of-type(1):checked~section.buttons>label:nth-of-type(1)
+        {
+            background: white;
+            color:black
+        }
+        input:nth-of-type(2):checked~section.buttons>label:nth-of-type(2)
+        {
+            background: white;
+            color:black
+        }
+    </style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Gugi&display=swap" rel="stylesheet">
@@ -232,7 +284,7 @@
                     <li>
                         <a href="#">
                             <div class="thumbnail">
-                                <img src="https://picsum.photos/id/1020/45/45" alt="">
+                                <img src="https://picsum.photos/id/598/45/45" alt="">
                             </div>
                             <div class="description">
                                 <strong>HTML5 Example</strong>
@@ -243,7 +295,7 @@
                     <li>
                         <a href="#">
                             <div class="thumbnail">
-                                <img src="https://picsum.photos/id/1020/45/45" alt="">
+                                <img src="https://picsum.photos/id/598/45/45" alt="">
                             </div>
                             <div class="description">
                                 <strong>HTML5 Example</strong>
@@ -254,7 +306,7 @@
                     <li>
                         <a href="#">
                             <div class="thumbnail">
-                                <img src="https://picsum.photos/id/1020/45/45" alt="">
+                                <img src="https://picsum.photos/id/598/45/45" alt="">
                             </div>
                             <div class="description">
                                 <strong>HTML5 Example</strong>
