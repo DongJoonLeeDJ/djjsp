@@ -24,9 +24,30 @@
         {
             grid-row-start:1;
             grid-row-end:2;
-            grid-column-start:1;
-            grid-column-end: 4;
+            /* grid-column-start:1;
+            grid-column-end: 4; */
+            /* 4분의1(0.25)가 아님!!! */
+            /* 1번부터 4번까지 차지하겠다라는 뜻 */
+            grid-column: 1/4;
         }
+        .section
+        {
+            /* grid-row: 2/3; */
+            grid-column: 2/4;
+        }
+        /* .aside
+        {
+            grid-row: 2/3;
+            grid-column: 1/2;
+        } */
+
+        .footer
+        {
+            /* grid-row: 3/4; */
+            grid-column: 1/4;
+        }
+        /* 실습 */
+        /* aside, section, footer 부분도 꾸며보시오 */
     </style>
 </head>
 <body>

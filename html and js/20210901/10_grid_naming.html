@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            width: 960px;
+            margin:0 auto;
+            display: grid;
+
+            /* 2:8 */
+            grid-template-columns: 2fr 8fr;
+            gap:10px;
+
+            grid-template-areas: 
+            'h h'
+            'a s'
+            'f f';
+
+        }
+        .container>div
+        {
+            background-color: springgreen;
+        }
+        /* 클래스이름에 대한 grid-area 값 지정 */
+        .header{grid-area: h;}
+        .aside{grid-area: a;}
+        .section{grid-area: s;}
+        .footer{grid-area:f}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Lorem, ipsum.</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, fugiat autem expedita temporibus placeat, illum eius blanditiis, explicabo necessitatibus qui itaque consequuntur ducimus tenetur. Temporibus, dolor! Voluptatem, voluptatum. Repellat, fugiat.</p>
+        </div>
+        <div class="aside">
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, perferendis?</p>
+        </div>
+        <div class="section">
+            <h1>Lorem ipsum dolor sit.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae hic totam amet aliquam sapiente perferendis, quam aspernatur. Voluptatibus error suscipit odit nostrum cupiditate! Aperiam est consectetur, nesciunt velit sunt eligendi voluptatibus assumenda veniam quidem laboriosam hic autem esse ex atque!</p>
+        </div>
+        <div class="footer">
+            <h1>Lorem.</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+</body>
+</html>

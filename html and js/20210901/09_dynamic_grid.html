@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* ress css, 에릭마이어 css 혹은 HTML Doctor css와 같이 '초기화 적용' */
+        *
+        {
+            margin:0;
+            padding:0;
+        }
+        .container
+        {
+            width: 100%;
+            margin:0 auto;
+
+            display: grid;
+            /* row부분 / column부분 */
+            grid-template: 70px 1fr 70px / 200px 1fr;
+            gap:10px;
+
+            /* 여백을 줘서 좀 더 낫게... */
+            padding-top: 10px;
+        }
+        .container>div
+        {
+            background-color: springgreen;
+        }
+        /* class속성에 cell이라는 글자가 포함된 태그 */
+        [class*=cell]
+        {
+            border:5px solid black;
+            border-radius: 10px;
+
+            /* 여백을 줘서 좀 더 예쁘게... */
+            padding:10px
+        }
+        /* 한 줄을 다 차지하겠다는 의미 */
+        .cell-header{grid-column: 1/3;}
+        .cell-footer{grid-column: 1/3;}
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cell-header">header</div>
+        <div class="cell-aside">
+<h1>Lorem, ipsum.</h1>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores temporibus autem adipisci id, esse facere, deleniti maxime, earum voluptatem cum nobis ex eius consequuntur quam voluptas similique alias perferendis ut.</p>
+
+        </div>
+        <div class="cell-section">
+            <h1>section</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nisi maxime molestias iusto voluptates voluptatem eum ut dolore reiciendis, quos ratione culpa velit suscipit. Blanditiis omnis provident dolor natus tenetur cupiditate a autem et perspiciatis dicta illum quidem animi delectus possimus, enim itaque, atque ullam quasi quam eum dolore adipisci deleniti, ducimus ipsum. Error perspiciatis veritatis neque laboriosam qui labore, aut in blanditiis odio doloribus dolore voluptas quam animi iure eveniet modi enim esse cum illum aliquam incidunt vel odit delectus hic. Soluta repudiandae culpa accusantium eveniet quisquam tempore repellat alias facere rerum obcaecati eum neque quod, facilis quas saepe! Quisquam accusamus aut sunt consequatur sed suscipit veritatis enim. Distinctio voluptatem consequatur vel ratione repudiandae numquam quis aperiam animi commodi dicta atque ut, necessitatibus odio. Error debitis incidunt tempora architecto voluptatem qui numquam accusamus excepturi minima aliquam molestias iusto alias, aperiam beatae, corrupti quos assumenda deleniti exercitationem? Enim commodi nostrum voluptate impedit, facere necessitatibus? Sequi eaque culpa eligendi provident, omnis iusto nihil molestias, dignissimos voluptatum sed, deleniti ipsam odit officia. Commodi error tempore debitis quod fugiat perferendis optio mollitia, deserunt veritatis aliquid maiores pariatur eius laborum quis consequuntur nulla. Culpa, delectus. Nesciunt expedita asperiores laborum. Voluptatibus iusto, tenetur sapiente placeat esse corporis nobis vero nostrum adipisci quidem quae itaque unde id! Et sit cumque reiciendis eligendi, harum quasi libero, deleniti sunt temporibus a, modi dolor optio dolore aspernatur nesciunt maxime. Dolor, ab quia sunt quo ullam culpa unde voluptatem animi magni doloremque eum, optio, a voluptates ipsam deleniti labore doloribus voluptatum! Laboriosam voluptate non hic suscipit rerum doloremque eius architecto eligendi nesciunt possimus dolores modi dolor ea dicta necessitatibus sunt, nihil, commodi ipsum numquam autem obcaecati reprehenderit error cum. Eveniet sapiente, beatae ad, iste, repellendus delectus eligendi eaque esse tempore cumque quod voluptate amet exercitationem vel natus illo officiis sint accusamus. Ullam, autem consectetur, eos, praesentium aspernatur corrupti tempora provident ducimus quia eius ut labore nobis. Quis debitis iusto, quidem expedita, soluta sunt atque reiciendis, minima corporis est eveniet. Aut officiis veniam ipsum qui officia ab laudantium eos commodi! Quos, facere nostrum, sed quaerat expedita, obcaecati repellendus molestiae ea explicabo exercitationem aliquam cum laudantium quas cupiditate asperiores voluptatem perspiciatis sunt! Culpa numquam aliquam atque maiores consequatur non. Sunt molestiae dolorem similique obcaecati ullam perferendis repellendus optio odit magnam reiciendis, impedit esse ea reprehenderit eos, libero explicabo nemo omnis laudantium itaque voluptas veritatis aliquid incidunt quos! Dignissimos, enim officiis impedit excepturi numquam vel similique amet labore eum quidem? Repellat ad vitae ullam ipsam, corrupti nemo ratione libero. Natus magni, perspiciatis reprehenderit, tempore consequuntur adipisci quia cumque, totam earum voluptatibus reiciendis eaque neque similique deleniti sit ad provident impedit laborum. Labore tenetur tempore adipisci quia ratione nobis rem ut possimus quod quibusdam placeat, delectus voluptate temporibus id. Eos sed vitae eius tempora, dolor quam repudiandae quia velit labore cupiditate pariatur aspernatur quasi modi totam blanditiis. Ea assumenda perferendis molestias debitis ex, doloribus beatae voluptatibus ipsam sunt nihil ipsa non fugit itaque magnam nemo provident inventore blanditiis quaerat earum, eveniet aliquid maxime qui.</p>
+        </div>
+        <div class="cell-footer">footer</div>
+    </div>
+</body>
+</html>
