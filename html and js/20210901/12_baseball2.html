@@ -60,6 +60,14 @@
 
             console.log(output)
 
+
+            //정답 맞추거나 게임오버시 호출해야 하는 함수
+            // output 값 리셋
+            function ShuffleNewNumber()
+            {
+
+            }
+
             
             //0.15초에 한 번씩 구동되는 타이머를 구동시킨다.
             let time = document.querySelector('#time')
@@ -144,6 +152,10 @@
                         alert("are you 천재?")
                     }
                     // else if...
+
+
+
+                    ShuffleNewNumber() // output 값 리셋
 
                     //여태까지 입력한 값들 지우기(해보기)
                     //숫자 다시 섞어서 새로운 숫자 나타나게 하기(해보기)
@@ -258,7 +270,7 @@
 
 
                         //숫자를 다시 shuffle(섞는) 함수 만들어서 호출하기
-
+                        ShuffleNewNumber() // output 값 리셋
 
                     }
 
