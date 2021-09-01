@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: djSanse; /* 주아체의 폰트명을 djSanse 로 치환하기*/
+            src: url(BMJUA_otf.otf), url(BMJUA_ttf.ttf);
+        }
+        h1
+        {
+            font-family: djSanse; /*주아체 적용*/
+        }
+        p
+        {
+            /*Courier New 폰트 적용하기. 근데 만약에 이게 없으면 Courier적용   */
+            /* Courier도 없으면 monospace 적용 */
+            /* pc에 해당 폰트에 깔려 있을 때 */
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+    </style>
+    <!-- @룰(At_Rule)의 import 적용해서 폰트적용하기 -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+            h2{
+                font-family: 'Lobster', cursive;
+            }
+        </style>
+</head>
+<body>
+    <h1>Lorem, ipsum dolor.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <h2>Lorem ipsum dolor sit.</h2>
+    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+</body>
+</html>
