@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 스타일을 주는 방법1 -->
+    <link rel="stylesheet" href="01_at_rule.css">
+    <!-- 스타일 주는 방법2 : style태그를 이용해서 준다(생략) -->
+    <!-- 스타일 주는 방법3 : at rule -->
+    <style>
+        @import url(01_at_rule_02.css);
+        @import url(01_bold.css);
+    </style>
+</head>
+<body>
+    <h1>@</h1>
+    <p>11단원에 있는 거 할 거에요.</p>
+    <p>at_rule이라는 건데 생각보다 많이 쓰여요</p>
+    <!-- 무조건 많이 띄어쓴다고 되는 거 아님. space bar로 띄는 건 한 칸만 허용함 -->
+    <!-- &nbsp; 한 칸 띄어쓰기 -->
+    <!-- &#10; : xml 문서에서 쓰임 -->
+    <!-- <br>태그 쓰면 한 줄 띄어짐. p태그같은 태그 안에 넣을 수 있음 -->
+    <b>
+        얘네                                                               들은 뭔 차이일까요?
+        <br> 얘네&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;들은 뭔 차이일까요?
+        사실 기능상 차이는 별로 없음
+        근데 하나의 style 태그 안에 여러개의 import 넣는 것이 가능해요.
+    </b>
+</body>
+</html>
