@@ -60,17 +60,16 @@
 
             console.log(output)
 
-            //0.15초 정도에 한 번씩 타이머가 증가한다.
-
+            
+            //0.15초에 한 번씩 구동되는 타이머를 구동시킨다.
             let time = document.querySelector('#time')
             let timecount = 0;
 
-            let timeCountInterval = setInterval
-            ( 
+            let timeCountInterval = setInterval (  
                 function()
                 {
                     timecount++
-                    time.innerHTML = timecount
+                    time.innerText = timecount
                 }, 150
             )
             
@@ -82,12 +81,12 @@
                 buttons[i].addEventListener('click', function()
                 {
                     //id가 output인 태그에 글자 i가 없는 경우
-                    if(h1output.innerHTML.includes(i) == false)
+                    if(h1output.innerText.includes(i) == false)
                     {
                         //글자가 3글자 미만인 경우
-                        if(h1output.innerHTML.length < 3)
+                        if(h1output.innerText.length < 3)
                         {
-                            h1output.innerHTML += i;
+                            h1output.innerText += i;
                         }
 
                     }
@@ -101,40 +100,50 @@
             // 취소 기능(내가 입력한 숫자들을 전부 취소)       
             cancel.addEventListener('click', function()
             {
-                h1output.innerHTML = '';
-                answer.innerHTML = '정답은?'
+                h1output.innerText = '';
+                answer.innerText = '정답은?'
             })
 
             // 정답 기능
             answer.addEventListener('click', function()
             {
-                this.innerHTML = '정답은 ' + output
+                this.innerText = '정답은 ' + output
             })
 
-            //정답 확인 기능(제출기능)
-
+            
             //내가 입력했던 값들 보여주기(무슨 숫자 입력했고, 스트라이크, ball 여부 등)
             let h3input = document.querySelector('#input')
-
+            
+            // 정답제출버튼
             let submit = document.querySelector('#submit')
 
+            //3글자가 되어야 지만 정답을 누를 수 있다.
+            const LENGTH = 3;
+            
+            //정답 확인 기능(제출기능)
+            let tryCount = 0; //시도 횟수
             submit.addEventListener('click', function()
             {
-                if(h1output.innerText.length != 3)
+                //3글자 전일때는 동작하지 않는다.
+                if(h1output.innerText.length != LENGTH)
                 {
                     alert("3글자가 안 됐잖아 ㅡㅡ")
                     return
                 }
+                
+                //제출 버튼 클릭할 때 마다 증가
+                tryCount++
 
-                if(parseInt(output) == parseInt(h1output.innerHTML))
+                if(parseInt(output) == parseInt(h1output.innerText))
                 {
                     alert('정답!')
-
+                    tryCount = 0
                     //timecount값(=현재 시간값?)에 따라서 조건문 다르게주기
                     if(timecount < 50)
                     {
                         alert("are you 천재?")
                     }
+                    // else if...
 
                     //여태까지 입력한 값들 지우기(해보기)
                     //숫자 다시 섞어서 새로운 숫자 나타나게 하기(해보기)
@@ -156,7 +165,7 @@
                 }
                 else
                 {
-                    alert('오답!')
+                    // alert('오답!')
 
                     //strike, ball 여부 나타내기
                     let arr = [ output[0],  output[1],  output[2]]
@@ -164,12 +173,14 @@
                     let strike = 0
 
                     //쉽게 말해서 3번 돈다.
-                    for(let j = 0; j < h1output.innerHTML.length; j++)
+                    //h1output의 길이가 3이 아니면 정답을 누를 수가 없음
+                    // for(let j = 0; j < h1output.innerText.length; j++)
+                    for(let j = 0; j < LENGTH; j++)
                     {
-                        let test = arr.indexOf(h1output.innerHTML[j])
+                        let test = arr.indexOf(h1output.innerText[j])
                         if(test != -1)
                         {
-                            if(arr[j] == h1output.innerHTML[j])
+                            if(arr[j] == h1output.innerText[j])
                             {
                                 strike++
                             }
@@ -180,26 +191,78 @@
                         }
                     }
 
+                    let lastTry = h1output.innerHTML
+                    console.log(lastTry)
+
                     if(ball == 0 && strike == 0)
                     {
-                        h3input.innerHTML += '['+h1output.innerHTML+']'+'   ' + 'out'
-                        h3input.innerHTML += '<br>'
-                        h1output.innerHTML = ''
+                        h3input.innerText += '['+h1output.innerText+']'+'   ' + 'out'
+                        // innerText는 태그가 아니라 text만 들어가므로, 개행문자 삽입시 '\n'
+                        h3input.innerText += '\n'
+
+                        h1output.innerText = ''
                     }
                     else
                     {
-                        h3input.innerHTML += '['+h1output.innerHTML+']'+'   ' + strike+'S' +ball+ 'B'
-                        h3input.innerHTML += '<br>'
+                        // innerHTML은 안 쪽에 태그를 집어넣는 것이므로
+                        h3input.innerHTML += '['+h1output.innerText+']'+'   ' + strike+'S' +ball+ 'B'
+                        h3input.innerHTML += '<br>'// 개행해주고 싶다면 <br>태그를 직접 삽입
                         h1output.innerHTML = ''
                     }
 
                     //시도 회수에 따라서 정답이 아닌 숫자를 무작위로 하나씩 제거
-                    //3번째 5번째 7번째 8번째일 때 숫자를 하나씩 제거
-                    //제거 하는 방법
-                    //글자색을 빨간색으로 해도 되고 해당 버튼을 안 보이게 하거나
-                    //비활성화하거나 등등....
+                    //3번째 5번째 7번째 8번째일 때 정답이 아닌 숫자 중 하나를 가져와서 그 것의 색깔을 변경
+                    //만약 정답이 123인 경우...
+                    if(tryCount == 3) //0 4 5 6 7 8 9 중 하나를 빨간색으로 변경
+                    {
 
-                    //9번째가 되면 게임오버
+                    }
+                    else if(tryCount == 5)//0 4 5 6 7 8 9 중 하나를 빨간색으로 변경
+                    {
+
+                    }
+                    else if(tryCount == 7)//0 4 5 6 7 8 9 중 하나를 빨간색으로 변경
+                    {
+
+                    }
+                    else if(tryCount == 8)//0 4 5 6 7 8 9 중 하나를 빨간색으로 변경
+                    {
+
+                    }
+
+                    //9번을 넘게 시도한 경우
+                    if(tryCount >=9)
+                    {
+                        //카운트 값 리셋
+                        count = 0;
+                        //마지막으로 입력한 값도 정답이 아님을 표시하고 싶다면...
+                        alert(lastTry+'도 정답이 아닙니다. 정답은 '+output+'입니다.')
+                        
+                        //글자들 모두 리셋
+                        h1output.innerHTML = ''
+
+                        h3input.innerText = ''
+                        h3input.innerHTML = ''
+
+                        answer.innerText = '정답은?'
+                        
+                        //경과 시간 초기화
+                        timecount = 0
+                        clearInterval(timeCountInterval)
+                        timeCountInterval = setInterval(
+                            function() {
+                                timecount++;
+                                time.innerText = timecount
+                            }, 150
+                        )
+
+
+                        //숫자를 다시 shuffle(섞는) 함수 만들어서 호출하기
+
+
+                    }
+
+
                 }
             })
 
