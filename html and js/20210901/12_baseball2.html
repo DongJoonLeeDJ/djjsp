@@ -65,7 +65,13 @@
             // output 값 리셋
             function ShuffleNewNumber()
             {
+                //이 함수 밑에 buttons가 있지만
+                //이 buttons 변수를 인식가능함
+                // buttons;
 
+                //색깔을 빨간색으로 돌린 것들이 있다면 그것들 스타일 원상복구
+
+                //다시 숫자를 섞어야 함(output에 집어넣기)
             }
 
             
@@ -227,11 +233,22 @@
                     //만약 정답이 123인 경우...
                     if(tryCount == 3) //0 4 5 6 7 8 9 중 하나를 빨간색으로 변경
                     {
-
+                        let checkNum = Math.floor(Math.random() * 10)
+                        let detect = arr.indexOf(checkNum+'')
+                        while(detect != -1)
+                        {
+                            checkNum = Math.floor(Math.random() * 10)
+                            detect = arr.indexOf(checkNum+'')
+                        }
+                        buttons[checkNum].style.color = 'red'
                     }
                     else if(tryCount == 5)//0 4 5 6 7 8 9 중 하나를 빨간색으로 변경
                     {
-
+                        //while문에 조건을 하나 더 추가해주는 게 좋음(style에 대한 조건)
+                        while(detect != -1 || buttons[detect].style.color != '')
+                        {
+                            
+                        }
                     }
                     else if(tryCount == 7)//0 4 5 6 7 8 9 중 하나를 빨간색으로 변경
                     {
