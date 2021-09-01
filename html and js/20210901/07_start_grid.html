@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            /* 인터넷 익스플로러도 부분지원하고, 다 지원하게 하는 방법이 있기는 하다 */
+            display: grid;
+            grid-template-columns: 2fr 8fr; /*화면을 2:8로 나눈 것*/
+            /*윗 부분 500px, 아랫 부분 1000px*/
+            grid-template-rows: 500px 1000px; 
+            gap:10px;
+        }
+        .container>div
+        {
+            background-color: springgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">header</div>
+        <div class="aside">aside</div>
+        <div class="section">section</div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>

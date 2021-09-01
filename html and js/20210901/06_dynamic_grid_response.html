@@ -13,9 +13,334 @@
                 color:darkcyan
             }
         }
+        /* 중간넓이일 때는 동적 그리드 적용 */
+        @media screen and (min-width:768px) and (max-width:959px) {
+            .container {
+            /* width: 960px; */
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        .row {
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .span {
+            float: left;
+            margin-left: 2%;
+            /* 칸과 칸 사이의 여백 */
+            /* Gutter라고 표현 */
+
+
+        }
+
+        /* .span:first-child */
+        .span:first-of-type {
+            margin-left: 0;
+        }
+
+        .span-1 {
+            width: 6.5%;
+            *width: 6%;
+            /* * : 스타핵 : 구버전 익스폴로러 용 */
+        }
+
+        .span-2 {
+            width: 15%;
+            *width: 14.5%;
+            /* * : 스타핵 : 구버전 익스폴로러 용 */
+        }
+
+        .span-3 {
+            width: 23.5%;
+        }
+
+        .span-4 {
+            width: 32%;
+        }
+
+        .span-5 {
+            width: 40.5%;
+        }
+
+        .span-6 {
+            width: 49%;
+        }
+
+        .span-7 {
+            width: 57.5%;
+        }
+
+        .span-8 {
+            width: 66%;
+        }
+
+        .span-9 {
+            width: 74.5%;
+        }
+
+        .span-10 {
+            width: 83%;
+        }
+
+        .span-11 {
+            width: 91.5%;
+        }
+
+        .span-12 {
+            width: 100%;
+        }
+        }
+        
+        /* 화면 넓이가 960px 이상일 때는 정적 그리드 적용 */
+
+        @media screen and (min-width:960px) {
+            .container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* 웹 표준 공식 */
+/* 부모태그 overflow hidden 하고 자손 태그 float left해야 */
+/* 수평 정렬 */
+/* overflow hidden 안 하면 아래 쪽에 있는 태그가 위로 올라올 수 있음 */
+/* 챕터4에서 웹표준 간단하게 그려낼 때 참고하기 */
+.row {
+  overflow: hidden;
+}
+.span {
+  float: left;
+}
+
+.span-1 {
+  width: 80px;
+}
+.span-2 {
+  width: 160px;
+}
+.span-3 {
+  width: 240px;
+}
+.span-4 {
+  width: 320px;
+}
+.span-5 {
+  width: 400px;
+}
+.span-6 {
+  width: 480px;
+}
+.span-7 {
+  width: 560px;
+}
+.span-8 {
+  width: 640px;
+}
+.span-9 {
+  width: 720px;
+}
+.span-10 {
+  width: 800px;
+}
+.span-11 {
+  width: 880px;
+}
+.span-12 {
+  width: 960px;
+}
+
+        }
     </style>
 </head>
+
 <body>
-    
+
+    <div class="container">
+        <div class="row">
+            <div class="span span-12">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae minus soluta. Dolores fuga
+                voluptas et placeat ipsum accusantium officia quibusdam, praesentium excepturi blanditiis, officiis
+                voluptatibus numquam velit, distinctio vero repudiandae atque ullam. Totam, adipisci in. Magnam
+                voluptatem autem architecto deserunt neque quia in explicabo mollitia a dolore maxime, laboriosam
+                officiis consequatur eveniet ab quibusdam error doloribus eligendi voluptas, id inventore laborum.
+                Voluptatum aliquid sunt illum provident error ratione molestias aut esse dicta, facilis aperiam pariatur
+                odio, delectus adipisci molestiae quod repudiandae soluta mollitia nostrum nesciunt. Iure quia quidem
+                nobis nam ipsa, in deleniti quibusdam ipsam harum dolore praesentium sequi.
+            </div>
+        </div>
+        <div class="row">
+            <div class="span span-6"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae minus
+                soluta. Dolores fuga voluptas et placeat ipsum accusantium officia quibusdam, praesentium excepturi
+                blanditiis, officiis voluptatibus numquam velit, distinctio vero repudiandae atque ullam. Totam,
+                adipisci in. Magnam voluptatem autem architecto deserunt neque quia in explicabo mollitia a dolore
+                maxime, laboriosam officiis consequatur eveniet ab quibusdam error doloribus eligendi voluptas, id
+                inventore laborum. Voluptatum aliquid sunt illum provident error ratione molestias aut esse dicta,
+                facilis aperiam pariatur odio, delectus adipisci molestiae quod repudiandae soluta mollitia nostrum
+                nesciunt. Iure quia quidem nobis nam ipsa, in deleniti quibusdam ipsam harum dolore praesentium sequi.
+            </div>
+            <div class="span span-6"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae minus
+                soluta. Dolores fuga voluptas et placeat ipsum accusantium officia quibusdam, praesentium excepturi
+                blanditiis, officiis voluptatibus numquam velit, distinctio vero repudiandae atque ullam. Totam,
+                adipisci in. Magnam voluptatem autem architecto deserunt neque quia in explicabo mollitia a dolore
+                maxime, laboriosam officiis consequatur eveniet ab quibusdam error doloribus eligendi voluptas, id
+                inventore laborum. Voluptatum aliquid sunt illum provident error ratione molestias aut esse dicta,
+                facilis aperiam pariatur odio, delectus adipisci molestiae quod repudiandae soluta mollitia nostrum
+                nesciunt. Iure quia quidem nobis nam ipsa, in deleniti quibusdam ipsam harum dolore praesentium sequi.
+            </div>
+        </div>
+        <div class="row">
+            <div class="span span-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae minus
+                soluta. Dolores fuga voluptas et placeat ipsum accusantium officia quibusdam, praesentium excepturi
+                blanditiis, officiis voluptatibus numquam velit, distinctio vero repudiandae atque ullam. Totam,
+                adipisci in. Magnam voluptatem autem architecto deserunt neque quia in explicabo mollitia a dolore
+                maxime, laboriosam officiis consequatur eveniet ab quibusdam error doloribus eligendi voluptas, id
+                inventore laborum. Voluptatum aliquid sunt illum provident error ratione molestias aut esse dicta,
+                facilis aperiam pariatur odio, delectus adipisci molestiae quod repudiandae soluta mollitia nostrum
+                nesciunt. Iure quia quidem nobis nam ipsa, in deleniti quibusdam ipsam harum dolore praesentium sequi.
+            </div>
+            <div class="span span-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae minus
+                soluta. Dolores fuga voluptas et placeat ipsum accusantium officia quibusdam, praesentium excepturi
+                blanditiis, officiis voluptatibus numquam velit, distinctio vero repudiandae atque ullam. Totam,
+                adipisci in. Magnam voluptatem autem architecto deserunt neque quia in explicabo mollitia a dolore
+                maxime, laboriosam officiis consequatur eveniet ab quibusdam error doloribus eligendi voluptas, id
+                inventore laborum. Voluptatum aliquid sunt illum provident error ratione molestias aut esse dicta,
+                facilis aperiam pariatur odio, delectus adipisci molestiae quod repudiandae soluta mollitia nostrum
+                nesciunt. Iure quia quidem nobis nam ipsa, in deleniti quibusdam ipsam harum dolore praesentium sequi.
+            </div>
+            <div class="span span-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae minus
+                soluta. Dolores fuga voluptas et placeat ipsum accusantium officia quibusdam, praesentium excepturi
+                blanditiis, officiis voluptatibus numquam velit, distinctio vero repudiandae atque ullam. Totam,
+                adipisci in. Magnam voluptatem autem architecto deserunt neque quia in explicabo mollitia a dolore
+                maxime, laboriosam officiis consequatur eveniet ab quibusdam error doloribus eligendi voluptas, id
+                inventore laborum. Voluptatum aliquid sunt illum provident error ratione molestias aut esse dicta,
+                facilis aperiam pariatur odio, delectus adipisci molestiae quod repudiandae soluta mollitia nostrum
+                nesciunt. Iure quia quidem nobis nam ipsa, in deleniti quibusdam ipsam harum dolore praesentium sequi.
+            </div>
+        </div>
+        <div class="row">
+            <div class="span span-3"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae minus
+                soluta. Dolores fuga voluptas et placeat ipsum accusantium officia quibusdam, praesentium excepturi
+                blanditiis, officiis voluptatibus numquam velit, distinctio vero repudiandae atque ullam. Totam,
+                adipisci in. Magnam voluptatem autem architecto deserunt neque quia in explicabo mollitia a dolore
+                maxime, laboriosam officiis consequatur eveniet ab quibusdam error doloribus eligendi voluptas, id
+                inventore laborum. Voluptatum aliquid sunt illum provident error ratione molestias aut esse dicta,
+                facilis aperiam pariatur odio, delectus adipisci molestiae quod repudiandae soluta mollitia nostrum
+                nesciunt. Iure quia quidem nobis nam ipsa, in deleniti quibusdam ipsam harum dolore praesentium sequi.
+            </div>
+            <div class="span span-3"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae minus
+                soluta. Dolores fuga voluptas et placeat ipsum accusantium officia quibusdam, praesentium excepturi
+                blanditiis, officiis voluptatibus numquam velit, distinctio vero repudiandae atque ullam. Totam,
+                adipisci in. Magnam voluptatem autem architecto deserunt neque quia in explicabo mollitia a dolore
+                maxime, laboriosam officiis consequatur eveniet ab quibusdam error doloribus eligendi voluptas, id
+                inventore laborum. Voluptatum aliquid sunt illum provident error ratione molestias aut esse dicta,
+                facilis aperiam pariatur odio, delectus adipisci molestiae quod repudiandae soluta mollitia nostrum
+                nesciunt. Iure quia quidem nobis nam ipsa, in deleniti quibusdam ipsam harum dolore praesentium sequi.
+            </div>
+            <div class="span span-3"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae minus
+                soluta. Dolores fuga voluptas et placeat ipsum accusantium officia quibusdam, praesentium excepturi
+                blanditiis, officiis voluptatibus numquam velit, distinctio vero repudiandae atque ullam. Totam,
+                adipisci in. Magnam voluptatem autem architecto deserunt neque quia in explicabo mollitia a dolore
+                maxime, laboriosam officiis consequatur eveniet ab quibusdam error doloribus eligendi voluptas, id
+                inventore laborum. Voluptatum aliquid sunt illum provident error ratione molestias aut esse dicta,
+                facilis aperiam pariatur odio, delectus adipisci molestiae quod repudiandae soluta mollitia nostrum
+                nesciunt. Iure quia quidem nobis nam ipsa, in deleniti quibusdam ipsam harum dolore praesentium sequi.
+            </div>
+            <div class="span span-3"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae minus
+                soluta. Dolores fuga voluptas et placeat ipsum accusantium officia quibusdam, praesentium excepturi
+                blanditiis, officiis voluptatibus numquam velit, distinctio vero repudiandae atque ullam. Totam,
+                adipisci in. Magnam voluptatem autem architecto deserunt neque quia in explicabo mollitia a dolore
+                maxime, laboriosam officiis consequatur eveniet ab quibusdam error doloribus eligendi voluptas, id
+                inventore laborum. Voluptatum aliquid sunt illum provident error ratione molestias aut esse dicta,
+                facilis aperiam pariatur odio, delectus adipisci molestiae quod repudiandae soluta mollitia nostrum
+                nesciunt. Iure quia quidem nobis nam ipsa, in deleniti quibusdam ipsam harum dolore praesentium sequi.
+            </div>
+        </div>
+        <div class="row">
+            <div class="span span-2"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae minus
+                soluta. Dolores fuga voluptas et placeat ipsum accusantium officia quibusdam, praesentium excepturi
+                blanditiis, officiis voluptatibus numquam velit, distinctio vero repudiandae atque ullam. Totam,
+                adipisci in. Magnam voluptatem autem architecto deserunt neque quia in explicabo mollitia a dolore
+                maxime, laboriosam officiis consequatur eveniet ab quibusdam error doloribus eligendi voluptas, id
+                inventore laborum. Voluptatum aliquid sunt illum provident error ratione molestias aut esse dicta,
+                facilis aperiam pariatur odio, delectus adipisci molestiae quod repudiandae soluta mollitia nostrum
+                nesciunt. Iure quia quidem nobis nam ipsa, in deleniti quibusdam ipsam harum dolore praesentium sequi.
+            </div>
+            <div class="span span-2"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae minus
+                soluta. Dolores fuga voluptas et placeat ipsum accusantium officia quibusdam, praesentium excepturi
+                blanditiis, officiis voluptatibus numquam velit, distinctio vero repudiandae atque ullam. Totam,
+                adipisci in. Magnam voluptatem autem architecto deserunt neque quia in explicabo mollitia a dolore
+                maxime, laboriosam officiis consequatur eveniet ab quibusdam error doloribus eligendi voluptas, id
+                inventore laborum. Voluptatum aliquid sunt illum provident error ratione molestias aut esse dicta,
+                facilis aperiam pariatur odio, delectus adipisci molestiae quod repudiandae soluta mollitia nostrum
+                nesciunt. Iure quia quidem nobis nam ipsa, in deleniti quibusdam ipsam harum dolore praesentium sequi.
+            </div>
+            <div class="span span-2"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae minus
+                soluta. Dolores fuga voluptas et placeat ipsum accusantium officia quibusdam, praesentium excepturi
+                blanditiis, officiis voluptatibus numquam velit, distinctio vero repudiandae atque ullam. Totam,
+                adipisci in. Magnam voluptatem autem architecto deserunt neque quia in explicabo mollitia a dolore
+                maxime, laboriosam officiis consequatur eveniet ab quibusdam error doloribus eligendi voluptas, id
+                inventore laborum. Voluptatum aliquid sunt illum provident error ratione molestias aut esse dicta,
+                facilis aperiam pariatur odio, delectus adipisci molestiae quod repudiandae soluta mollitia nostrum
+                nesciunt. Iure quia quidem nobis nam ipsa, in deleniti quibusdam ipsam harum dolore praesentium sequi.
+            </div>
+            <div class="span span-2"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae minus
+                soluta. Dolores fuga voluptas et placeat ipsum accusantium officia quibusdam, praesentium excepturi
+                blanditiis, officiis voluptatibus numquam velit, distinctio vero repudiandae atque ullam. Totam,
+                adipisci in. Magnam voluptatem autem architecto deserunt neque quia in explicabo mollitia a dolore
+                maxime, laboriosam officiis consequatur eveniet ab quibusdam error doloribus eligendi voluptas, id
+                inventore laborum. Voluptatum aliquid sunt illum provident error ratione molestias aut esse dicta,
+                facilis aperiam pariatur odio, delectus adipisci molestiae quod repudiandae soluta mollitia nostrum
+                nesciunt. Iure quia quidem nobis nam ipsa, in deleniti quibusdam ipsam harum dolore praesentium sequi.
+            </div>
+            <div class="span span-2"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae minus
+                soluta. Dolores fuga voluptas et placeat ipsum accusantium officia quibusdam, praesentium excepturi
+                blanditiis, officiis voluptatibus numquam velit, distinctio vero repudiandae atque ullam. Totam,
+                adipisci in. Magnam voluptatem autem architecto deserunt neque quia in explicabo mollitia a dolore
+                maxime, laboriosam officiis consequatur eveniet ab quibusdam error doloribus eligendi voluptas, id
+                inventore laborum. Voluptatum aliquid sunt illum provident error ratione molestias aut esse dicta,
+                facilis aperiam pariatur odio, delectus adipisci molestiae quod repudiandae soluta mollitia nostrum
+                nesciunt. Iure quia quidem nobis nam ipsa, in deleniti quibusdam ipsam harum dolore praesentium sequi.
+            </div>
+            <div class="span span-2"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae minus
+                soluta. Dolores fuga voluptas et placeat ipsum accusantium officia quibusdam, praesentium excepturi
+                blanditiis, officiis voluptatibus numquam velit, distinctio vero repudiandae atque ullam. Totam,
+                adipisci in. Magnam voluptatem autem architecto deserunt neque quia in explicabo mollitia a dolore
+                maxime, laboriosam officiis consequatur eveniet ab quibusdam error doloribus eligendi voluptas, id
+                inventore laborum. Voluptatum aliquid sunt illum provident error ratione molestias aut esse dicta,
+                facilis aperiam pariatur odio, delectus adipisci molestiae quod repudiandae soluta mollitia nostrum
+                nesciunt. Iure quia quidem nobis nam ipsa, in deleniti quibusdam ipsam harum dolore praesentium sequi.
+            </div>
+        </div>
+        <div class="row">
+            <div class="span span-2"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae minus
+                soluta. Dolores fuga voluptas et placeat ipsum accusantium officia quibusdam, praesentium excepturi
+                blanditiis, officiis voluptatibus numquam velit, distinctio vero repudiandae atque ullam. Totam,
+                adipisci in. Magnam voluptatem autem architecto deserunt neque quia in explicabo mollitia a dolore
+                maxime, laboriosam officiis consequatur eveniet ab quibusdam error doloribus eligendi voluptas, id
+                inventore laborum. Voluptatum aliquid sunt illum provident error ratione molestias aut esse dicta,
+                facilis aperiam pariatur odio, delectus adipisci molestiae quod repudiandae soluta mollitia nostrum
+                nesciunt. Iure quia quidem nobis nam ipsa, in deleniti quibusdam ipsam harum dolore praesentium sequi.
+            </div>
+            <div class="span span-8"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae minus
+                soluta. Dolores fuga voluptas et placeat ipsum accusantium officia quibusdam, praesentium excepturi
+                blanditiis, officiis voluptatibus numquam velit, distinctio vero repudiandae atque ullam. Totam,
+                adipisci in. Magnam voluptatem autem architecto deserunt neque quia in explicabo mollitia a dolore
+                maxime, laboriosam officiis consequatur eveniet ab quibusdam error doloribus eligendi voluptas, id
+                inventore laborum. Voluptatum aliquid sunt illum provident error ratione molestias aut esse dicta,
+                facilis aperiam pariatur odio, delectus adipisci molestiae quod repudiandae soluta mollitia nostrum
+                nesciunt. Iure quia quidem nobis nam ipsa, in deleniti quibusdam ipsam harum dolore praesentium sequi.
+            </div>
+            <div class="span span-2"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae minus
+                soluta. Dolores fuga voluptas et placeat ipsum accusantium officia quibusdam, praesentium excepturi
+                blanditiis, officiis voluptatibus numquam velit, distinctio vero repudiandae atque ullam. Totam,
+                adipisci in. Magnam voluptatem autem architecto deserunt neque quia in explicabo mollitia a dolore
+                maxime, laboriosam officiis consequatur eveniet ab quibusdam error doloribus eligendi voluptas, id
+                inventore laborum. Voluptatum aliquid sunt illum provident error ratione molestias aut esse dicta,
+                facilis aperiam pariatur odio, delectus adipisci molestiae quod repudiandae soluta mollitia nostrum
+                nesciunt. Iure quia quidem nobis nam ipsa, in deleniti quibusdam ipsam harum dolore praesentium sequi.
+            </div>
+        </div>
+    </div>
 </body>
 </html>
