@@ -5,8 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body
+        {
+            width: 960px;
+            margin: 0 auto;
+        }
+        #aside
+        {
+            width: 200px;
+            /* float: left; */
+            margin-right: 10px;
+            background-color: cyan;
+
+        }
+        #section
+        {
+            width: 740px;
+            /* float: right; */
+            margin-left: 10px;
+            background-color: hotpink;
+        }
+        #wrap
+        {
+            /* overflow: hidden; */
+            display: flex;
+            /* flexible의 약자 */
+            /* 화면을 알아서 수평정렬해주는 속성 */
+            /* 익스플로러에서는 부분지원 */
+        }
+        /* 기존(표준 웹페이지 만드는 방법) */
+        /* 부모 태그 : overflow hidden */
+        /* 자식 태그 : float 속성 */
+
+        /* 새로운 방법1 */
+        /* flex속성 이용 */
+        /* 새로운 방법2 - 아까 우리가 해본 grid */
+    </style>
 </head>
 <body>
-    
+    <div id="header">
+        <h1>header</h1>
+    </div>
+    <div id="navigation">
+        <h1>navigation</h1>
+    </div>
+    <div id="wrap">
+        <div id="aside">
+            <h1>aside</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam asperiores sit quidem quae voluptatum! Harum adipisci numquam illum facere, possimus repellendus fugit ea quidem laborum, nam id voluptatum in nisi sit ipsam veritatis voluptate aliquid, odio iste repudiandae veniam cumque. Perferendis dolorem natus perspiciatis culpa saepe ratione ea aspernatur exercitationem quisquam, accusamus repellendus rem quibusdam voluptates ex ad deserunt amet consequuntur reiciendis possimus illo cum ducimus laborum beatae. Mollitia totam molestias esse! Voluptate suscipit ullam enim, assumenda adipisci voluptatum odit perferendis facilis praesentium consequatur dolor minima debitis quod blanditiis ducimus explicabo nisi obcaecati. Repellendus impedit sit architecto quae beatae ea?</p>
+        </div>
+        <div id="section">
+            <h1>section</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa ullam eveniet explicabo, odit id quis quam aperiam rem officia possimus numquam magni, eos vel omnis molestiae veritatis ad et sint?</p>
+        </div>
+    </div>
+    <div id="footer">
+        <h1>Footer</h1>
+        h`לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר 
+    </div>
 </body>
 </html>
