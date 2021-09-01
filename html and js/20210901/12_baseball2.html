@@ -270,10 +270,11 @@
                     }
                     else if(tryCount == 5)//0 4 5 6 7 8 9 중 하나를 빨간색으로 변경
                     {
+                        console.log(tryCount+'5')
                         let checkNum = Math.floor(Math.random() * 10) 
                         let detect = arr.indexOf(checkNum+'')
                         //while문에 조건을 하나 더 추가해주는 게 좋음(style에 대한 조건)
-                        while(detect != -1 || buttons[detect].style.color != '')
+                        while(detect != -1 || buttons[checkNum].style.color != '')
                         {                            
                             checkNum = Math.floor(Math.random() * 10)
                             detect = arr.indexOf(checkNum+'')
@@ -282,10 +283,11 @@
                     }
                     else if(tryCount == 7)//0 4 5 6 7 8 9 중 하나를 빨간색으로 변경
                     {
+                        console.log(tryCount+'7')
                         let checkNum = Math.floor(Math.random() * 10) 
                         let detect = arr.indexOf(checkNum+'')
                         //while문에 조건을 하나 더 추가해주는 게 좋음(style에 대한 조건)
-                        while(detect != -1 || buttons[detect].style.color != '')
+                        while(detect != -1 || buttons[checkNum].style.color != '')
                         {                            
                             checkNum = Math.floor(Math.random() * 10)
                             detect = arr.indexOf(checkNum+'')
@@ -294,10 +296,11 @@
                     }
                     else if(tryCount == 8)//0 4 5 6 7 8 9 중 하나를 빨간색으로 변경
                     {
+                        console.log(tryCount+'8')
                         let checkNum = Math.floor(Math.random() * 10) 
                         let detect = arr.indexOf(checkNum+'')
                         //while문에 조건을 하나 더 추가해주는 게 좋음(style에 대한 조건)
-                        while(detect != -1 || buttons[detect].style.color != '')
+                        while(detect != -1 || buttons[checkNum].style.color != '')
                         {                            
                             checkNum = Math.floor(Math.random() * 10)
                             detect = arr.indexOf(checkNum+'')
