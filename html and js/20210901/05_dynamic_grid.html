@@ -9,7 +9,7 @@
     <style>
         .container {
             /* width: 960px; */
-            margin: 0 auto;
+            margin: 0;
             padding:0;
         }
 
@@ -20,11 +20,15 @@
 
         .span {
             float: left;
-            margin-left:2%
+            margin-left:2%;
             /* 칸과 칸 사이의 여백 */
             /* Gutter라고 표현 */
         }
-
+        .span:first-child
+        {
+            margin-left: 0;
+        }
+        
         .span-1 {
             width: 6.5%;
             *width:6%;
@@ -82,31 +86,12 @@
 <body>
 
 <div class="container">
-    <div class="row">
-        <div class="span span-6">
-            <h1>Lorem, ipsum.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, autem quam quas nesciunt minima qui dignissimos omnis sed ipsum facere.</p>
-        </div>
-        <div class="span span-6">
-            <h1>Lorem, ipsum dolor.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempore repudiandae omnis in rerum deleniti nihil a sed! Sit atque exercitationem quas dolorem consequuntur neque quibusdam dicta accusamus nostrum aperiam!</p>
-        </div>
-    </div>
-    <div class="row">
-
-    </div>
-    <div class="row">
-
-    </div>
-    <div class="row">
-
-    </div>
-    <div class="row">
-
-    </div>
-    <div class="row">
-
-    </div>
+    <div class="row">    </div>
+    <div class="row">    </div>
+    <div class="row">    </div>
+    <div class="row">    </div>
+    <div class="row">    </div>
+    <div class="row">    </div>
 </div>
 </body>
 
