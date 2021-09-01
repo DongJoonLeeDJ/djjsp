@@ -1,0 +1,53 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* 웹 표준 공식 */
+/* 부모태그 overflow hidden 하고 자손 태그 float left해야 */
+/* 수평 정렬 */
+/* overflow hidden 안 하면 아래 쪽에 있는 태그가 위로 올라올 수 있음 */
+/* 챕터4에서 웹표준 간단하게 그려낼 때 참고하기 */
+.row {
+  overflow: hidden;
+}
+.span {
+  float: left;
+}
+
+.span-1 {
+  width: 80px;
+}
+.span-2 {
+  width: 160px;
+}
+.span-3 {
+  width: 240px;
+}
+.span-4 {
+  width: 320px;
+}
+.span-5 {
+  width: 400px;
+}
+.span-6 {
+  width: 480px;
+}
+.span-7 {
+  width: 560px;
+}
+.span-8 {
+  width: 640px;
+}
+.span-9 {
+  width: 720px;
+}
+.span-10 {
+  width: 800px;
+}
+.span-11 {
+  width: 880px;
+}
+.span-12 {
+  width: 960px;
+}
