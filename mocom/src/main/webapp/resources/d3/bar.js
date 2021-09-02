@@ -4,10 +4,11 @@
 var dataSet = [];
 
 d3.csv('http://localhost:8282/mocom/resources/csv/mydata.csv',function(err,data){
-	console.log(data.length);
-	for(i=0; i<data.length; i= i+20){
-		console.log("i = "+i);
-		console.log("data[i].Weight = "+data[i].Weight);
+//	console.log(data.length);
+	for(i=1; i<data.length; i= i+20){
+//		console.log("i = "+i);
+//		console.log("data[i].Weight = "+data[i].Weight);
+		dataSet.push(data[i].Weight/4);
 	}
 	d3.select("#myGraph1")
 	.selectAll("rect")
@@ -19,7 +20,10 @@ d3.csv('http://localhost:8282/mocom/resources/csv/mydata.csv',function(err,data)
 	.attr("y", function(d, i) {
 		return i * 45 + 10;
 	})
-	.attr("width", function(ele, i) { return ele; })
+	.attr("width", function(ele, i) {
+		console.log("ele = "+ ele); 
+		return ele; 
+	})
 	.attr("height", 30)
 });
 

@@ -10,8 +10,8 @@
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <style>
     svg{ 
-	    width:320px; 
-	    height:240px; 
+	    width:340px; 
+	    height:360px; 
 	    border : 1px solid black;
 	    margin-left: 20px;
     }

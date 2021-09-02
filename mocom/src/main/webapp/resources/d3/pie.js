@@ -1,7 +1,7 @@
 /**
  * 
  */
-var dataSet = [100, 10, 120, 200, 90];
+var dataSet = [];
 
 d3.select("#myGraph2")
 	.selectAll("rect")
