@@ -28,24 +28,24 @@
 		<div class="left_panel" style="">
 			<div>
 				<h1>데이터에 따른 그래프 표시</h1>
-				<svg id="myGraph"></svg>
+				<svg id="myGraph1"></svg>
 			</div>
 			<div class="leftbtndiv">
-				<button type="button" id="testBtn">update</button>
+				<button type="button" id="barbtn">update</button>
 			</div>
 <!-- 			<script src="/mocom/resources/d3/sample01.js"></script>\ -->
-			<script src="/mocom/resources/d3/sample01.js"></script>
+			<script src="/mocom/resources/d3/bar.js"></script>
 		</div>
 		<div class="right_panel">
 			<div>
 				<h1>데이터에 따른 그래프 표시</h1>
-				<svg id="myGraph"></svg>
+				<svg id="myGraph2"></svg>
 			</div>
 			<div class="rightbtndiv">
-				<button type="button" id="testBtn">update</button>
+				<button type="button" id="piebtn">update</button>
 			</div>
 <!-- 			<script src="/mocom/resources/d3/sample01.js"></script>\ -->
-			<script src="/mocom/resources/d3/sample01.js"></script>
+			<script src="/mocom/resources/d3/pie.js"></script>
 		</div>
 	</div>
 </div>

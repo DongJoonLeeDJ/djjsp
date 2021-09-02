@@ -1,6 +1,15 @@
-var dataSet = [100, 10, 120, 200, 90];
+/**
+ * 
+ */
+var dataSet = [];
 
-d3.select("#myGraph1")
+d3.csv('http://localhost:8282/mocom/resources/csv/mydata.csv',function(err,data){
+	console.log(data.length);
+	for(i=0; i<data.length; i= i+20){
+		console.log("i = "+i);
+		console.log("data[i].Weight = "+data[i].Weight);
+	}
+	d3.select("#myGraph1")
 	.selectAll("rect")
 	.data(dataSet)
 	.enter()
@@ -12,8 +21,10 @@ d3.select("#myGraph1")
 	})
 	.attr("width", function(ele, i) { return ele; })
 	.attr("height", 30)
+});
 
-d3.select("#testBtn")
+
+d3.select("#barbtn")
 	.on("click", function() {
 		d3.selectAll("rect")
 			.transition()

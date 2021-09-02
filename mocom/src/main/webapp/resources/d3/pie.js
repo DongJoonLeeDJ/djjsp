@@ -1,6 +1,9 @@
+/**
+ * 
+ */
 var dataSet = [100, 10, 120, 200, 90];
 
-d3.select("#myGraph1")
+d3.select("#myGraph2")
 	.selectAll("rect")
 	.data(dataSet)
 	.enter()
@@ -13,12 +16,7 @@ d3.select("#myGraph1")
 	.attr("width", function(ele, i) { return ele; })
 	.attr("height", 30)
 
-d3.select("#testBtn")
+d3.select("#piebtn")
 	.on("click", function() {
-		d3.selectAll("rect")
-			.transition()
-			.duration(1000)
-			.attr("width", function() {
-				return (Math.random() * 300) + 1;
-			})
+		alert('동그라미그래프바뀌는거구현예정');
 	});
