@@ -3,12 +3,10 @@
  */
 var dataSet = [];
 
-d3.csv('http://localhost:8282/mocom/resources/csv/mydata.csv',function(err,data){
-//	console.log(data.length);
-	for(i=1; i<data.length; i= i+20){
-//		console.log("i = "+i);
-//		console.log("data[i].Weight = "+data[i].Weight);
-		dataSet.push(data[i].Weight/4);
+d3.json('http://localhost:8282/mocom/testjson',function(err,data){
+	for(i=0; i<data.length; i++){
+		dataSet.push(data[i].age*5);
+		console.log(data[i].age*5);
 	}
 	d3.select("#myGraph1")
 	.selectAll("rect")
@@ -18,13 +16,9 @@ d3.csv('http://localhost:8282/mocom/resources/csv/mydata.csv',function(err,data)
 	.attr("class", "bar")
 	.attr("x", 10)
 	.attr("y", function(d, i) {
-		console.log("yd = "+ d);
-		console.log("yi = "+ i);  
 		return i * 45 + 10;
 	})
 	.attr("width", function(d, i) {
-		console.log("widthd = "+ d); 
-		console.log("widthi = "+ i); 
 		return d; 
 	})
 	.attr("height", 25)

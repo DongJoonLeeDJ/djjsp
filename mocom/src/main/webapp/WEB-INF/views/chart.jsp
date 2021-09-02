@@ -11,7 +11,7 @@
 <style>
     svg{ 
 	    width:340px; 
-	    height:360px; 
+	    height:370px; 
 	    border : 1px solid black;
 	    margin-left: 20px;
     }
@@ -28,13 +28,14 @@
 		<div class="left_panel" style="">
 			<div>
 				<h1>데이터에 따른 그래프 표시</h1>
-				<svg id="myGraph1"></svg>
+				<svg id="myGraph1">
+				</svg>
 			</div>
 			<div class="leftbtndiv">
 				<button type="button" id="barbtn">update</button>
 			</div>
 <!-- 			<script src="/mocom/resources/d3/sample01.js"></script>\ -->
-			<script src="/mocom/resources/d3/bar.js"></script>
+			<script src="/mocom/resources/d3/barjson.js"></script>
 		</div>
 		<div class="right_panel">
 			<div>
