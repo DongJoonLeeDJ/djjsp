@@ -8,6 +8,9 @@
 <link rel="stylesheet" href="/mocom/resources/chart.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script type="text/javascript">
+	$('document').ready(function(){});
+</script>
 <style>
     svg{ 
 	    width:340px; 
@@ -17,6 +20,9 @@
     }
     .bar{
         fill:blue;
+    }
+    .pie{
+        fill: orange; stroke: black;
     }
 </style>
 </head>
@@ -40,7 +46,8 @@
 		<div class="right_panel">
 			<div>
 				<h1>데이터에 따른 그래프 표시</h1>
-				<svg id="myGraph2"></svg>
+				<svg id="myGraph2">
+				</svg>
 			</div>
 			<div class="rightbtndiv">
 				<button type="button" id="piebtn">update</button>
