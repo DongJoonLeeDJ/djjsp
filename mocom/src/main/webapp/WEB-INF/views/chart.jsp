@@ -27,7 +27,7 @@
 	<div class="container">
 		<div class="left_panel" style="">
 			<div>
-				<h1>데이터에 따른 그래프 표시</h1>
+				<h1>회원가입한 나이 그래프</h1>
 				<svg id="myGraph1">
 				</svg>
 			</div>
