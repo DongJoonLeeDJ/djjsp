@@ -32,7 +32,7 @@ for i in range(0, 360, 10):
     머신러닝, 딥러닝.. 
     학습할 이미지가 모자를때 각도를 변형해서 여러 이미지로 파일 만들때...
     '''
-    cv2.imwrite(filename, mimg)
+    # cv2.imwrite(filename, mimg)
     # cv2.imshow('mimg', mimg)
     # cv2.waitKey(0)
 
@@ -55,3 +55,4 @@ text -> 음성
 #     playsound.playsound(filename)
 #
 # speak("3시 41분 입니다. 45분에 시작하죠")
+
