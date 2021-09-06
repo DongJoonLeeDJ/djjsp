@@ -30,6 +30,9 @@
 <form action="loginchk" method="post">
 <div>${sessionScope.dto.id}님 환영 합니다.</div>
 <div id="root">
+	<div class="qnadiv">
+		<a href="board/main">QnA</a>
+	</div>
 	<div class="container">
 		<div class="left_panel" style="">
 			<div>

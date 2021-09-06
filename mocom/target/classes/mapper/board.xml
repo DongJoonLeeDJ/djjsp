@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="board">
+	<select id="selectlist" 
+			resultType="com.mh.mocom.dto.BoardDto">
+		select * from board
+		limit 0
+	</select>
+	<insert id="insert" parameterType="com.mh.mocom.dto.BoardDto">
+		INSERT INTO board 
+		(title, name, content, wdate, hits) 
+		VALUES 
+		(#{title}, #{name}, #{content}, #{wdate}, #{hits})
+	</insert>
+	<update id="update" parameterType="com.mh.mocom.dto.MemberDto">
+		update member
+		set id=#{id}, pw=#{pw}, age=#{age}, gender=#{gender}
+		where idx=#{idx} 
+	</update>
+	<delete id="delete" parameterType="int">
+		delete from member where idx = #{idx}
+	</delete>
+</mapper>
+
+
+
+
+
