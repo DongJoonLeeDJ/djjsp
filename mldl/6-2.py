@@ -6,6 +6,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
+# 2차원
+# 300행 10000열
+
 fruits = np.load('fruits_300.npy')
 fruits_2d = fruits.reshape(-1, 100*100)
 print(fruits_2d.shape)
