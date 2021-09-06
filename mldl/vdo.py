@@ -19,9 +19,12 @@ while True:
         break
 
     inversed = ~frame  # 반전
-
+    gayimg = cv2.cvtColor(frame,cv2.COLOR_RGB2GRAY)
+    gaussianimg = \
+        cv2.adaptiveThreshold(gayimg,
+                              255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 3)
     cv2.imshow('frame', frame)
-    cv2.imshow('inversed', inversed)
+    cv2.imshow('inversed', gaussianimg)
 
     if cv2.waitKey(10) == 27:
         break
