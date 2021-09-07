@@ -31,7 +31,19 @@ public class Animal {
 	}
 	
 	public String getKinds() {
-		return Kinds;
+	//	return Kinds;
+		switch (this.Kinds) {
+		case "cat":
+			return "고양이";
+		case "dog":
+			return "개";
+		case "pig":
+			return "돼지";
+		case "cow":
+			return "소";
+		default:
+			return "즘생";
+		}
 	}
 	public void setKinds(String kinds) {
 		Kinds = kinds;
