@@ -5,9 +5,16 @@
 <title>Insert title here</title>
 </head>
 <body>
+<!-- get방식을 쓰려면 method="get"을 적거나 method 자체를 안 적으면 기본적으로 get 방식 -->
  <form action="FormEx">
  	이름 : <input type="input" name="myname">
- 	<input type="submit" value="이름제출">
+ 	나이 : <input type="input" name="myage">
+ 	<input type="submit" value="이름 및 나이 제출(get)">
+ </form>
+ 
+  <form action="FormEx" method="post">
+ 	이름 : <input type="input" name="myname_post">
+ 	<input type="submit" value="이름제출(post)">
  </form>
 </body>
 </html>
