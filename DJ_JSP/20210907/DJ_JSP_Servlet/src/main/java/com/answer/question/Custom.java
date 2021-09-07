@@ -78,7 +78,7 @@ public class Custom {
 
 	public String getGender() {
 		//return Gender;
-		switch (Major) {
+		switch (Gender) {
 		case "man":
 			return "남자";
 		case "woman":

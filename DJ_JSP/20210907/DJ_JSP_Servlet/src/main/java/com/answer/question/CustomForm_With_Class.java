@@ -43,21 +43,12 @@ public class CustomForm_With_Class extends HttpServlet {
 				response.setContentType("text/html; charset=utf-8");
 				PrintWriter writer = response.getWriter();
 				
-				//배열을 출력해보는 방법 2가지.
-				//1번째 : Arrays에 있는 toString 함수 이용해서, 배열을 한 줄의 문자열로 만든다.
-				String hobbyList = Arrays.toString(hobbys);
-				//2번째 : 반복문 이용
-				String myHobbyList = "";
-				for(String item : hobbys)
-				{
-					myHobbyList += "  "+ item;
-				}
+				Custom c = new Custom(hobbys, major, gender);
 				
 				writer.println("<html><head></head><body>");
-				writer.println("전공 : "+major+"<br>");
-				writer.println("성별 : "+gender+"<br>");
-				writer.println("취미1 : "+hobbyList+"<br>");
-				writer.println("취미2 : "+myHobbyList+"<br>");
+				writer.println("전공 : "+ c.getMajor() +"<br>");
+				writer.println("성별 : "+ c.getGender() +"<br>");
+				writer.println("취미 : "+ Arrays.toString(c.getHobbys()) +"<br>");
 				writer.println("</body></html>");
 	}
 
