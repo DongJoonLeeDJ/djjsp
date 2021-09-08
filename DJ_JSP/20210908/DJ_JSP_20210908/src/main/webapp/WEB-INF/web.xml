@@ -26,8 +26,25 @@
 	  
   </servlet>
   
-  <servlet-mapping>
-  	<servlet-name>ServletInitParam</servlet-name>
-  	<url-pattern>/InitMyParam</url-pattern>
-  </servlet-mapping>
+	  <servlet-mapping>
+	  	<servlet-name>ServletInitParam</servlet-name>
+	  	<url-pattern>/InitMyParam</url-pattern>
+	  </servlet-mapping>
+  
+	<context-param>
+		<param-name>id</param-name>
+		<param-value>hero430</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>pw</param-name>
+		<param-value>1234</param-value>
+	</context-param>
+	
+<!-- 	ctrl + shift + c : 주석 -->
+<!-- 	웹 어플리케이션 감시자 등록 -->
+	<listener>
+		<listener-class>com.javalec.ex.ContextListenerEx</listener-class>
+	</listener>
+  
 </web-app>

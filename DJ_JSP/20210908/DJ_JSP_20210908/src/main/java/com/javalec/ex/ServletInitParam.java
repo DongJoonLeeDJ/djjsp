@@ -32,6 +32,11 @@ public class ServletInitParam extends HttpServlet {
 		String path = getInitParameter("path");
 		response.getWriter().println(name);
 		response.getWriter().println(path);
+		
+		String id = getServletContext().getInitParameter("id");
+		String pw = getServletContext().getInitParameter("pw");
+		response.getWriter().println("    i   d     :        " + id);
+		response.getWriter().println("   p    w : " + pw);
 	}
 
 	/**

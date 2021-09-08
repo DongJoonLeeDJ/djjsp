@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 		initParams= 
 				{
 						@WebInitParam(name="name", value="aaaa"),
-						@WebInitParam(name="path", value="D:\\DJ\\AI_2차반\\JSP\\20210908")
+						@WebInitParam(name="path", value="sdfiuasdflkjla")
 				}
 		)
 public class InitParamInServlet extends HttpServlet {
@@ -41,8 +41,19 @@ public class InitParamInServlet extends HttpServlet {
 		
 		response.setContentType("text/html; charset=utf-8");
 		
+		response.getWriter().println("<body>");
 		response.getWriter().println(name);
+		response.getWriter().println("<br>");
 		response.getWriter().println(path);
+		response.getWriter().println(getInitParameter("path"));
+		
+		String id = getServletContext().getInitParameter("id");
+		String pw = getServletContext().getInitParameter("pw");
+		response.getWriter().println("id :" + id);
+		response.getWriter().println("pw : " + pw);
+		response.getWriter().println("</body>");
+		
+		
 	}
 
 	/**
