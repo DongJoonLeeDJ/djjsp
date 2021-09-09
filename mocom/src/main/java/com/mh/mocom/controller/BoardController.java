@@ -26,8 +26,31 @@ public class BoardController {
 				list.add(new BoardDto());
 		}
 		model.addAttribute("list", list);
-		model.addAttribute("title", "Qna");
 		return "board/main";
+	}
+	
+	@RequestMapping(value="qna")
+	public String qna(Model model) {
+		List<BoardDto> list = dao.selectlist();
+		// 최신글이 5개가 아니면 5개로 강제로 만들기...
+		if( list.size() < 6 ) {
+			while( list.size() !=5 )
+				list.add(new BoardDto());
+		}
+		model.addAttribute("list", list);
+		return "board/qna";
+	}
+	
+	@RequestMapping(value="gallery")
+	public String gallery(Model model) {
+		List<BoardDto> list = dao.selectlist();
+		// 최신글이 5개가 아니면 5개로 강제로 만들기...
+		if( list.size() < 6 ) {
+			while( list.size() !=5 )
+				list.add(new BoardDto());
+		}
+		model.addAttribute("list", list);
+		return "board/gallery";
 	}
 	
 }

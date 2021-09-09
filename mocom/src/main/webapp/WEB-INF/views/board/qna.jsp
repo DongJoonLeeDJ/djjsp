@@ -37,32 +37,7 @@
 											<h1>안녕하세요, 질문하는 게시판입니다.</h1>
 											<p>HTML5와 CSS3으로 제작하였습니다.</p>
 										</header>
-										<p>
-										"오랫동안 꿈을 그리는 사람은, 마침내 그 꿈을 닮아간다" 라고 한 프랑스의 소설가이자 정치가인 앙드레 말로의 명언이 있습니다.
-										 힘든 상황 속에서 한 번 실패하였다거나 다른 사람보다 인생의 전진 속도가 느려도 조용히 자기의 일을 최선을 다하며 자신만의 
-										 길을 가다 보면 결국 성공 할 수 있다고 생각합니다. 또한 시기가
-										늦었다고 생각하기보다는 묵묵히 자신의 자리에서 성심을 다하고 준비를 한 자에게는 항상 기회가 주어진다고 믿고 있습니다.
-										저 또한 시스템즈에 입사하기 위해 오래 전부터 준비하였고 꿈을 이루기 위해 노려하였습니다. 
-										시스템즈에 입사해서 저의 큰 꿈을 펼치고 싶습니다.
-										</p>
-										<ul class="actions">
-											<li><a href="#" class="button big">Learn More</a></li>
-										</ul>
-									</div>
-									<span class="image object">
-										<img src="/mocom/resources/images/pic10.jpg" alt="" />
-									</span>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>최신글</h2>
-									</header>
-									<div class="features">
-										<article>
-											<div><a href="/mocom/board/qna">더보기</a></div>
-											<table class="table-wrapper">
+										<table class="table-wrapper">
 												<thead>
 													<tr><th>글번호</th><th>제목</th><th>작성날짜</th><th>작성자</th></tr>
 												</thead>
@@ -77,95 +52,6 @@
 													</c:forEach>
 												</tbody>
 											</table>
-										</article>
-										<article>
-											<div><a href="/mocom/board/gallery">더보기</a></div>
-											<table class="table-wrapper">
-												<thead>
-													<tr><th>글번호</th><th>제목</th><th>작성날짜</th><th>작성자</th></tr>
-												</thead>
-												<tbody>
-													<c:forEach items="${list}" var="dto">
-														<tr>
-															<td><c:if test="${dto.idx ne '0'}">${dto.idx}</c:if></td>
-															<td>${dto.title}</td>
-															<td>${dto.wdate}</td>
-															<td>${dto.name}</td>
-														</tr>
-													</c:forEach>
-												</tbody>
-											</table>
-										</article>
-									</div>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>마이 유튜브</h2>
-									</header>
-									<div class="posts">
-										<article>
-											<iframe width="100%" height="300px" 
-											src="https://www.youtube.com/embed/p1Lh7HZC_TQ" 
-											title="YouTube video player" 
-											frameborder="0" 
-											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-											</iframe>
-											<h3>DP PTSD</h3>
-											<p>
-											군대 매니아...군대 매니아...군대 매니아...군대 매니아...군대 매니아...군대 매니아...
-											군대 매니아...군대 매니아...군대 매니아...군대 매니아...군대 매니아...군대 매니아...
-											군대 매니아...군대 매니아...군대 매니아...군대 매니아...군대 매니아...군대 매니아...
-											</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<iframe width="100%" height="300px" src="https://www.youtube.com/embed/JlX19CIw6EY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-											<h3>덱헤슘 키보드 테스트</h3>
-											<p>
-											덱헤슘 키보드 테스트덱헤슘 키보드 테스트덱헤슘 키보드 테스트덱헤슘 키보드 테스트
-											덱헤슘 키보드 테스트덱헤슘 키보드 테스트덱헤슘 키보드 테스트덱헤슘 키보드 테스트
-											덱헤슘 키보드 테스트덱헤슘 키보드 테스트덱헤슘 키보드 테스트덱헤슘 키보드 테스트
-											</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="/mocom/resources/images/pic03.jpg" alt="" /></a>
-											<h3>Tempus ullamcorper</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="/mocom/resources/images/pic04.jpg" alt="" /></a>
-											<h3>Sed etiam facilis</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="/mocom/resources/images/pic05.jpg" alt="" /></a>
-											<h3>Feugiat lorem aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="/mocom/resources/images/pic06.jpg" alt="" /></a>
-											<h3>Amet varius aliquam</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
 									</div>
 								</section>
 
