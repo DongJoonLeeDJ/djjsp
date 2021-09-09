@@ -6,7 +6,6 @@
 	<select id="selectlist" 
 			resultType="com.mh.mocom.dto.BoardDto">
 		select * from board
-		limit 0
 	</select>
 	<insert id="insert" parameterType="com.mh.mocom.dto.BoardDto">
 		INSERT INTO board 

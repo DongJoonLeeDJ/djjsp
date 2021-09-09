@@ -6,6 +6,7 @@
 		<title>QnA</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/mocom/resources/assets/css/fontawesome-all.min.css" />
 		<link rel="stylesheet" href="/mocom/resources/assets/css/main.css" />
 	</head>
 	<body class="is-preload">
@@ -56,36 +57,44 @@
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Erat lacinia</h2>
+										<h2>최신글</h2>
 									</header>
 									<div class="features">
 										<article>
-											<span class="icon fa-gem"></span>
-											<div class="content">
-												<h3>Portitor ullamcorper</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
+											<div><a href="/mocom/main/qnaboard">더보기</a></div>
+											<table class="table-wrapper">
+												<thead>
+													<tr><th>글번호</th><th>제목</th><th>작성날짜</th><th>작성자</th></tr>
+												</thead>
+												<tbody>
+													<c:forEach items="${list}" var="dto">
+														<tr>
+															<td><c:if test="${dto.idx ne '0'}">${dto.idx}</c:if></td>
+															<td>${dto.title}</td>
+															<td>${dto.wdate}</td>
+															<td>${dto.name}</td>
+														</tr>
+													</c:forEach>
+												</tbody>
+											</table>
 										</article>
 										<article>
-											<span class="icon solid fa-paper-plane"></span>
-											<div class="content">
-												<h3>Sapien veroeros</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-rocket"></span>
-											<div class="content">
-												<h3>Quam lorem ipsum</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-signal"></span>
-											<div class="content">
-												<h3>Sed magna finibus</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
+											<div><a href="/mocom/main/gaboard">더보기</a></div>
+											<table class="table-wrapper">
+												<thead>
+													<tr><th>글번호</th><th>제목</th><th>작성날짜</th><th>작성자</th></tr>
+												</thead>
+												<tbody>
+													<c:forEach items="${list}" var="dto">
+														<tr>
+															<td><c:if test="${dto.idx ne '0'}">${dto.idx}</c:if></td>
+															<td>${dto.title}</td>
+															<td>${dto.wdate}</td>
+															<td>${dto.name}</td>
+														</tr>
+													</c:forEach>
+												</tbody>
+											</table>
 										</article>
 									</div>
 								</section>
@@ -93,21 +102,34 @@
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Ipsum sed dolor</h2>
+										<h2>마이 유튜브</h2>
 									</header>
 									<div class="posts">
 										<article>
-											<a href="#" class="image"><img src="/mocom/resources/images/pic01.jpg" alt="" /></a>
-											<h3>Interdum aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<iframe width="100%" height="300px" 
+											src="https://www.youtube.com/embed/p1Lh7HZC_TQ" 
+											title="YouTube video player" 
+											frameborder="0" 
+											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+											</iframe>
+											<h3>DP PTSD</h3>
+											<p>
+											군대 매니아...군대 매니아...군대 매니아...군대 매니아...군대 매니아...군대 매니아...
+											군대 매니아...군대 매니아...군대 매니아...군대 매니아...군대 매니아...군대 매니아...
+											군대 매니아...군대 매니아...군대 매니아...군대 매니아...군대 매니아...군대 매니아...
+											</p>
 											<ul class="actions">
 												<li><a href="#" class="button">More</a></li>
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="/mocom/resources/images/pic02.jpg" alt="" /></a>
-											<h3>Nulla amet dolore</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<iframe width="100%" height="300px" src="https://www.youtube.com/embed/JlX19CIw6EY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											<h3>덱헤슘 키보드 테스트</h3>
+											<p>
+											덱헤슘 키보드 테스트덱헤슘 키보드 테스트덱헤슘 키보드 테스트덱헤슘 키보드 테스트
+											덱헤슘 키보드 테스트덱헤슘 키보드 테스트덱헤슘 키보드 테스트덱헤슘 키보드 테스트
+											덱헤슘 키보드 테스트덱헤슘 키보드 테스트덱헤슘 키보드 테스트덱헤슘 키보드 테스트
+											</p>
 											<ul class="actions">
 												<li><a href="#" class="button">More</a></li>
 											</ul>
@@ -167,9 +189,9 @@
 										<h2>Menu</h2>
 									</header>
 									<ul>
-										<li><a href="index.html">Homepage</a></li>
-										<li><a href="generic.html">Generic</a></li>
-										<li><a href="elements.html">Elements</a></li>
+										<li><a href="/mocom/main/board">Homepage</a></li>
+										<li><a href="/mocom/main/qnaboard">Qna</a></li>
+										<li><a href="/mocom/main/gaboard">gallery</a></li>
 										<li>
 											<span class="opener">Submenu</span>
 											<ul>
