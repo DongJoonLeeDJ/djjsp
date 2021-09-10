@@ -74,7 +74,7 @@
 				<!-- hsql에 있는 마지막 연결이 끊어지면 데이터베이스 shutdown 하는 플래그 -->
 				<beans:prop key="hibernate.show_sql">true</beans:prop>
 				<!-- SQL 출력 -->
-				<beans:prop key="hibernate.hbm2ddl.auto">create</beans:prop>
+				<beans:prop key="hibernate.hbm2ddl.auto">none</beans:prop>
 				<!-- 테이블 자동 생성 -->
 			</beans:props>
 		</beans:property>

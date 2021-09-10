@@ -1,5 +1,7 @@
 package com.mh.org;
 
+import java.sql.Date;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,7 +10,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.mh.org.domain.Board;
 import com.mh.org.domain.Customer;
+import com.mh.org.repository.BoardRepository;
 import com.mh.org.repository.CustomerRepository;
 
 @Controller
@@ -16,6 +20,9 @@ public class HomeController {
 
 	@Autowired
 	private CustomerRepository customerRepository;
+	@Autowired
+	private BoardRepository boardRepository;
+	
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 
@@ -32,6 +39,11 @@ public class HomeController {
 
 	public void demo() {
 		customerRepository.save(new Customer("aaaa", "bbbb"));
+		
+		Date dateoperation = new java.sql.Date(new java.util.Date().getTime());
+		Board board = new Board(0, "aa", "bb", "cc",dateoperation);
+		
+		boardRepository.save(board);
 		// save a few customers
 //		customerRepository.save(new Customer("Jack", "Bauer"));
 //		customerRepository.save(new Customer("Chloe", "O'Brian"));

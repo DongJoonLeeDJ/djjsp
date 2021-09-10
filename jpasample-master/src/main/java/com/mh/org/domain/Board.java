@@ -19,6 +19,7 @@ public class Board {
 	private String content;
 	private Date wdate;
 	
+	// 생성자, getter setter ,tosring
 	
 	public Board(long idx, String name, String title, String content, Date wdate) {
 		super();
