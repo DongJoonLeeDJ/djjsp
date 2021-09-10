@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans
+	xmlns="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+	xsi:schemaLocation="http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd
+		http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa-1.11.xsd
+		http://www.springframework.org/schema/data/repository http://www.springframework.org/schema/data/repository/spring-repository-1.11.xsd">
+
+	<!-- DispatcherServlet Context: defines this servlet's request-processing 
+		infrastructure -->
+
+	<!-- Enables the Spring MVC @Controller programming model -->
+	<annotation-driven />
+
+	<!-- Handles HTTP GET requests for /resources/** by efficiently serving 
+		up static resources in the ${webappRoot}/resources directory -->
+	<resources mapping="/resources/**" location="/resources/" />
+
+	<!-- Resolves views selected for rendering by @Controllers to .jsp resources 
+		in the /WEB-INF/views directory -->
+	<beans:bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<beans:property name="prefix" value="/WEB-INF/views/" />
+		<beans:property name="suffix" value=".jsp" />
+	</beans:bean>
+
+<!-- 	<jdbc:embedded-database id="dataSource" type="HSQL"> -->
+<!-- 		<jdbc:script location="classpath:schema.sql" /> -->
+<!-- 	    <jdbc:script location="classpath:data.sql" /> -->
+<!-- 	</jdbc:embedded-database> -->
+	
+	<beans:bean id="connpol"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<beans:property name="driverClassName"
+		value="com.mysql.jdbc.Driver"></beans:property>
+		<beans:property name="url"
+		value="jdbc:mysql://127.0.0.1:3306/mh?useSSL=false&amp;serverTimezone=UTC">
+		</beans:property>
+<!-- 		<beans:property name="driverClassName" -->
+<!-- 			value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy" /> -->
+<!-- 		<beans:property name="url" -->
+<!-- 			value="jdbc:log4jdbc:mysql://127.0.0.1:3306/mh?allowPublicKeyRetrieval=true&amp;useSSL=false&amp;serverTimezone=UTC" /> -->
+		<beans:property name="username" value="root"></beans:property>
+		<beans:property name="password" value="1234"></beans:property>
+	</beans:bean>
+	
+	<jpa:repositories base-package="com.mh.org.repository"
+		entity-manager-factory-ref="entityManagerFactory" />
+
+	<!-- 하이버네이트의 SessionFactory 에 상응하는 jpa의 EntityManagerFactory 등록 -->
+	<beans:bean id="entityManagerFactory"
+		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+
+		<beans:property name="jpaVendorAdapter">
+			<beans:bean
+				class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" />
+		</beans:property>
+
+		<beans:property name="dataSource" ref="connpol" />
+		<beans:property name="jpaProperties">
+			<beans:props>
+				<beans:prop key="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect
+				</beans:prop>
+				<!-- Hsql 형식에 맞게 변환해주는 클래스 -->
+				<beans:prop key="hibernate.connection.pool_size">1</beans:prop>
+				<beans:prop key="hibernate.connection.shutdown">true</beans:prop>
+				<!-- hsql에 있는 마지막 연결이 끊어지면 데이터베이스 shutdown 하는 플래그 -->
+				<beans:prop key="hibernate.show_sql">true</beans:prop>
+				<!-- SQL 출력 -->
+				<beans:prop key="hibernate.hbm2ddl.auto">create</beans:prop>
+				<!-- 테이블 자동 생성 -->
+			</beans:props>
+		</beans:property>
+		<!-- 엔티티 정의된 클래스들이 있는 패키지 등록 -->
+		<beans:property name="packagesToScan" value="com.mh.org.domain" />
+	</beans:bean>
+
+	<beans:bean id="transactionManager"
+		class="org.springframework.orm.jpa.JpaTransactionManager">
+		<beans:property name="entityManagerFactory"	ref="entityManagerFactory"></beans:property>
+	</beans:bean>
+	
+	<context:component-scan
+		base-package="com.mh.org" />
+
+</beans:beans>
