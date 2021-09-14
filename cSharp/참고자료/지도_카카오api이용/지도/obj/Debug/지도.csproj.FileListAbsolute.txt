@@ -1,0 +1,10 @@
+D:\GitHub\Xenoint\지도\지도\bin\Debug\지도.exe.config
+D:\GitHub\Xenoint\지도\지도\bin\Debug\지도.exe
+D:\GitHub\Xenoint\지도\지도\bin\Debug\지도.pdb
+D:\GitHub\Xenoint\지도\지도\obj\Debug\지도.csprojAssemblyReference.cache
+D:\GitHub\Xenoint\지도\지도\obj\Debug\지도.Form1.resources
+D:\GitHub\Xenoint\지도\지도\obj\Debug\지도.Properties.Resources.resources
+D:\GitHub\Xenoint\지도\지도\obj\Debug\지도.csproj.GenerateResource.cache
+D:\GitHub\Xenoint\지도\지도\obj\Debug\지도.csproj.CoreCompileInputs.cache
+D:\GitHub\Xenoint\지도\지도\obj\Debug\지도.exe
+D:\GitHub\Xenoint\지도\지도\obj\Debug\지도.pdb
