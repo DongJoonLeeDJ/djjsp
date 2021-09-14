@@ -1,0 +1,54 @@
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\Lotto.exe.config
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\Lotto.exe
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\Lotto.pdb
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\obj\Debug\Lotto.Form1.resources
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\obj\Debug\Lotto.Properties.Resources.resources
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\obj\Debug\Lotto.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\obj\Debug\Lotto.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\obj\Debug\Lotto.exe
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\obj\Debug\Lotto.pdb
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\CxFlatUI.dll
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\MaterialSkin.dll
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\SunnyUI.Common.dll
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\SunnyUI.dll
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\obj\Debug\Lotto.csproj.CopyComplete
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\obj\Debug\Lotto.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\Newtonsoft.Json.dll
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\System.Net.Json.dll
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\Newtonsoft.Json.xml
+D:\응용 SW 개발자 과정\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\Lotto.exe.config
+D:\응용 SW 개발자 과정\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\Lotto.exe
+D:\응용 SW 개발자 과정\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\Lotto.pdb
+D:\응용 SW 개발자 과정\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\CxFlatUI.dll
+D:\응용 SW 개발자 과정\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\MaterialSkin.dll
+D:\응용 SW 개발자 과정\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\Newtonsoft.Json.dll
+D:\응용 SW 개발자 과정\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\SunnyUI.Common.dll
+D:\응용 SW 개발자 과정\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\SunnyUI.dll
+D:\응용 SW 개발자 과정\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\System.Net.Json.dll
+D:\응용 SW 개발자 과정\SW_Lesson\Portfolio\Lotto\Lotto\bin\Debug\Newtonsoft.Json.xml
+D:\응용 SW 개발자 과정\SW_Lesson\Portfolio\Lotto\Lotto\obj\Debug\Lotto.csprojAssemblyReference.cache
+D:\응용 SW 개발자 과정\SW_Lesson\Portfolio\Lotto\Lotto\obj\Debug\Lotto.Form1.resources
+D:\응용 SW 개발자 과정\SW_Lesson\Portfolio\Lotto\Lotto\obj\Debug\Lotto.Properties.Resources.resources
+D:\응용 SW 개발자 과정\SW_Lesson\Portfolio\Lotto\Lotto\obj\Debug\Lotto.csproj.GenerateResource.cache
+D:\응용 SW 개발자 과정\SW_Lesson\Portfolio\Lotto\Lotto\obj\Debug\Lotto.csproj.CoreCompileInputs.cache
+D:\응용 SW 개발자 과정\SW_Lesson\Portfolio\Lotto\Lotto\obj\Debug\Lotto.csproj.CopyComplete
+D:\응용 SW 개발자 과정\SW_Lesson\Portfolio\Lotto\Lotto\obj\Debug\Lotto.exe
+D:\응용 SW 개발자 과정\SW_Lesson\Portfolio\Lotto\Lotto\obj\Debug\Lotto.pdb
+\\192.168.0.111\_2021인공지능\씨샵\참고자료\C#_Lotto_Program_Portfolio\Lotto\Lotto\bin\Debug\Lotto.exe.config
+\\192.168.0.111\_2021인공지능\씨샵\참고자료\C#_Lotto_Program_Portfolio\Lotto\Lotto\bin\Debug\Lotto.exe
+\\192.168.0.111\_2021인공지능\씨샵\참고자료\C#_Lotto_Program_Portfolio\Lotto\Lotto\bin\Debug\Lotto.pdb
+\\192.168.0.111\_2021인공지능\씨샵\참고자료\C#_Lotto_Program_Portfolio\Lotto\Lotto\bin\Debug\CxFlatUI.dll
+\\192.168.0.111\_2021인공지능\씨샵\참고자료\C#_Lotto_Program_Portfolio\Lotto\Lotto\bin\Debug\MaterialSkin.dll
+\\192.168.0.111\_2021인공지능\씨샵\참고자료\C#_Lotto_Program_Portfolio\Lotto\Lotto\bin\Debug\Newtonsoft.Json.dll
+\\192.168.0.111\_2021인공지능\씨샵\참고자료\C#_Lotto_Program_Portfolio\Lotto\Lotto\bin\Debug\SunnyUI.Common.dll
+\\192.168.0.111\_2021인공지능\씨샵\참고자료\C#_Lotto_Program_Portfolio\Lotto\Lotto\bin\Debug\SunnyUI.dll
+\\192.168.0.111\_2021인공지능\씨샵\참고자료\C#_Lotto_Program_Portfolio\Lotto\Lotto\bin\Debug\System.Net.Json.dll
+\\192.168.0.111\_2021인공지능\씨샵\참고자료\C#_Lotto_Program_Portfolio\Lotto\Lotto\bin\Debug\Newtonsoft.Json.xml
+\\192.168.0.111\_2021인공지능\씨샵\참고자료\C#_Lotto_Program_Portfolio\Lotto\Lotto\obj\Debug\Lotto.csprojAssemblyReference.cache
+\\192.168.0.111\_2021인공지능\씨샵\참고자료\C#_Lotto_Program_Portfolio\Lotto\Lotto\obj\Debug\Lotto.Form1.resources
+\\192.168.0.111\_2021인공지능\씨샵\참고자료\C#_Lotto_Program_Portfolio\Lotto\Lotto\obj\Debug\Lotto.Properties.Resources.resources
+\\192.168.0.111\_2021인공지능\씨샵\참고자료\C#_Lotto_Program_Portfolio\Lotto\Lotto\obj\Debug\Lotto.csproj.GenerateResource.cache
+\\192.168.0.111\_2021인공지능\씨샵\참고자료\C#_Lotto_Program_Portfolio\Lotto\Lotto\obj\Debug\Lotto.csproj.CoreCompileInputs.cache
+\\192.168.0.111\_2021인공지능\씨샵\참고자료\C#_Lotto_Program_Portfolio\Lotto\Lotto\obj\Debug\Lotto.csproj.CopyComplete
+\\192.168.0.111\_2021인공지능\씨샵\참고자료\C#_Lotto_Program_Portfolio\Lotto\Lotto\obj\Debug\Lotto.exe
+\\192.168.0.111\_2021인공지능\씨샵\참고자료\C#_Lotto_Program_Portfolio\Lotto\Lotto\obj\Debug\Lotto.pdb

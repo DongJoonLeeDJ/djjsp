@@ -1,0 +1,17 @@
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Release\Lotto.exe.config
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Release\Lotto.exe
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Release\Lotto.pdb
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Release\CxFlatUI.dll
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Release\MaterialSkin.dll
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Release\Newtonsoft.Json.dll
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Release\SunnyUI.Common.dll
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Release\SunnyUI.dll
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Release\System.Net.Json.dll
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\bin\Release\Newtonsoft.Json.xml
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\obj\Release\Lotto.Form1.resources
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\obj\Release\Lotto.Properties.Resources.resources
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\obj\Release\Lotto.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\obj\Release\Lotto.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\obj\Release\Lotto.csproj.CopyComplete
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\obj\Release\Lotto.exe
+C:\Users\KB\Desktop\SW_Lesson\Portfolio\Lotto\Lotto\obj\Release\Lotto.pdb

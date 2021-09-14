@@ -1,0 +1,99 @@
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\bin\Debug\teamProject.exe.config
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\bin\Debug\teamProject.exe
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\bin\Debug\teamProject.pdb
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.DrugCompInfo_Form.resources
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.DrugOrderForm.resources
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.MainForm.resources
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.MainDrugs.resources
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.Properties.Resources.resources
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.csproj.GenerateResource.cache
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.csproj.CoreCompileInputs.cache
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.exe
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.pdb
+D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.UI.Form1.resources
+C:\Users\KB\Desktop\gkskj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\bin\Debug\teamProject.exe.config
+C:\Users\KB\Desktop\gkskj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\bin\Debug\teamProject.exe
+C:\Users\KB\Desktop\gkskj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\bin\Debug\teamProject.pdb
+C:\Users\KB\Desktop\gkskj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\gkskj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.DrugCompInfo_Form.resources
+C:\Users\KB\Desktop\gkskj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.DrugOrderForm.resources
+C:\Users\KB\Desktop\gkskj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.UI.EmailForm.resources
+C:\Users\KB\Desktop\gkskj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.UI.Form1.resources
+C:\Users\KB\Desktop\gkskj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.MainForm.resources
+C:\Users\KB\Desktop\gkskj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.MainDrugs.resources
+C:\Users\KB\Desktop\gkskj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.Properties.Resources.resources
+C:\Users\KB\Desktop\gkskj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\gkskj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\gkskj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.exe
+C:\Users\KB\Desktop\gkskj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\obj\Debug\teamProject.pdb
+D:\응용 SW 개발자 과정\TeamProject\teamProject\210421_teamProject_합본\teamProject\teamProject\bin\Debug\teamProject.exe.config
+D:\응용 SW 개발자 과정\TeamProject\teamProject\210421_teamProject_합본\teamProject\teamProject\bin\Debug\teamProject.exe
+D:\응용 SW 개발자 과정\TeamProject\teamProject\210421_teamProject_합본\teamProject\teamProject\bin\Debug\teamProject.pdb
+D:\응용 SW 개발자 과정\TeamProject\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.csprojAssemblyReference.cache
+D:\응용 SW 개발자 과정\TeamProject\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.DrugCompInfo_Form.resources
+D:\응용 SW 개발자 과정\TeamProject\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.DrugOrderForm.resources
+D:\응용 SW 개발자 과정\TeamProject\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.UI.EmailForm.resources
+D:\응용 SW 개발자 과정\TeamProject\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.UI.Form1.resources
+D:\응용 SW 개발자 과정\TeamProject\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.MainForm.resources
+D:\응용 SW 개발자 과정\TeamProject\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.MainDrugs.resources
+D:\응용 SW 개발자 과정\TeamProject\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.Properties.Resources.resources
+D:\응용 SW 개발자 과정\TeamProject\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.csproj.GenerateResource.cache
+D:\응용 SW 개발자 과정\TeamProject\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.csproj.CoreCompileInputs.cache
+D:\응용 SW 개발자 과정\TeamProject\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.exe
+D:\응용 SW 개발자 과정\TeamProject\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.pdb
+D:\9 임시\Git\teamPrj\teamProject\210421_teamProject_합본\teamProject\teamProject\bin\Debug\teamProject.exe.config
+D:\9 임시\Git\teamPrj\teamProject\210421_teamProject_합본\teamProject\teamProject\bin\Debug\teamProject.exe
+D:\9 임시\Git\teamPrj\teamProject\210421_teamProject_합본\teamProject\teamProject\bin\Debug\teamProject.pdb
+D:\9 임시\Git\teamPrj\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.DrugCompInfo_Form.resources
+D:\9 임시\Git\teamPrj\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.DrugOrderForm.resources
+D:\9 임시\Git\teamPrj\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.UI.EmailForm.resources
+D:\9 임시\Git\teamPrj\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.MainForm.resources
+D:\9 임시\Git\teamPrj\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.MainDrugs.resources
+D:\9 임시\Git\teamPrj\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.Properties.Resources.resources
+D:\9 임시\Git\teamPrj\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.csproj.GenerateResource.cache
+D:\9 임시\Git\teamPrj\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\teamPrj\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.exe
+D:\9 임시\Git\teamPrj\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.pdb
+D:\9 임시\Git\teamPrj\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.csprojAssemblyReference.cache
+D:\dimim\teamProject\210421_teamProject_합본\teamProject\teamProject\bin\Debug\teamProject.exe.config
+D:\dimim\teamProject\210421_teamProject_합본\teamProject\teamProject\bin\Debug\teamProject.exe
+D:\dimim\teamProject\210421_teamProject_합본\teamProject\teamProject\bin\Debug\teamProject.pdb
+D:\dimim\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.csprojAssemblyReference.cache
+D:\dimim\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.DrugCompInfo_Form.resources
+D:\dimim\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.DrugOrderForm.resources
+D:\dimim\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.UI.EmailForm.resources
+D:\dimim\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.MainForm.resources
+D:\dimim\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.MainDrugs.resources
+D:\dimim\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.Properties.Resources.resources
+D:\dimim\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.csproj.GenerateResource.cache
+D:\dimim\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.csproj.CoreCompileInputs.cache
+D:\dimim\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.exe
+D:\dimim\teamProject\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.pdb
+D:\_2021인공지능\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\bin\Debug\teamProject.exe.config
+D:\_2021인공지능\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\bin\Debug\teamProject.exe
+D:\_2021인공지능\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\bin\Debug\teamProject.pdb
+D:\_2021인공지능\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.csprojAssemblyReference.cache
+D:\_2021인공지능\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.DrugCompInfo_Form.resources
+D:\_2021인공지능\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.DrugOrderForm.resources
+D:\_2021인공지능\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.UI.EmailForm.resources
+D:\_2021인공지능\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.MainForm.resources
+D:\_2021인공지능\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.MainDrugs.resources
+D:\_2021인공지능\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.Properties.Resources.resources
+D:\_2021인공지능\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.csproj.GenerateResource.cache
+D:\_2021인공지능\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.csproj.CoreCompileInputs.cache
+D:\_2021인공지능\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.exe
+D:\_2021인공지능\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.pdb
+Z:\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\bin\Debug\teamProject.exe.config
+Z:\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\bin\Debug\teamProject.exe
+Z:\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\bin\Debug\teamProject.pdb
+Z:\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.csprojAssemblyReference.cache
+Z:\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.DrugCompInfo_Form.resources
+Z:\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.DrugOrderForm.resources
+Z:\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.UI.EmailForm.resources
+Z:\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.MainForm.resources
+Z:\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.MainDrugs.resources
+Z:\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.Properties.Resources.resources
+Z:\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.csproj.GenerateResource.cache
+Z:\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.csproj.CoreCompileInputs.cache
+Z:\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.exe
+Z:\씨샵\참고자료\약국api\teamProject_주석추가\210421_teamProject_합본\teamProject\teamProject\obj\Debug\teamProject.pdb

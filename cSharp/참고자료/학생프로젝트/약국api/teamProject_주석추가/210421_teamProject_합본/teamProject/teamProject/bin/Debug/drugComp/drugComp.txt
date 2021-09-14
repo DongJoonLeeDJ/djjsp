@@ -1,0 +1,8 @@
+'D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\bin\Debug\drugCompInfo.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: teamProject.DataManager_comp.Load() 파일 D:\임시\Git\teamPrj\teamProject\210421_teamProject_주문기능 추가 예시\teamProject\teamProject\DataManager_comp.cs:줄 27

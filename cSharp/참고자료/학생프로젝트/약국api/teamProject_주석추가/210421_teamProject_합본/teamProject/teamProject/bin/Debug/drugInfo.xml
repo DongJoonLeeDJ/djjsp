@@ -1,0 +1,22 @@
+<drugs>
+<drug>
+   <medName>한독세로자트정20밀리그램(파록세틴염산염수화물)</medName>   <medComp>(주)한독</medComp>   <medId>199301007</medId>   <chart>양쪽이 불룩한 백색의 장방형 필름 정제</chart>   <formName>필름코팅정</formName>   <className>정신신경용제</className>   <mainIngr>[M222896]파록세틴염산염수화물</mainIngr>   <stock>642</stock></drug>
+<drug>
+   <medName>한독세로자트정10밀리그램(파록세틴염산염수화물)</medName>   <medComp>(주)한독</medComp>   <medId>199900921</medId>   <chart>양쪽이 불룩한 노란색의 장방형 필름정제  </chart>   <formName>필름코팅정</formName>   <className>정신신경용제</className>   <mainIngr>[M222896]파록세틴염산염수화물</mainIngr>   <stock>747</stock></drug>
+<drug>
+   <medName>파록센정(파록세틴염산염반수화물)</medName>   <medComp>에이프로젠제약(주)</medComp>   <medId>200308836</medId>   <chart>흰색의 장방형 필름정제 </chart>   <formName>필름코팅정</formName>   <className>정신신경용제</className>   <mainIngr>[M234807]파록세틴염산염반수화물</mainIngr>   <stock>736</stock></drug>
+<drug>
+   <medName>파록스정20mg(파록세틴염산염수화물)</medName>   <medComp>명인제약(주)</medComp>   <medId>200401247</medId>   <chart>백색 장방형 필름코팅정</chart>   <formName>필름코팅정</formName>   <className>정신신경용제</className>   <mainIngr>[M222896]파록세틴염산염수화물</mainIngr>   <stock>513</stock></drug>
+<drug>
+   <medName>팍세틸정(파록세틴염산염반수화물)</medName>   <medComp>현대약품(주)</medComp>   <medId>200403201</medId>   <chart>백색의 장방형 필름정제</chart>   <formName>필름코팅정</formName>   <className>정신신경용제</className>   <mainIngr>[M234807]파록세틴염산염반수화물</mainIngr>   <stock>760</stock></drug>
+<drug>
+   <medName>팍실CR정12.5밀리그램(파록세틴염산염수화물)</medName>   <medComp>(주)글락소스미스클라인</medComp>   <medId>200409980</medId>   <chart>노란색의 양면이 볼록한 원형 필름 코팅 정제</chart>   <formName>서방성장용필름코팅정</formName>   <className>정신신경용제</className>   <mainIngr>[M222896]파록세틴염산염수화물</mainIngr>   <stock>881</stock></drug>
+<drug>
+   <medName>파로세닌정20밀리그램(파록세틴염산염수화물)</medName>   <medComp>(주)종근당</medComp>   <medId>200512186</medId>   <chart>백색의 장방형 필름코팅정제</chart>   <formName>필름코팅정</formName>   <className>정신신경용제</className>   <mainIngr>[M222896]파록세틴염산염수화물</mainIngr>   <stock>555</stock></drug>
+<drug>
+   <medName>산도스파록세틴정(무수염산파록세틴)</medName>   <medComp>한국산도스(주)</medComp>   <medId>200603984</medId>   <chart>흰색의 절단선이 있고 PX20이 새겨진 원형정제</chart>   <formName>나정</formName>   <className>정신신경용제</className>   <mainIngr>[M102324]무수염산파록세틴</mainIngr>   <stock>113</stock></drug>
+<drug>
+   <medName>파로세닌정10밀리그램(파록세틴염산염수화물)</medName>   <medComp>(주)종근당</medComp>   <medId>200605344</medId>   <chart>노란색의 장방형 필름코팅정제</chart>   <formName>필름코팅정</formName>   <className>정신신경용제</className>   <mainIngr>[M222896]파록세틴염산염수화물</mainIngr>   <stock>49</stock></drug>
+<drug>
+   <medName>대웅파록세틴서방정12.5밀리그램(파록세틴염산염)(수출용)</medName>   <medComp>(주)대웅제약</medComp>   <medId>200605367</medId>   <chart>노란색의 원형 필름코팅정</chart>   <formName>서방성필름코팅정</formName>   <className>정신신경용제</className>   <mainIngr>[M222896]파록세틴염산염수화물</mainIngr>   <stock>627</stock></drug>
+</drugs>
