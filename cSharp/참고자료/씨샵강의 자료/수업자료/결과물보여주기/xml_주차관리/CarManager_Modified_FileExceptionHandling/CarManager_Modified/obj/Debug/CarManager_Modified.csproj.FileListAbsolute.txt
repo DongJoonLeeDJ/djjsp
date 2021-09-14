@@ -1,0 +1,10 @@
+D:\Git_DJ\newnewnew\20201126_all\씨샵이동준에디션\CSharp\결과물보여주기\xml_주차관리\CarManager_Modified_FileExceptionHandling\CarManager_Modified\bin\Debug\CarManager_Modified.exe.config
+D:\Git_DJ\newnewnew\20201126_all\씨샵이동준에디션\CSharp\결과물보여주기\xml_주차관리\CarManager_Modified_FileExceptionHandling\CarManager_Modified\bin\Debug\CarManager_Modified.exe
+D:\Git_DJ\newnewnew\20201126_all\씨샵이동준에디션\CSharp\결과물보여주기\xml_주차관리\CarManager_Modified_FileExceptionHandling\CarManager_Modified\bin\Debug\CarManager_Modified.pdb
+D:\Git_DJ\newnewnew\20201126_all\씨샵이동준에디션\CSharp\결과물보여주기\xml_주차관리\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.csprojAssemblyReference.cache
+D:\Git_DJ\newnewnew\20201126_all\씨샵이동준에디션\CSharp\결과물보여주기\xml_주차관리\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.Form1.resources
+D:\Git_DJ\newnewnew\20201126_all\씨샵이동준에디션\CSharp\결과물보여주기\xml_주차관리\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.Properties.Resources.resources
+D:\Git_DJ\newnewnew\20201126_all\씨샵이동준에디션\CSharp\결과물보여주기\xml_주차관리\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.csproj.GenerateResource.cache
+D:\Git_DJ\newnewnew\20201126_all\씨샵이동준에디션\CSharp\결과물보여주기\xml_주차관리\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.csproj.CoreCompileInputs.cache
+D:\Git_DJ\newnewnew\20201126_all\씨샵이동준에디션\CSharp\결과물보여주기\xml_주차관리\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.exe
+D:\Git_DJ\newnewnew\20201126_all\씨샵이동준에디션\CSharp\결과물보여주기\xml_주차관리\CarManager_Modified_FileExceptionHandling\CarManager_Modified\obj\Debug\CarManager_Modified.pdb

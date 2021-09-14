@@ -1,0 +1,12 @@
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\도서관리 및 주차관리\도서관리\도서관리\xml\BookManager\bin\Debug\BookManager.exe.config
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\도서관리 및 주차관리\도서관리\도서관리\xml\BookManager\bin\Debug\BookManager.exe
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\도서관리 및 주차관리\도서관리\도서관리\xml\BookManager\bin\Debug\BookManager.pdb
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\도서관리 및 주차관리\도서관리\도서관리\xml\BookManager\obj\Debug\BookManager.csprojAssemblyReference.cache
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\도서관리 및 주차관리\도서관리\도서관리\xml\BookManager\obj\Debug\BookManager.Form1.resources
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\도서관리 및 주차관리\도서관리\도서관리\xml\BookManager\obj\Debug\BookManager.Form2.resources
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\도서관리 및 주차관리\도서관리\도서관리\xml\BookManager\obj\Debug\BookManager.Form3.resources
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\도서관리 및 주차관리\도서관리\도서관리\xml\BookManager\obj\Debug\BookManager.Properties.Resources.resources
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\도서관리 및 주차관리\도서관리\도서관리\xml\BookManager\obj\Debug\BookManager.csproj.GenerateResource.cache
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\도서관리 및 주차관리\도서관리\도서관리\xml\BookManager\obj\Debug\BookManager.csproj.CoreCompileInputs.cache
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\도서관리 및 주차관리\도서관리\도서관리\xml\BookManager\obj\Debug\BookManager.exe
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\도서관리 및 주차관리\도서관리\도서관리\xml\BookManager\obj\Debug\BookManager.pdb

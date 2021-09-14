@@ -1,0 +1,167 @@
+[2021-05-28 10:51:14.089]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-28 10:51:14.593]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-28 10:51:14.781]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-28 10:51:14.927]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-28 10:51:15.072]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-28 10:51:15.192]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-28 10:51:15.340]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-28 10:51:16.526]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-28 10:51:17.096]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-28 10:51:17.226]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-28 10:51:17.385]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-28 10:51:18.696]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-28 10:51:18.843]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-28 10:51:18.956]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-28 10:51:42.389]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-28 10:52:44.667]   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 24
+[2021-05-28 10:56:56.114]   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: StudentManager.DataManager.Load_Students() 파일 D:\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 24
+[2021-05-28 10:57:05.712]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 D:\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-28 10:58:14.219]   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: StudentManager.DataManager.Load_Students() 파일 D:\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 24
+[2021-05-28 10:58:15.892]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 D:\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-28 10:58:17.810]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 D:\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-28 10:58:27.178]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 D:\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-28 10:59:06.063]   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: StudentManager.DataManager.Load_Students() 파일 D:\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 24
+[2021-05-28 10:59:13.393]   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: StudentManager.DataManager.Load_Majors() 파일 D:\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 149
+[2021-05-28 11:00:22.700]   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: StudentManager.DataManager.Load_Students() 파일 D:\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 24
+[2021-05-28 11:00:41.302]   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: StudentManager.DataManager.Load_Majors() 파일 D:\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 149
+[2021-05-28 11:07:57.513]   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: StudentManager.DataManager.Load_Students() 파일 D:\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 24
+[2021-05-28 11:07:58.001]   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: StudentManager.DataManager.Load_Majors() 파일 D:\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 153
+[2021-05-28 11:08:36.736]2009038033 학생 추가 완료
+[2021-05-28 11:08:40.363]ㅇ 학생 정보 제거 완료
+[2021-05-28 11:32:10.155]   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: StudentManager.DataManager.Load_Students() 파일 D:\Study_DJ\20201126_all\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 24
+[2021-05-28 11:32:10.577]   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: StudentManager.DataManager.Load_Majors() 파일 D:\Study_DJ\20201126_all\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 153
+[2021-05-28 11:32:15.645]11 학생 추가 완료
+[2021-05-28 11:35:50.570]   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: StudentManager.DataManager.Load_Students() 파일 D:\Study_DJ\20201126_all\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 24
+[2021-05-28 11:35:51.099]   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: StudentManager.DataManager.Load_Majors() 파일 D:\Study_DJ\20201126_all\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 153
+[2021-05-28 11:36:03.845]11 학생 추가 완료
+[2021-05-28 11:36:12.796]1 학생 추가 완료
+[2021-05-28 11:54:16.531]   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: StudentManager.DataManager.Load_Students() 파일 D:\Study_DJ\20201126_all\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 24
+[2021-05-28 11:54:16.922]   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: StudentManager.DataManager.Load_Majors() 파일 D:\Study_DJ\20201126_all\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 92

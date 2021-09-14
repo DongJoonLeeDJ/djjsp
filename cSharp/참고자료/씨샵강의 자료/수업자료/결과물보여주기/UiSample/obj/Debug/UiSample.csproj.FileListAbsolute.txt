@@ -1,0 +1,10 @@
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\UiSample\bin\Debug\UiSample.exe.config
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\UiSample\bin\Debug\UiSample.exe
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\UiSample\bin\Debug\UiSample.pdb
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\UiSample\obj\Debug\UiSample.csprojAssemblyReference.cache
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\UiSample\obj\Debug\UiSample.Form1.resources
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\UiSample\obj\Debug\UiSample.Properties.Resources.resources
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\UiSample\obj\Debug\UiSample.csproj.GenerateResource.cache
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\UiSample\obj\Debug\UiSample.csproj.CoreCompileInputs.cache
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\UiSample\obj\Debug\UiSample.exe
+D:\공유폴더(훈련생)\CSharp\결과물보여주기\UiSample\obj\Debug\UiSample.pdb

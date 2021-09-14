@@ -1,0 +1,23 @@
+<students>
+  <student>
+    <name>이동준</name>
+    <id>2009038033</id>
+    <score>3.0</score>
+    <grade>4</grade>
+    <regDate>2020-08-10 오후 12:23:22</regDate>
+  </student>
+  <student>
+    <name>이제영</name>
+    <id>2007123077</id>
+    <score>4.0</score>
+    <grade>3</grade>
+    <regDate>2007-08-10 오전 09:23:22</regDate>
+  </student>
+  <student>
+    <name>윤인성</name>
+    <id>2010038111</id>
+    <score>4.5</score>
+    <grade>2</grade>
+    <regDate></regDate>  <!-- 2010-08-10 오후 05:23:22 -->
+  </student>
+</students>

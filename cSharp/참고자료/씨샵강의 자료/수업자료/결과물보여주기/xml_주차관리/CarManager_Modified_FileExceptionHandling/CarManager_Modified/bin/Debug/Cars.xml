@@ -1,0 +1,37 @@
+<cars>
+<car>
+  <parkingSpot>1</parkingSpot>
+  <carNumber></carNumber>
+  <driverName></driverName>
+  <phoneNumber></phoneNumber>
+  <parkingTime></parkingTime>
+</car>
+<car>
+  <parkingSpot>2</parkingSpot>
+  <carNumber></carNumber>
+  <driverName></driverName>
+  <phoneNumber></phoneNumber>
+  <parkingTime></parkingTime>
+</car>
+<car>
+  <parkingSpot>3</parkingSpot>
+  <carNumber></carNumber>
+  <driverName></driverName>
+  <phoneNumber></phoneNumber>
+  <parkingTime></parkingTime>
+</car>
+<car>
+  <parkingSpot>4</parkingSpot>
+  <carNumber></carNumber>
+  <driverName></driverName>
+  <phoneNumber></phoneNumber>
+  <parkingTime></parkingTime>
+</car>
+<car>
+  <parkingSpot>5</parkingSpot>
+  <carNumber></carNumber>
+  <driverName></driverName>
+  <phoneNumber></phoneNumber>
+  <parkingTime></parkingTime>
+</car>
+</cars>

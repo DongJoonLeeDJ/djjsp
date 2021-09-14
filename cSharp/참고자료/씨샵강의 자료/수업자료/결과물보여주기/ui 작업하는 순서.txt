@@ -1,0 +1,51 @@
+레이아웃 -> StartPosition 의 Ce4nterScreen으로 바꾸기  (화면의 정중앙)
+레이아웃 -> AutoScaleMode - > None(자동으로 화면 조정 안 되게 하기)
+모양 -> Font는 Center Gothic 보통 12
+모양 -> FormBorderStyle -> None
+모양 -> BackColor ->(사용자지정)White
+도구상자->PictureBox
+레이아웃->Dock->오른쪽부분선택
+PictureBox의 위쪽 작은 화살표 선택 후 '이미지선택...' 클릭
+크기 모드는 Zoom으로 하기(동작->SizeMode)
+이미지 크기와 전체 창 크기를 적절하게 조절하기
+label 2개, textbox, button 추가
+
+"Login First" = 22, Bold(center Gothic)
+"User Name:"
+"Password :" 오른쪽 맞춤
+
+"Button:"
+모양->FlatStyle->Flat
+모양->FlatAppearance(+누르고)->BorderSize -> 0
+모양->BackColor->Crimson(웹)
+모양->ForeColor->White(사용자지정)
+모양->Font->굵게
+모양->Text->"Login"
+라벨 하나 복붙해서 왼쪽 아래에 두고 Don't Have an Account? 쓰기
+그리고 이걸 다시 복사하고 SignUp이라고 쓰기 그리고 폰트는 굵게하기(모양->Font->굵게)
+SignUP이랑 Don't Have an Account 정렬 좀 하기
+SignUp 클릭하고 모양->Cursor->Hand로 바꾸기. 그러면 마우스대면 손모양으로 바뀜
+
+
+버튼추가해주기
+모양->FlatStyle->Flat
+글자 지우고
+모양->FlatAppearance(+누르고)->BorderSize -> 0
+
+이미지들 넣는 방법 2가지
+1.
+사이즈 줄이고
+모양->Image->로컬리소스->가져오기
+=> 근데 이렇게 하게 되면 이미지 사이즈가 통일이 안 됨.
+디자이너랑 잘 협업하면 되지만 그게 안 되거나 그게 귀찮은 경우 2번째 방법쓰기
+
+2. 
+ImageList 만들고
+그 안에 이미지들을 추가하기
+그리고 내가 추가한 ImageList를 지정하기
+크기는 이 ImageList에서 하면 됨
+
+버튼 4개 아래쪽으로 정렬해주고 (정렬해주는 버튼들이 있다는 것 알려주기)
+우측 상단에 시스템 종료 버튼 누르고 더블클릭해서 Dispose() 라고 추가하기
+
+password 부분은 UserSystemPaswordchar True로 두기(동작에 있음)

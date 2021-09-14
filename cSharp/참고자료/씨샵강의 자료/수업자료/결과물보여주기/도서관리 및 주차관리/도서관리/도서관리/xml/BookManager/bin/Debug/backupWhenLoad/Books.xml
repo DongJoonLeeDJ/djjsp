@@ -1,0 +1,12 @@
+<books>
+<book>
+ <isbn>12837192847</isbn>
+ <name>씨샵책이다</name>
+ <publisher>경북</publisher>
+ <page>111</page>
+ <borrowedAt>2020-12-15 오전 11:47:45</borrowedAt>
+ <isBorrowed>1</isBorrowed>
+ <userId>2</userId>
+ <userName>이동준</userName>
+</book>
+</books>

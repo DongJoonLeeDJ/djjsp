@@ -1,0 +1,41 @@
+{
+  "cars": {
+    "car": [
+      {
+        "parkingSpot": 1,
+        "carNumber": "123",
+        "driverName": "123",
+        "phoneNumber": "123",
+        "parkingTime": "2021-03-31T17:32:29.6262029+09:00"
+      },
+      {
+        "parkingSpot": 2,
+        "carNumber": "",
+        "driverName": "",
+        "phoneNumber": "",
+        "parkingTime": "0001-01-01T00:00:00"
+      },
+      {
+        "parkingSpot": 3,
+        "carNumber": "",
+        "driverName": "",
+        "phoneNumber": "",
+        "parkingTime": "0001-01-01T00:00:00"
+      },
+      {
+        "parkingSpot": 4,
+        "carNumber": "",
+        "driverName": "",
+        "phoneNumber": "",
+        "parkingTime": "0001-01-01T00:00:00"
+      },
+      {
+        "parkingSpot": 5,
+        "carNumber": "",
+        "driverName": "",
+        "phoneNumber": "",
+        "parkingTime": "0001-01-01T00:00:00"
+      }
+    ]
+  }
+}

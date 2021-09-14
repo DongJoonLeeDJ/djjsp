@@ -1,0 +1,37 @@
+<cars>
+<car>
+  <parkingSpot>1</parkingSpot>
+  <carNumber>9098</carNumber>
+  <driverName></driverName>
+  <phoneNumber></phoneNumber>
+  <parkingTime>2020-08-10 오후 12:21:18</parkingTime>
+</car>
+<car>
+  <parkingSpot>2</parkingSpot>
+  <carNumber>2223</carNumber>
+  <driverName></driverName>
+  <phoneNumber></phoneNumber>
+  <parkingTime>2020-08-10 오후 12:21:35</parkingTime>
+</car>
+<car>
+  <parkingSpot>3</parkingSpot>
+  <carNumber>4223</carNumber>
+  <driverName>김이박</driverName>
+  <phoneNumber></phoneNumber>
+  <parkingTime>2020-08-10 오후 12:21:48</parkingTime>
+</car>
+<car>
+  <parkingSpot>4</parkingSpot>
+  <carNumber>1111</carNumber>
+  <driverName>강아지</driverName>
+  <phoneNumber>011-299-1993</phoneNumber>
+  <parkingTime>2020-08-10 오후 12:22:05</parkingTime>
+</car>
+<car>
+  <parkingSpot>5</parkingSpot>
+  <carNumber></carNumber>
+  <driverName></driverName>
+  <phoneNumber></phoneNumber>
+  <parkingTime>2020-08-10 오후 12:21:11</parkingTime>
+</car>
+</cars>

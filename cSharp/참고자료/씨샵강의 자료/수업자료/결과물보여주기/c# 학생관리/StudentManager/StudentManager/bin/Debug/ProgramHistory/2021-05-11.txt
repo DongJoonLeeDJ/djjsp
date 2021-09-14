@@ -1,0 +1,40 @@
+[2021-05-11 10:27:53.521]   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 24
+[2021-05-11 10:27:54.716]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-11 10:27:55.470]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-11 10:27:55.854]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-11 10:27:56.094]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-11 10:27:56.303]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-11 10:27:56.804]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-11 10:27:56.989]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-11 10:27:57.207]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-11 10:27:57.406]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-11 10:27:57.592]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
+[2021-05-11 10:27:58.286]   위치: System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   위치: System.Double.Parse(String s)
+   위치: StudentManager.DataManager.Load_Students() 파일 \\192.168.51.4\ShareFolder\씨샵이동준에디션\CSharp\결과물보여주기\c# 학생관리\StudentManager\StudentManager\DataManager.cs:줄 31
