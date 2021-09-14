@@ -67,7 +67,7 @@ namespace StudyObserverPattern
         {
             //이 함수를 구현하지 않았다고 에러 메시지 주면서 튕기게 하는 것(=프로그램 꺼지게 하는 거)
             // throw new NotImplementedException();
-            foreach (IObserver item in _observers)
+            foreach (IObserver item in obs)
             {
                 item.update(textBox1.Text);
             }
@@ -76,13 +76,13 @@ namespace StudyObserverPattern
         public void register(IObserver o)
         {
             // throw new NotImplementedException();
-            _observers.Add(o);
+            obs.Add(o);
         }
 
         public void remove(IObserver o)
         {
             // throw new NotImplementedException();
-            _observers.Remove(o);
+            obs.Remove(o);
         }
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)

@@ -1,0 +1,9 @@
+C:\Users\KB\source\repos\StudyDataGridView_API\StudyDataGridView_API\bin\Debug\StudyDataGridView_API.exe.config
+C:\Users\KB\source\repos\StudyDataGridView_API\StudyDataGridView_API\bin\Debug\StudyDataGridView_API.exe
+C:\Users\KB\source\repos\StudyDataGridView_API\StudyDataGridView_API\bin\Debug\StudyDataGridView_API.pdb
+C:\Users\KB\source\repos\StudyDataGridView_API\StudyDataGridView_API\obj\Debug\StudyDataGridView_API.Form1.resources
+C:\Users\KB\source\repos\StudyDataGridView_API\StudyDataGridView_API\obj\Debug\StudyDataGridView_API.Properties.Resources.resources
+C:\Users\KB\source\repos\StudyDataGridView_API\StudyDataGridView_API\obj\Debug\StudyDataGridView_API.csproj.GenerateResource.cache
+C:\Users\KB\source\repos\StudyDataGridView_API\StudyDataGridView_API\obj\Debug\StudyDataGridView_API.csproj.CoreCompileInputs.cache
+C:\Users\KB\source\repos\StudyDataGridView_API\StudyDataGridView_API\obj\Debug\StudyDataGridView_API.exe
+C:\Users\KB\source\repos\StudyDataGridView_API\StudyDataGridView_API\obj\Debug\StudyDataGridView_API.pdb
