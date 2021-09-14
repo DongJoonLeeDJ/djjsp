@@ -21,6 +21,11 @@ namespace StudyObserverPattern
         //ArrayList<IObserver> obs = new ArrayList<IObserver>();
         List<IObserver> obs = new List<IObserver>();
 
+        Form2 frm2 = null;
+        Form3 frm3 = null;
+        Form4 frm4 = null;
+
+
         public Form1()
         {
             InitializeComponent();
@@ -31,23 +36,47 @@ namespace StudyObserverPattern
             ArrayList example = new ArrayList();
             example.Add(1);
             example.Add("aaaa");
-
             //C#에서의 List와 자바에서의 ArrayList가 똑같음
+
+            frm2 = new Form2(this);
+            frm2.TopLevel = false;
+            frm2.FormBorderStyle = FormBorderStyle.None;
+            frm2.Dock = DockStyle.Fill;
+            panel1.Controls.Add(frm2);
+            frm2.Show();
+
+            frm3 = new Form3(this);
+            frm3.TopLevel = false;
+            frm3.FormBorderStyle = FormBorderStyle.None;
+            frm3.Dock = DockStyle.Fill;
+            panel1.Controls.Add(frm3);
+            frm3.Show();
+
+            frm4 = new Form4(this, frm2, frm3);
+            frm4.TopLevel = false;
+            frm4.FormBorderStyle = FormBorderStyle.None;
+            frm4.Dock = DockStyle.Fill;
+            panel1.Controls.Add(frm4);
+            frm4.Show();
+
+
+
         }
 
         public void notify()
         {
-            throw new NotImplementedException();
+            //이 함수를 구현하지 않았다고 에러 메시지 주면서 튕기게 하는 것(=프로그램 꺼지게 하는 거)
+           // throw new NotImplementedException();
         }
 
         public void register(IObserver o)
         {
-            throw new NotImplementedException();
+           // throw new NotImplementedException();
         }
 
         public void remove(IObserver o)
         {
-            throw new NotImplementedException();
+           // throw new NotImplementedException();
         }
     }
 }

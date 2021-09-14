@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace StudyObserverPattern
 {
-    public partial class Form3 : Form
+    public partial class Form3 : Form, IObserver
     {
-        public Form3()
+        public Form3(ISubject sub)
         {
+            sub.register(this);
             InitializeComponent();
+        }
+
+        public void update(string value)
+        {
+            textBox1.Text = value;
+            //throw new NotImplementedException();
         }
     }
 }

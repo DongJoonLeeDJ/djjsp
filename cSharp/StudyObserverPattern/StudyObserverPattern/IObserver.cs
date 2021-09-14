@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StudyObserverPattern
 {
-    interface IObserver
+    public interface IObserver
     {
         void update(string value);
     }

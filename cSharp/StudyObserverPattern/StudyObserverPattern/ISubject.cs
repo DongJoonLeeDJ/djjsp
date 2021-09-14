@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StudyObserverPattern
 {
-    interface ISubject
+    public interface ISubject
     {
         void register(IObserver o); //관찰자 추가
         void remove(IObserver o); //관찰자 제거
