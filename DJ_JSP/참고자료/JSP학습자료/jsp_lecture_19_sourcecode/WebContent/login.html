@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script>
+function checkIt(){
+	if (!document.myForm.pw.value || !document.myForm.id.value){ // 자바스크립트 : 빈문자열 -> false 반환
+		alert("아이디나 비밀번호를 입력하지 않았습니다.");
+		document.myForm.focus();
+		return false;
+	}
+}
+</script>
+</head>
+<body>
+
+<form name= "myForm" action="LogInOk" method="post" onsubmit='return checkIt()'>
+	아이디 : <input type="text" name="id"><br />
+	비밀번호 : <input type="password" name="pw"><br />
+	<input type="submit" value="로그인">
+</form>
+
+</body>
+</html>

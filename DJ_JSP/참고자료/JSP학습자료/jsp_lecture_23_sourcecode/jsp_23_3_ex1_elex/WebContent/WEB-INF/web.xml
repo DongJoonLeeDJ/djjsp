@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>jsp_23_3_ex1_elex</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <context-param>
+  	<param-name>con_name</param-name>
+  	<param-value>con_name은 홍길동 입니다.</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>con_id</param-name>
+  	<param-value>con_id는 abcde 입니다.</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>con_pw</param-name>
+  	<param-value>con_pw는 12345 입니다.</param-value>
+  </context-param>
+  
+</web-app>

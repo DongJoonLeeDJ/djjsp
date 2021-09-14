@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action="FormExampleTest" method="post">
+		이름 : <input type="text" name="name" size="10"><br/>
+		아이디 : <input type="text" name="id" size="10"><br/>
+		비밀번호 : <input type="password" name="pw" size="10"><br/>
+		
+		<input type="checkbox" name ="hobby" value="cook">요리
+		<input type="checkbox" name ="hobby" value="run">달리기
+		<input type="checkbox" name ="hobby" value="swim">수영
+		<input type="checkbox" name ="hobby" value="sleep">잠
+		<input type="checkbox" name ="hobby" value="read">독서<br/>
+		
+		<input type="radio" name="major" value="kor">국어
+		<input type="radio" name="major" value="eng" checked="checked">영어
+		<input type="radio" name="major" value="math">수학
+		<input type="radio" name="major" value="desi">디자인<br/>
+		
+		
+		<input type="radio" name="gender" value="man">남자
+		<input type="radio" name="gender" value="woman" checked="checked">여자<br/>
+		
+		<select name="protocol">
+			<option value="http">http</option>
+			<option value="ftp" selected="selected">ftp</option>
+			<option value="smtp">smtp</option>
+			<option value="pop">pop</option>
+		</select><br/>
+		<input type="submit" value="전송"> <input type="reset" value="초기화">
+	</form> 
+
+</body>
+</html>
