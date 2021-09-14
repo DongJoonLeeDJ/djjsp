@@ -1,0 +1,74 @@
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\날씨 확인 프로그램\Weather\Weather\bin\Debug\Weather.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\날씨 확인 프로그램\Weather\Weather\bin\Debug\Weather.exe
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\날씨 확인 프로그램\Weather\Weather\bin\Debug\Weather.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.Form1.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.exe
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\날씨 확인 프로그램\Weather\Weather\bin\Debug\MetroFramework.Design.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\날씨 확인 프로그램\Weather\Weather\bin\Debug\MetroFramework.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\날씨 확인 프로그램\Weather\Weather\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csproj.CopyComplete
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\Weather.exe.config
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\Weather.exe
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\Weather.pdb
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\MetroFramework.Design.dll
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\MetroFramework.dll
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\MetroFramework.Fonts.dll
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csprojAssemblyReference.cache
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.Properties.Resources.resources
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csproj.GenerateResource.cache
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csproj.CoreCompileInputs.cache
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csproj.CopyComplete
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.exe
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\Weather.exe.config
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\Weather.exe
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\Weather.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\MetroFramework.Design.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\MetroFramework.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.MainForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.Properties.Resources.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csproj.CopyComplete
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.exe
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.pdb
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.csprojAssemblyReference.cache
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\MaterialSkin.dll
+D:\중요\Desktop\School\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\obj\Debug\Weather.MainForm.resources
+C:\Users\KB\Desktop\totototo\201126-210604\포트폴리오\C#\날씨 확인 프로그램\Weather\Weather\bin\Debug\MaterialSkin.dll
+C:\Users\KB\Desktop\기온별 옷차림 추천 프로그램\Weather\Weather\Weather\bin\Debug\Weather.exe.config
+C:\Users\KB\Desktop\기온별 옷차림 추천 프로그램\Weather\Weather\Weather\bin\Debug\Weather.exe
+C:\Users\KB\Desktop\기온별 옷차림 추천 프로그램\Weather\Weather\Weather\bin\Debug\Weather.pdb
+C:\Users\KB\Desktop\기온별 옷차림 추천 프로그램\Weather\Weather\Weather\bin\Debug\MaterialSkin.dll
+C:\Users\KB\Desktop\기온별 옷차림 추천 프로그램\Weather\Weather\Weather\bin\Debug\MetroFramework.Design.dll
+C:\Users\KB\Desktop\기온별 옷차림 추천 프로그램\Weather\Weather\Weather\bin\Debug\MetroFramework.dll
+C:\Users\KB\Desktop\기온별 옷차림 추천 프로그램\Weather\Weather\Weather\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\KB\Desktop\기온별 옷차림 추천 프로그램\Weather\Weather\Weather\obj\Debug\Weather.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\기온별 옷차림 추천 프로그램\Weather\Weather\Weather\obj\Debug\Weather.MainForm.resources
+C:\Users\KB\Desktop\기온별 옷차림 추천 프로그램\Weather\Weather\Weather\obj\Debug\Weather.Properties.Resources.resources
+C:\Users\KB\Desktop\기온별 옷차림 추천 프로그램\Weather\Weather\Weather\obj\Debug\Weather.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\기온별 옷차림 추천 프로그램\Weather\Weather\Weather\obj\Debug\Weather.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\기온별 옷차림 추천 프로그램\Weather\Weather\Weather\obj\Debug\Weather.csproj.CopyComplete
+C:\Users\KB\Desktop\기온별 옷차림 추천 프로그램\Weather\Weather\Weather\obj\Debug\Weather.exe
+C:\Users\KB\Desktop\기온별 옷차림 추천 프로그램\Weather\Weather\Weather\obj\Debug\Weather.pdb
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\프로젝트참고자료들\옷차림추천프로그램\Weather\Weather\bin\Debug\Weather.exe.config
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\프로젝트참고자료들\옷차림추천프로그램\Weather\Weather\bin\Debug\Weather.exe
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\프로젝트참고자료들\옷차림추천프로그램\Weather\Weather\bin\Debug\Weather.pdb
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\프로젝트참고자료들\옷차림추천프로그램\Weather\Weather\bin\Debug\MaterialSkin.dll
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\프로젝트참고자료들\옷차림추천프로그램\Weather\Weather\bin\Debug\MetroFramework.Design.dll
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\프로젝트참고자료들\옷차림추천프로그램\Weather\Weather\bin\Debug\MetroFramework.dll
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\프로젝트참고자료들\옷차림추천프로그램\Weather\Weather\bin\Debug\MetroFramework.Fonts.dll
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\프로젝트참고자료들\옷차림추천프로그램\Weather\Weather\obj\Debug\Weather.csprojAssemblyReference.cache
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\프로젝트참고자료들\옷차림추천프로그램\Weather\Weather\obj\Debug\Weather.MainForm.resources
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\프로젝트참고자료들\옷차림추천프로그램\Weather\Weather\obj\Debug\Weather.Properties.Resources.resources
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\프로젝트참고자료들\옷차림추천프로그램\Weather\Weather\obj\Debug\Weather.csproj.GenerateResource.cache
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\프로젝트참고자료들\옷차림추천프로그램\Weather\Weather\obj\Debug\Weather.csproj.CoreCompileInputs.cache
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\프로젝트참고자료들\옷차림추천프로그램\Weather\Weather\obj\Debug\Weather.csproj.CopyComplete
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\프로젝트참고자료들\옷차림추천프로그램\Weather\Weather\obj\Debug\Weather.exe
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\프로젝트참고자료들\옷차림추천프로그램\Weather\Weather\obj\Debug\Weather.pdb
