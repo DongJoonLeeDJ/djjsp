@@ -1,0 +1,10 @@
+D:\Study_DJ\20201126_all\씨샵이동준에디션\CSharp\실제 강의시 사용한 자료들\6\c# 학생관리\StudentManager\StudentManager\bin\Debug\StudentManager.exe.config
+D:\Study_DJ\20201126_all\씨샵이동준에디션\CSharp\실제 강의시 사용한 자료들\6\c# 학생관리\StudentManager\StudentManager\bin\Debug\StudentManager.exe
+D:\Study_DJ\20201126_all\씨샵이동준에디션\CSharp\실제 강의시 사용한 자료들\6\c# 학생관리\StudentManager\StudentManager\bin\Debug\StudentManager.pdb
+D:\Study_DJ\20201126_all\씨샵이동준에디션\CSharp\실제 강의시 사용한 자료들\6\c# 학생관리\StudentManager\StudentManager\obj\Debug\StudentManager.csprojAssemblyReference.cache
+D:\Study_DJ\20201126_all\씨샵이동준에디션\CSharp\실제 강의시 사용한 자료들\6\c# 학생관리\StudentManager\StudentManager\obj\Debug\StudentManager.Form1.resources
+D:\Study_DJ\20201126_all\씨샵이동준에디션\CSharp\실제 강의시 사용한 자료들\6\c# 학생관리\StudentManager\StudentManager\obj\Debug\StudentManager.Properties.Resources.resources
+D:\Study_DJ\20201126_all\씨샵이동준에디션\CSharp\실제 강의시 사용한 자료들\6\c# 학생관리\StudentManager\StudentManager\obj\Debug\StudentManager.csproj.GenerateResource.cache
+D:\Study_DJ\20201126_all\씨샵이동준에디션\CSharp\실제 강의시 사용한 자료들\6\c# 학생관리\StudentManager\StudentManager\obj\Debug\StudentManager.csproj.CoreCompileInputs.cache
+D:\Study_DJ\20201126_all\씨샵이동준에디션\CSharp\실제 강의시 사용한 자료들\6\c# 학생관리\StudentManager\StudentManager\obj\Debug\StudentManager.exe
+D:\Study_DJ\20201126_all\씨샵이동준에디션\CSharp\실제 강의시 사용한 자료들\6\c# 학생관리\StudentManager\StudentManager\obj\Debug\StudentManager.pdb

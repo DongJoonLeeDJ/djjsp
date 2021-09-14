@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B467BD86-CE98-4BC5-A891-A5508AFE2A54}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MDITest</RootNamespace>
+    <AssemblyName>MDITest</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MacForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MacForm1.Designer.cs">
+      <DependentUpon>MacForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MacForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MacForm2.Designer.cs">
+      <DependentUpon>MacForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MacWelcomeMessage.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Mac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Mac.Designer.cs">
+      <DependentUpon>Form_Mac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Window.Designer.cs">
+      <DependentUpon>Form_Window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WelcomeMessage.cs" />
+    <Compile Include="WindowForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowForm1.Designer.cs">
+      <DependentUpon>WindowForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowForm2.Designer.cs">
+      <DependentUpon>WindowForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowForm3.Designer.cs">
+      <DependentUpon>WindowForm3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowWelcomeMessage.cs" />
+    <EmbeddedResource Include="MacForm1.resx">
+      <DependentUpon>MacForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MacForm2.resx">
+      <DependentUpon>MacForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Window.resx">
+      <DependentUpon>Form_Window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="WindowForm1.resx">
+      <DependentUpon>WindowForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowForm2.resx">
+      <DependentUpon>WindowForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowForm3.resx">
+      <DependentUpon>WindowForm3.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
