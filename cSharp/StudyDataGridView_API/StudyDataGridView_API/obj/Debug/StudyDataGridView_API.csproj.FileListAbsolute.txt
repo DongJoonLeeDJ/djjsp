@@ -7,3 +7,13 @@ C:\Users\KB\source\repos\StudyDataGridView_API\StudyDataGridView_API\obj\Debug\S
 C:\Users\KB\source\repos\StudyDataGridView_API\StudyDataGridView_API\obj\Debug\StudyDataGridView_API.csproj.CoreCompileInputs.cache
 C:\Users\KB\source\repos\StudyDataGridView_API\StudyDataGridView_API\obj\Debug\StudyDataGridView_API.exe
 C:\Users\KB\source\repos\StudyDataGridView_API\StudyDataGridView_API\obj\Debug\StudyDataGridView_API.pdb
+D:\MHJSP\djjsp\cSharp\StudyDataGridView_API\StudyDataGridView_API\bin\Debug\StudyDataGridView_API.exe.config
+D:\MHJSP\djjsp\cSharp\StudyDataGridView_API\StudyDataGridView_API\bin\Debug\StudyDataGridView_API.exe
+D:\MHJSP\djjsp\cSharp\StudyDataGridView_API\StudyDataGridView_API\bin\Debug\StudyDataGridView_API.pdb
+D:\MHJSP\djjsp\cSharp\StudyDataGridView_API\StudyDataGridView_API\obj\Debug\StudyDataGridView_API.csprojAssemblyReference.cache
+D:\MHJSP\djjsp\cSharp\StudyDataGridView_API\StudyDataGridView_API\obj\Debug\StudyDataGridView_API.Form1.resources
+D:\MHJSP\djjsp\cSharp\StudyDataGridView_API\StudyDataGridView_API\obj\Debug\StudyDataGridView_API.Properties.Resources.resources
+D:\MHJSP\djjsp\cSharp\StudyDataGridView_API\StudyDataGridView_API\obj\Debug\StudyDataGridView_API.csproj.GenerateResource.cache
+D:\MHJSP\djjsp\cSharp\StudyDataGridView_API\StudyDataGridView_API\obj\Debug\StudyDataGridView_API.csproj.CoreCompileInputs.cache
+D:\MHJSP\djjsp\cSharp\StudyDataGridView_API\StudyDataGridView_API\obj\Debug\StudyDataGridView_API.exe
+D:\MHJSP\djjsp\cSharp\StudyDataGridView_API\StudyDataGridView_API\obj\Debug\StudyDataGridView_API.pdb

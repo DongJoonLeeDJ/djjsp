@@ -73,7 +73,7 @@ namespace StudyObserverPattern
             }
         }
 
-        public void register(IObserver o)
+        public void subscribe(IObserver o)
         {
             // throw new NotImplementedException();
             obs.Add(o);

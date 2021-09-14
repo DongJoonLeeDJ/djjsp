@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+<header>
+<resultCode>00</resultCode>
+<resultMsg>NORMAL SERVICE.</resultMsg>
+</header>
+<body>
+<items>
+<item>
+<address>대구광역시 중구 동성로 2길 80</address>
+<attr01>이용시간|제한없음</attr01>
+<attr02>이용요금|</attr02>
+<attr03>장애인 편의시설|장애인용 화장실</attr03>
+<attr04>한국어 안내서비스|공원 내 안내 비석</attr04>
+<attr05>외국어 안내서비스|안내 서비스 없음</attr05>
+<attractcontents>대구 중심지에 위치한 도시근린공원으로 조화롭게 꾸며진 자연경관이 인상적이다.	</attractcontents>
+<attractname>2.28기념중앙공원</attractname>
+<email/>
+<homepage>http://www.dgsisul.or.kr/sub04/04_02_03.php</homepage>
+<tel>053-254-9405</tel>
+</item>
+<item>
+<address>대구광역시 중구 국채보상로102길 일대</address>
+<attr01>이용시간|</attr01>
+<attr02>장애인 편의시설|</attr02>
+<attr03>한국어 안내서비스|</attr03>
+<attr04>외국어 안내서비스|</attr04>
+<attr05>주차시설|</attr05>
+<attractcontents>	청라언덕 동무생각 노래비 옆에서 시내 쪽으로 내려가는 90계단까지는 3.1운동 당시 만세운동을 준비하던 학생들이 일본군의 감시를 피해 도심으로 모이기 위해 지나다녔던 솔밭길이다. 계단길에는 3.1운동 당시 모습이 담긴 사진들이 전시되어 그 의미를 더하고 있다.	</attractcontents>
+<attractname>3.1만세운동길</attractname>
+<email/>
+<homepage/>
+<tel>053-661-2623</tel>
+</item>
+<item>
+<address>대구광역시 달서구 두류공원로 200</address>
+<attr01>이용시간|이용시간</attr01>
+<attr02>이용요금|이용요금</attr02>
+<attr03>장애인 편의시설|장애인 편의시설</attr03>
+<attr04>한국어 안내서비스|한국어 안내서비스</attr04>
+<attr05>외국어 안내서비스|외국어 안내서비스</attr05>
+<attractcontents>"도심 속에 우뚝 솟은 대구의 랜드마크&#13;
+두류공원(頭流公園) 내에 위치한 유럽형 테마공원에 조성된 83타워(높이 202m)는 대구 전경을 한눈에 내려다 불 수 있는 관광명소로 다보탑 형태의 팔각형 탑신을 자랑하며 한국의 전통 건축미를 재현하고 있다. </attractcontents>
+<attractname>83타워(83 TOWER DAEGU)</attractname>
+<email/>
+<homepage>http://83tower.kr</homepage>
+<tel>053-620-0001</tel>
+</item>
+<item>
+<address>대구광역시 수성구 지범로 191(동아백화점 8층)</address>
+<attr01>이용시간|</attr01>
+<attr02>이용요금|</attr02>
+<attr03>장애인 편의시설|있음</attr03>
+<attr04>한국어 안내서비스|안내 가능</attr04>
+<attr05>외국어 안내서비스|안내 가능</attr05>
+<attractcontents>	수성구 동화백화점 8층에 위치하고 있으며, 4개관 전체좌석수 804석의 영화관이다.	</attractcontents>
+<attractname>CGV 대구 수성</attractname>
+<email/>
+<homepage>http://www.cgv.co.kr</homepage>
+<tel>1544-1122</tel>
+</item>
+<item>
+<address>대구광역시 중구 동성로 39, 7층(성내1동)</address>
+<attr01>이용시간|</attr01>
+<attr02>이용요금|</attr02>
+<attr03>장애인 편의시설|상영관 내 장애인 전용 좌석, 장애인 전용 화장실</attr03>
+<attr04>한국어 안내서비스|1층 입구 안내 및 경비원</attr04>
+<attr05>외국어 안내서비스|영어 안내 가능</attr05>
+<attractcontents>	CGV 대구한일이 옛 명성 그대로, 그 자리에 차별화된 감동과 사운드, 안락함을 함께 느낄 수 있도록 최첨단 시설을 갖춘 5개관의 전체 좌석수 832석의 복합 멀티플렉스 영화관으로 리모델링하였다.	</attractcontents>
+<attractname>CGV 대구 한일</attractname>
+<email/>
+<homepage>http://www.cgv.co.kr</homepage>
+<tel>1544-1122</tel>
+</item>
+</items>
+<numOfRows>5</numOfRows>
+<pageNo>1</pageNo>
+<totalCount>223</totalCount>
+</body>
+</response>
+

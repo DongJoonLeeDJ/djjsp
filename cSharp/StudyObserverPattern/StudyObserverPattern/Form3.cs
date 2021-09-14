@@ -14,7 +14,7 @@ namespace StudyObserverPattern
     {
         public Form3(ISubject sub)
         {
-            sub.register(this);
+            sub.subscribe(this);
             InitializeComponent();
         }
 
