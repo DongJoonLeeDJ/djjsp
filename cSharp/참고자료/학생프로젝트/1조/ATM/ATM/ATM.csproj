@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FD8F7525-4A81-48F9-80ED-B4C313FDCA79}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ATM</RootNamespace>
+    <AssemblyName>ATM</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.24.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\MySql.cs" />
+    <Compile Include="Common\MySQL_Helper.cs" />
+    <Compile Include="Common\MySQL_Manager.cs" />
+    <Compile Include="Common\Transaction.cs" />
+    <Compile Include="Common\참고용\BaseController.cs" />
+    <Compile Include="Common\참고용\CommMenu.cs" />
+    <Compile Include="Control\PanelControl.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Account.cs" />
+    <Compile Include="Model\CheckAcc.cs" />
+    <Compile Include="Model\Coin.cs" />
+    <Compile Include="Model\CPrice.cs" />
+    <Compile Include="Model\ExchangeRate.cs" />
+    <Compile Include="Model\TsHistory.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\MyMenu.cs" />
+    <Compile Include="Util\RandData.cs" />
+    <Compile Include="View\UCP_noaccount.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UCP_noaccount.Designer.cs">
+      <DependentUpon>UCP_noaccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UCP_account_check.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UCP_account_check.Designer.cs">
+      <DependentUpon>UCP_account_check.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UCP_CList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UCP_CList.Designer.cs">
+      <DependentUpon>UCP_CList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UCP_Exchange.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UCP_Exchange.Designer.cs">
+      <DependentUpon>UCP_Exchange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UCP_Homepanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UCP_Homepanel.Designer.cs">
+      <DependentUpon>UCP_Homepanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UCP_Login.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UCP_Login.Designer.cs">
+      <DependentUpon>UCP_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UCP_MyCoin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UCP_MyCoin.Designer.cs">
+      <DependentUpon>UCP_MyCoin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UCP_Mycurrency.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UCP_Mycurrency.Designer.cs">
+      <DependentUpon>UCP_Mycurrency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UCP_Transaction.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UCP_Transaction.Designer.cs">
+      <DependentUpon>UCP_Transaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UCP_Transaction_history.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UCP_Transaction_history.Designer.cs">
+      <DependentUpon>UCP_Transaction_history.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UCP_Upbit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UCP_Upbit.Designer.cs">
+      <DependentUpon>UCP_Upbit.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View\UCP_noaccount.resx">
+      <DependentUpon>UCP_noaccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UCP_account_check.resx">
+      <DependentUpon>UCP_account_check.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UCP_CList.resx">
+      <DependentUpon>UCP_CList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UCP_Exchange.resx">
+      <DependentUpon>UCP_Exchange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UCP_Homepanel.resx">
+      <DependentUpon>UCP_Homepanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UCP_Login.resx">
+      <DependentUpon>UCP_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UCP_MyCoin.resx">
+      <DependentUpon>UCP_MyCoin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UCP_Mycurrency.resx">
+      <DependentUpon>UCP_Mycurrency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UCP_Transaction.resx">
+      <DependentUpon>UCP_Transaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UCP_Transaction_history.resx">
+      <DependentUpon>UCP_Transaction_history.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UCP_Upbit.resx">
+      <DependentUpon>UCP_Upbit.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="bin\Debug\ATM.exe.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\ATM.Model.Account1.datasource" />
+    <None Include="Properties\DataSources\ATM.Model.Coin1.datasource" />
+    <None Include="Properties\DataSources\ATM.Model.ExchangeRate.datasource" />
+    <None Include="Properties\DataSources\ATM.Model.TsHistory1.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piggy-bank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\ATM.exe" />
+    <Content Include="bin\Debug\ATM.pdb" />
+    <Content Include="bin\Debug\BouncyCastle.Crypto.dll" />
+    <Content Include="bin\Debug\Google.Protobuf.dll" />
+    <Content Include="bin\Debug\K4os.Compression.LZ4.dll" />
+    <Content Include="bin\Debug\K4os.Compression.LZ4.Streams.dll" />
+    <Content Include="bin\Debug\K4os.Hash.xxHash.dll" />
+    <Content Include="bin\Debug\MySql.Data.dll" />
+    <Content Include="bin\Debug\MySql.Data.xml" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.xml" />
+    <Content Include="bin\Debug\System.Buffers.dll" />
+    <Content Include="bin\Debug\System.Memory.dll" />
+    <Content Include="bin\Debug\System.Numerics.Vectors.dll" />
+    <Content Include="bin\Debug\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Content Include="bin\Debug\Ubiety.Dns.Core.dll" />
+    <Content Include="bin\Debug\Zstandard.Net.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
