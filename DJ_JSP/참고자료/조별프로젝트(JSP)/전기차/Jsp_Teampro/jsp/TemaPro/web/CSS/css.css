@@ -1,0 +1,25 @@
+#header{
+	background-color: lime;
+	height : 100px;
+}
+#aside{
+	background-color: #339999;
+	color:white;
+	width:200px;
+	height:300px;
+	float:left
+}
+#section{
+	width:200px;
+	text-align:left;
+	float:left;
+	padding:10px;
+}
+#section{
+	background-color: #FFCCDD;
+	height : 100px;
+	clear : both;
+}
+#header,#aside,#section,#footer{text-align:center;}
+#header,#footer{line-height : 100px;}
+#aside,#section{line-height : 240px;}

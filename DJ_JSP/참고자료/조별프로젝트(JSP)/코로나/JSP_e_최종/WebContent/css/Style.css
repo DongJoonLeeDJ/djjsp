@@ -1,0 +1,86 @@
+@charset "EUC-KR";
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Recursive:wght@500;800;900;904&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+nav{
+		/*background-color:#DFEBF2;*/
+		font-family: 'Black Han Sans', sans-serif;
+	}
+h1{
+		font-family: 'Black Han Sans', sans-serif;
+		font-weight: bold;
+	}
+h2{
+		font-family: 'Black Han Sans', sans-serif;
+		font-weight: bold;
+	}
+nav>a{
+	color:#8878BF;
+	font-weight: bold;
+	}
+nav>ul>li>a{
+		color:#A3B5D9;
+		font-weight: bold;
+	}
+nav>a:hover{color:#D8806C;}
+nav>ul>li>a:hover{	color:#6CCED9;}
+a:hover{color:#6CCED9;}
+		
+.active {
+    	color: #6CCED9;
+	}
+	
+.img{
+    	margin-left: auto;
+    	margin-right:auto;
+    	background-image: url(../res/main.jpg);                                                               
+    	height: 500px;
+    	width: 959px;
+    
+  }
+.img-2{
+    	margin-left: auto;
+    	margin-right:auto;
+    	background-image: url(../res/hoddy.jpg);                                                               
+    	height: 467px;
+    	width: 950px;
+}
+
+
+  .img_action{
+    	margin-left: auto;
+    	margin-right:auto;    	                                                              
+    	height: auto;
+    	width: auto;
+  }
+   .img_action2{
+    	margin-left: auto;
+    	margin-right:auto;    	                                                              
+    	height: auto;
+    	width: 1055px;
+    
+  }
+
+.img-cover{
+     	position: absolute;
+     	width: 100%;
+     /*background-color: rgba(0, 0, 0, 0.7);*/                                                                 
+     	z-index:1;
+  }
+
+.img .content{
+     	position: absolute;
+     	top:20%;
+     	left:50%;
+     	transform: translate(-50%, -50%);                                                                   
+     	font-size:5rem;
+     	color: #F06078;
+     	z-index: 2;
+     	text-align: center;
+  }
+  
+table{
+		font-family: 'Black Han Sans', sans-serif;
+	}

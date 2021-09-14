@@ -1,0 +1,169 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-y: scroll;
+}
+body {
+  background: #c1bdba;
+  font-family:sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #1ab188;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+li {
+  list-style:none;
+}
+a:hover {
+  color: #179b77;
+}
+
+.form-box {
+  background: rgba(19,35,47, .9);
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(9,35,47, .5)
+}
+
+.tab-group {
+  margin: 0 0 40px 0;
+}
+.tab-group::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.tab-group li a {
+  display: block;
+  padding: 15px;
+  font-size: 20px;
+  float: left;
+  width: 50%;
+  text-align: center;
+  /* 전이기 일어나기 전의 초기 스타일 */
+  background: rgba(160, 179, 176, .25);
+  color: #a0b3b0;
+  /* 초기 스타일에 화면 전이를 설정 */
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+.tab-group li a:hover {
+  /* 마우스오버를 할 경우에 나타나는 전이에 대한 스타일을 정의 */
+  background-color: #179b77;
+  color: #fff;
+}
+.tab-group .active a {
+  background: #1ab188;
+  color: #fff;
+}
+.tab-content > div:last-child {
+  display: none;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+label {
+  pointer-events: none;
+  position: absolute;
+  left:13px;
+  /* 화면 전이가 일어나기 전의 스타일 정의 */
+  /* 레이블 위치 스타일 정의 */
+  -webkit-transform: translateY(6px);
+  transform: translateY(6px);
+  color: rgba(255, 255, 255, .5);
+  font-size: 22px;
+  /* 화면 전이 정의 */
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+label .req {
+  margin: 2px;
+  color: #1ab188;
+}
+label.active {
+  /* 화면 전이의 최종 변천 스타일 정의 */
+  -webkit-transform: translateY(50px);
+  transform: translateY(50px);
+  left: 2px;
+  font-size: 14px;
+}
+label.active .req {
+  opacity: 0;
+}
+label.highlight {
+  color: #ffffff;
+}
+input, textarea {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  background: none; /* 밑 배경색 보여주기 위해 none 처리 */
+  border: 1px solid #a0b3b0;
+  color: #fff;
+  border-radius: 0;
+  -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+  transition: border-color .25s ease, box-shadow .25s ease;
+}
+input:focus, textarea:focus {
+  outline: 0;
+  border-color: #1ab188;
+}
+textarea {
+  border: 2px solid #a0b3b0;
+  resize: vertical;
+}
+.field-wrap {
+  position: relative;
+  margin-bottom: 40px;
+}
+.top-row::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+.top-row > div {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+.top-row > div:last-child {
+  margin: 0;
+}
+.button {
+  padding: 15px 0;
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #1ab188;
+  color: #fff;
+  -webkit-appearance: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.button:hover, .button:focus {
+  background: #179b77;
+}
+.button-block {
+  display: block;
+  width: 100%;
+}
+.forgot {
+  margin: -20px 0 20px;
+  text-align: right;
+}

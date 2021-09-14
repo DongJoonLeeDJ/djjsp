@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+#container {
+	width: 700px;
+	min-height: 700px;
+	float: left;
+	margin: 15px 35px;
+}
+#states path {
+	fill: #808080;  /*지도 색깔*/
+	stroke: #000000; /*경계선 색깔*/
+	stroke-width: 1.5px;
+}
+
+#states path:hover {
+	fill: #92cded;
+}
+
+#states .active {
+	fill: #92cded;
+}
+
+#states .activeDetail {
+	fill: #92cded;
+}
+
+#states path {
+	cursor: pointer;
+}
+
+#states text {
+	cursor: pointer;
+	font-size: 15px;
+	fill: #ffffff;
+	font-weight : bold;
+}
