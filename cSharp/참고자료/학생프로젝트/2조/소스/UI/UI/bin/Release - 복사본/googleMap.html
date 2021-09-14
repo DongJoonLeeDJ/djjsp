@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html>
+
+<head>
+  <title>Geocoding Service</title>
+  <style>
+    #map {
+      height: 100%;
+    }
+
+    /* Optional: Makes the sample page fill the window. */
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    #floating-panel {
+      position: absolute;
+      top: 10px;
+      left: 25%;
+      z-index: 5;
+      background-color: #fff;
+      padding: 5px;
+      border: 1px solid #999;
+      text-align: center;
+      font-family: "Roboto", "sans-serif";
+      line-height: 30px;
+      padding-left: 10px;
+    }
+  </style>
+  <script>
+    var geocoder;
+    var map;
+
+    function initialize() {
+      geocoder = new google.maps.Geocoder();
+      var latlng = new google.maps.LatLng(-34.397, 150.644);
+      var mapOptions = {
+        zoom: 17,
+        center: latlng
+      }
+      map = new google.maps.Map(document.getElementById('map'), mapOptions);
+    }
+
+    function codeAddress(addr, house, url) {
+      geocoder = new google.maps.Geocoder();
+      var address = addr;
+      geocoder.geocode({
+        'address': addr
+      }, function (results, status) {
+        if (status == 'OK') {
+          map.setCenter(results[0].geometry.location);
+          var marker = new google.maps.Marker({
+            map: map,
+            title: house,
+            position: results[0].geometry.location
+          });
+
+          google.maps.event.addListener(marker, 'click', function () {
+              window.open(url, house, "width=1600, height=900, toolbar=no, menubar=no, scrollbars=yes, resizable=yes");
+          });
+
+        } else {
+          alert('Geocode was not successful for the following reason: ' + status);
+        }
+      });
+    }
+  </script>
+</head>
+
+<body>
+  <div id="map"></div>
+  <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEhp_Gg4CapQbICfJF5oHQHINwttCDfdI&callback=initialize&libraries=&v=weekly"
+    async></script>
+
+</body>
+
+</html>
