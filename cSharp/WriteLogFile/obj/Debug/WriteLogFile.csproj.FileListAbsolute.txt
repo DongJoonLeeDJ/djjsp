@@ -1,0 +1,10 @@
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\WriteLogFile\bin\Debug\WriteLogFile.exe.config
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\WriteLogFile\bin\Debug\WriteLogFile.exe
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\WriteLogFile\bin\Debug\WriteLogFile.pdb
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\WriteLogFile\obj\Debug\WriteLogFile.csprojAssemblyReference.cache
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\WriteLogFile\obj\Debug\WriteLogFile.Form1.resources
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\WriteLogFile\obj\Debug\WriteLogFile.Properties.Resources.resources
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\WriteLogFile\obj\Debug\WriteLogFile.csproj.GenerateResource.cache
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\WriteLogFile\obj\Debug\WriteLogFile.csproj.CoreCompileInputs.cache
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\WriteLogFile\obj\Debug\WriteLogFile.exe
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\WriteLogFile\obj\Debug\WriteLogFile.pdb

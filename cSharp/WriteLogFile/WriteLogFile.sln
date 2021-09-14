@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate_Lamda", "Delegate_Lamda\Delegate_Lamda.csproj", "{811310BE-D8E3-420A-B4F5-89E8755E6726}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteLogFile", "WriteLogFile\WriteLogFile.csproj", "{4F4DE9A1-D77A-4390-8EE1-34AA4DC152E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteLogFile", "WriteLogFile.csproj", "{4F4DE9A1-D77A-4390-8EE1-34AA4DC152E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{811310BE-D8E3-420A-B4F5-89E8755E6726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{811310BE-D8E3-420A-B4F5-89E8755E6726}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{811310BE-D8E3-420A-B4F5-89E8755E6726}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{811310BE-D8E3-420A-B4F5-89E8755E6726}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4F4DE9A1-D77A-4390-8EE1-34AA4DC152E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4F4DE9A1-D77A-4390-8EE1-34AA4DC152E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F4DE9A1-D77A-4390-8EE1-34AA4DC152E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -26,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {16167938-4A6E-4941-B42B-326CDB01BC4E}
+		SolutionGuid = {8D051E45-E8C0-458F-9267-53CF88B145B9}
 	EndGlobalSection
 EndGlobal
