@@ -1,0 +1,178 @@
+Z:\Documents\문서 - 배지왕의 MacBook Pro\GitHub\C#_work21\CSharp_Team\Book_re\Book_re\bin\Debug\Book_re.exe.config
+Z:\Documents\문서 - 배지왕의 MacBook Pro\GitHub\C#_work21\CSharp_Team\Book_re\Book_re\bin\Debug\Book_re.exe
+Z:\Documents\문서 - 배지왕의 MacBook Pro\GitHub\C#_work21\CSharp_Team\Book_re\Book_re\bin\Debug\Book_re.pdb
+Z:\Documents\문서 - 배지왕의 MacBook Pro\GitHub\C#_work21\CSharp_Team\Book_re\Book_re\bin\Debug\SunnyUI.Common.dll
+Z:\Documents\문서 - 배지왕의 MacBook Pro\GitHub\C#_work21\CSharp_Team\Book_re\Book_re\bin\Debug\SunnyUI.dll
+Z:\Documents\문서 - 배지왕의 MacBook Pro\GitHub\C#_work21\CSharp_Team\Book_re\Book_re\obj\Debug\Book_re.Form1.resources
+Z:\Documents\문서 - 배지왕의 MacBook Pro\GitHub\C#_work21\CSharp_Team\Book_re\Book_re\obj\Debug\Book_re.Properties.Resources.resources
+Z:\Documents\문서 - 배지왕의 MacBook Pro\GitHub\C#_work21\CSharp_Team\Book_re\Book_re\obj\Debug\Book_re.csproj.GenerateResource.cache
+Z:\Documents\문서 - 배지왕의 MacBook Pro\GitHub\C#_work21\CSharp_Team\Book_re\Book_re\obj\Debug\Book_re.csproj.CoreCompileInputs.cache
+Z:\Documents\문서 - 배지왕의 MacBook Pro\GitHub\C#_work21\CSharp_Team\Book_re\Book_re\obj\Debug\Book_re.csproj.CopyComplete
+Z:\Documents\문서 - 배지왕의 MacBook Pro\GitHub\C#_work21\CSharp_Team\Book_re\Book_re\obj\Debug\Book_re.exe
+Z:\Documents\문서 - 배지왕의 MacBook Pro\GitHub\C#_work21\CSharp_Team\Book_re\Book_re\obj\Debug\Book_re.pdb
+Z:\Documents\문서 - 배지왕의 MacBook Pro\GitHub\C#_work21\CSharp_Team\Book_re\Book_re\obj\Debug\Book_re.csproj.AssemblyReference.cache
+Z:\Documents\문서 - 배지왕의 MacBook Pro\GitHub\C#_work21\CSharp_Team\Book_re\Book_re\obj\Debug\Book_re.BookInfoForm.resources
+D:\CSharp_Team\Book_re\Book_re\obj\Debug\Book_re.BookInfoForm.resources
+D:\CSharp_Team\Book_re\Book_re\obj\Debug\Book_re.Form1.resources
+D:\CSharp_Team\Book_re\Book_re\obj\Debug\Book_re.Properties.Resources.resources
+D:\CSharp_Team\Book_re\Book_re\obj\Debug\Book_re.csproj.GenerateResource.cache
+D:\CSharp_Team\Book_re\Book_re\obj\Debug\Book_re.csproj.CoreCompileInputs.cache
+D:\CSharp_Team\Book_re\Book_re\bin\Debug\Book_re.exe.config
+D:\CSharp_Team\Book_re\Book_re\bin\Debug\Book_re.exe
+D:\CSharp_Team\Book_re\Book_re\bin\Debug\Book_re.pdb
+D:\CSharp_Team\Book_re\Book_re\bin\Debug\Newtonsoft.Json.dll
+D:\CSharp_Team\Book_re\Book_re\bin\Debug\SunnyUI.Common.dll
+D:\CSharp_Team\Book_re\Book_re\bin\Debug\SunnyUI.dll
+D:\CSharp_Team\Book_re\Book_re\bin\Debug\Newtonsoft.Json.xml
+D:\CSharp_Team\Book_re\Book_re\obj\Debug\Book_re.csproj.CopyComplete
+D:\CSharp_Team\Book_re\Book_re\obj\Debug\Book_re.exe
+D:\CSharp_Team\Book_re\Book_re\obj\Debug\Book_re.pdb
+D:\CSharp_Team\Book_re\Book_re\obj\Debug\Book_re.csprojAssemblyReference.cache
+D:\CSharp_Team\Book_re\Book_re\obj\Debug\Book_re.chartView.resources
+D:\CSharp_Team\CSharp_Team - 복사본\Book_re\Book_re\bin\Debug\Book_re.exe.config
+D:\CSharp_Team\CSharp_Team - 복사본\Book_re\Book_re\bin\Debug\Book_re.exe
+D:\CSharp_Team\CSharp_Team - 복사본\Book_re\Book_re\bin\Debug\Book_re.pdb
+D:\CSharp_Team\CSharp_Team - 복사본\Book_re\Book_re\bin\Debug\Newtonsoft.Json.dll
+D:\CSharp_Team\CSharp_Team - 복사본\Book_re\Book_re\bin\Debug\SunnyUI.Common.dll
+D:\CSharp_Team\CSharp_Team - 복사본\Book_re\Book_re\bin\Debug\SunnyUI.dll
+D:\CSharp_Team\CSharp_Team - 복사본\Book_re\Book_re\bin\Debug\Newtonsoft.Json.xml
+D:\CSharp_Team\CSharp_Team - 복사본\Book_re\Book_re\obj\Debug\Book_re.csprojAssemblyReference.cache
+D:\CSharp_Team\CSharp_Team - 복사본\Book_re\Book_re\obj\Debug\Book_re.BookInfoForm.resources
+D:\CSharp_Team\CSharp_Team - 복사본\Book_re\Book_re\obj\Debug\Book_re.chartView.resources
+D:\CSharp_Team\CSharp_Team - 복사본\Book_re\Book_re\obj\Debug\Book_re.Form1.resources
+D:\CSharp_Team\CSharp_Team - 복사본\Book_re\Book_re\obj\Debug\Book_re.Properties.Resources.resources
+D:\CSharp_Team\CSharp_Team - 복사본\Book_re\Book_re\obj\Debug\Book_re.csproj.GenerateResource.cache
+D:\CSharp_Team\CSharp_Team - 복사본\Book_re\Book_re\obj\Debug\Book_re.csproj.CoreCompileInputs.cache
+D:\CSharp_Team\CSharp_Team - 복사본\Book_re\Book_re\obj\Debug\Book_re.csproj.CopyComplete
+D:\CSharp_Team\CSharp_Team - 복사본\Book_re\Book_re\obj\Debug\Book_re.exe
+D:\CSharp_Team\CSharp_Team - 복사본\Book_re\Book_re\obj\Debug\Book_re.pdb
+C:\Users\KB\Desktop\C#\CSharp_Team\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Book_re.exe.config
+C:\Users\KB\Desktop\C#\CSharp_Team\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Book_re.exe
+C:\Users\KB\Desktop\C#\CSharp_Team\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Book_re.pdb
+C:\Users\KB\Desktop\C#\CSharp_Team\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Newtonsoft.Json.dll
+C:\Users\KB\Desktop\C#\CSharp_Team\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\SunnyUI.Common.dll
+C:\Users\KB\Desktop\C#\CSharp_Team\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\SunnyUI.dll
+C:\Users\KB\Desktop\C#\CSharp_Team\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Newtonsoft.Json.xml
+C:\Users\KB\Desktop\C#\CSharp_Team\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\C#\CSharp_Team\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.BookInfoForm.resources
+C:\Users\KB\Desktop\C#\CSharp_Team\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.chartView.resources
+C:\Users\KB\Desktop\C#\CSharp_Team\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.Form1.resources
+C:\Users\KB\Desktop\C#\CSharp_Team\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.Properties.Resources.resources
+C:\Users\KB\Desktop\C#\CSharp_Team\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\C#\CSharp_Team\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\C#\CSharp_Team\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.csproj.CopyComplete
+C:\Users\KB\Desktop\C#\CSharp_Team\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.exe
+C:\Users\KB\Desktop\C#\CSharp_Team\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.pdb
+C:\Users\KB\Desktop\C#\CSharp_Team\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.Join_Main.resources
+C:\Users\KB\Desktop\C#\CSharp_Team\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.Member_Login.resources
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.BookInfoForm.resources
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.chartView.resources
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.Form1.resources
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.Join_Main.resources
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.Member_Login.resources
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.Mypage.resources
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.Properties.Resources.resources
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.exe
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.pdb
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Book_re.exe.config
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Book_re.exe
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Book_re.pdb
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Newtonsoft.Json.dll
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\SunnyUI.Common.dll
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\SunnyUI.dll
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Newtonsoft.Json.xml
+C:\Users\KB\Desktop\C#\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.csproj.CopyComplete
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Book_re.exe.config
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Book_re.exe
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Book_re.pdb
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Newtonsoft.Json.dll
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\SunnyUI.Common.dll
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\SunnyUI.dll
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Newtonsoft.Json.xml
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.csprojAssemblyReference.cache
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.BookInfoForm.resources
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.BookSearcher.resources
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.chartView.resources
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.Form1.resources
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.Join_Main.resources
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.Member_Login.resources
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.Mypage.resources
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.Properties.Resources.resources
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.csproj.GenerateResource.cache
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.csproj.CoreCompileInputs.cache
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.csproj.CopyComplete
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.exe
+D:\CSharp_Team\최수련\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.pdb
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Book_re.exe.config
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Book_re.exe
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Book_re.pdb
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Newtonsoft.Json.dll
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\SunnyUI.Common.dll
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\SunnyUI.dll
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\bin\Debug\Newtonsoft.Json.xml
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.LibraryRecommand.resources
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.BookInfoForm.resources
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.BookSearcher.resources
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.chartView.resources
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.MainForm.resources
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.Join_Main.resources
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.Member_Login.resources
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.Mypage.resources
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.Properties.Resources.resources
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.csproj.CopyComplete
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.exe
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.pdb
+C:\Users\KB\Desktop\CSharp_Team_member추가\Book_re\Book_re\obj\Debug\Book_re.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\bin\Debug\Book_re.exe.config
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\bin\Debug\Book_re.exe
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\bin\Debug\Book_re.pdb
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\bin\Debug\Newtonsoft.Json.dll
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\bin\Debug\SunnyUI.Common.dll
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\bin\Debug\SunnyUI.dll
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\bin\Debug\Newtonsoft.Json.xml
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.LibraryRecommand.resources
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.BookInfoForm.resources
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.BookSearcher.resources
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.chartView.resources
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.MainForm.resources
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.Join_Main.resources
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.Member_Login.resources
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.Mypage.resources
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.Properties.Resources.resources
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.csproj.CopyComplete
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.exe
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.pdb
+C:\Users\KB\Desktop\cSharp\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.UI.Find_IDPW.resources
+\\192.168.0.111\_2021인공지능\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.csprojAssemblyReference.cache
+\\192.168.0.111\_2021인공지능\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.exe
+\\192.168.0.111\_2021인공지능\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.pdb
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\bin\Debug\Book_re.exe.config
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\bin\Debug\Book_re.exe
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\bin\Debug\Book_re.pdb
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\bin\Debug\Newtonsoft.Json.dll
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\bin\Debug\SunnyUI.Common.dll
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\bin\Debug\SunnyUI.dll
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\bin\Debug\Newtonsoft.Json.xml
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.csprojAssemblyReference.cache
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.UI.Find_IDPW.resources
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.LibraryRecommand.resources
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.BookInfoForm.resources
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.BookSearcher.resources
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.chartView.resources
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.MainForm.resources
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.Join_Main.resources
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.Member_Login.resources
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.Mypage.resources
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.Properties.Resources.resources
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.csproj.GenerateResource.cache
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.csproj.CoreCompileInputs.cache
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.csproj.CopyComplete
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.exe
+D:\조별 프로젝트\c#\3조\CSharp_Team_member_F1\Book_re\Book_re\obj\Debug\Book_re.pdb
