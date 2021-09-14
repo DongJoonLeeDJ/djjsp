@@ -1,0 +1,11 @@
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\Delegate_Lamda\bin\Debug\Delegate_Lamda.exe.config
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\Delegate_Lamda\bin\Debug\Delegate_Lamda.exe
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\Delegate_Lamda\bin\Debug\Delegate_Lamda.pdb
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\Delegate_Lamda\obj\Debug\Delegate_Lamda.csprojAssemblyReference.cache
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\Delegate_Lamda\obj\Debug\Delegate_Lamda.Properties.Resources.resources
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\Delegate_Lamda\obj\Debug\Delegate_Lamda.csproj.GenerateResource.cache
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\Delegate_Lamda\obj\Debug\Delegate_Lamda.csproj.CoreCompileInputs.cache
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\Delegate_Lamda\obj\Debug\Delegate_Lamda.exe
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\Delegate_Lamda\obj\Debug\Delegate_Lamda.pdb
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\Delegate_Lamda\obj\Debug\Delegate_Lamda.Form1.resources
+D:\MHJSP\djjsp\cSharp\Delegate_Lamda\Delegate_Lamda\obj\Debug\Delegate_Lamda.Form2.resources
