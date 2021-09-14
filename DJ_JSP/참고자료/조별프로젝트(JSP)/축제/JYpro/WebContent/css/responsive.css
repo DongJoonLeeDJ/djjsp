@@ -1,0 +1,88 @@
+/* Normal desktop :992px. */
+@media (min-width: 1201px) and (max-width: 1500px) {
+.single-slider {
+  padding: 170px 0;
+}
+
+}/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.single-slider {
+  padding: 170px 0;
+}
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.main-menu ul li a {
+  padding: 30px 12px;
+}
+.top-right li span {
+  font-size: 12px;
+}
+.top-right li a {
+  font-size: 12px;
+}
+.top-right li {
+  line-height: 33px;
+}
+.single-slider {
+  padding: 150px 0;
+}
+.mt-sm-50{margin-top:50px;}
+.Flickr-list > li {
+  width: inherit;
+}
+.footer-area .Flickr-list > li {
+  width: 33.33%;
+}
+
+
+
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+/* .container {width:300px} */
+.single-slider {
+  padding: 100px 0;
+}
+.slider-active .owl-nav div {
+  font-size: 27px;
+  height: 40px;
+  line-height: 36px;
+  width: 40px;
+}
+.slider-text h1 {
+  font-size: 28px;
+}
+.slider-text p {
+  display: none;
+  font-size: 13px;
+  line-height: 23px;
+}
+.slider-text a {
+  font-size: 12px;
+  padding: 7px 12px;
+}
+.portfolio-filter li {
+  margin: 3px 4px;
+}
+.social-icons.text-center > a {
+  margin: 0 2px;
+ }
+.single-counter {
+  width: 50%;
+}
+ 
+ 
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+} 
+ 
+
