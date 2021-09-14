@@ -38,7 +38,7 @@ namespace StudyObserverPattern
             example.Add("aaaa");
             //C#에서의 List와 자바에서의 ArrayList가 똑같음
 
-            frm2 = new Form2(this);
+            frm2 = new Form2(this); //인스턴스 생성
             frm2.TopLevel = false;
             frm2.FormBorderStyle = FormBorderStyle.None;
             frm2.Dock = DockStyle.Fill;
@@ -49,14 +49,14 @@ namespace StudyObserverPattern
             frm3.TopLevel = false;
             frm3.FormBorderStyle = FormBorderStyle.None;
             frm3.Dock = DockStyle.Fill;
-            panel1.Controls.Add(frm3);
+            panel2.Controls.Add(frm3);
             frm3.Show();
 
             frm4 = new Form4(this, frm2, frm3);
             frm4.TopLevel = false;
             frm4.FormBorderStyle = FormBorderStyle.None;
             frm4.Dock = DockStyle.Fill;
-            panel1.Controls.Add(frm4);
+            panel3.Controls.Add(frm4);
             frm4.Show();
 
 
@@ -66,17 +66,35 @@ namespace StudyObserverPattern
         public void notify()
         {
             //이 함수를 구현하지 않았다고 에러 메시지 주면서 튕기게 하는 것(=프로그램 꺼지게 하는 거)
-           // throw new NotImplementedException();
+            // throw new NotImplementedException();
+            foreach (IObserver item in _observers)
+            {
+                item.update(textBox1.Text);
+            }
         }
 
         public void register(IObserver o)
         {
-           // throw new NotImplementedException();
+            // throw new NotImplementedException();
+            _observers.Add(o);
         }
 
         public void remove(IObserver o)
         {
-           // throw new NotImplementedException();
+            // throw new NotImplementedException();
+            _observers.Remove(o);
         }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            //엔터키를 칠 때 마다, notify를 호출해서
+            //IObserver 인터페이스 구현되어 있는
+            //객체들의 update 함수를 일괄적으로 호출함
+
+            if (e.KeyCode == Keys.Enter)
+                notify();
+
+        }
+
     }
 }

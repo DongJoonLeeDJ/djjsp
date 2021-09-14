@@ -14,7 +14,9 @@ namespace StudyObserverPattern
     {
         public Form2(ISubject sub)
         {
-            sub.register(this);
+            //sub의 register 호출한다. -> ISubject 인터페이스를 구현하고 있는 객체의 register를 호출한다.
+            //Form1은 ISubject 인터페이스가 구현되어 있고, 그러므로 Form1의 regester를 호출한다는 소리임
+            sub.register(this); 
             InitializeComponent();
         }
 
