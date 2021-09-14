@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Windows Desktop
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameCollision", "NameCollision.csproj", "{55ABF4EB-2754-4FAF-94FE-23BA9E9E8559}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55ABF4EB-2754-4FAF-94FE-23BA9E9E8559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55ABF4EB-2754-4FAF-94FE-23BA9E9E8559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55ABF4EB-2754-4FAF-94FE-23BA9E9E8559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55ABF4EB-2754-4FAF-94FE-23BA9E9E8559}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
