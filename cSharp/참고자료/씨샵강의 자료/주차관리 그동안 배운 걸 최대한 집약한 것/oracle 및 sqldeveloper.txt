@@ -1,0 +1,27 @@
+sqldeveloper
+https://grand-unified-engine.tistory.com/16
+
+
+email로 exe 안 보내지면 압축할 때 비밀번호 걸어야 함
+
+
+DATASOURCE에 길이가 0인 리스트 넣으면 나중에 인덱스 오류가 날 수 있다.
+
+
+
+SQL DEVELOPER 날짜 형식
+https://allmana.tistory.com/98
+
+
+오라클이랑 다른 DB 날짜 비교
+https://yaraba.tistory.com/318
+
+SYSDATE 함수
+https://m.blog.naver.com/PostView.nhn?blogId=cumulusworld&logNo=50192961986&proxyReferer=https:%2F%2Fwww.google.com%2F
+
+ORACLE VS MYSQL
+https://jang8584.tistory.com/191
+
+
+권한 관련 문제(SYSTEM 계정으로 접속해서 해줄 것)
+https://dololak.tistory.com/756

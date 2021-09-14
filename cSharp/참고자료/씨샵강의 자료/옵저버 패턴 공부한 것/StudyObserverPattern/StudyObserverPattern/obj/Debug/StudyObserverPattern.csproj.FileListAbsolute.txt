@@ -1,0 +1,13 @@
+D:\MHJSP\djjsp\cSharp\StudyObserverPattern\StudyObserverPattern\bin\Debug\StudyObserverPattern.exe.config
+D:\MHJSP\djjsp\cSharp\StudyObserverPattern\StudyObserverPattern\bin\Debug\StudyObserverPattern.exe
+D:\MHJSP\djjsp\cSharp\StudyObserverPattern\StudyObserverPattern\bin\Debug\StudyObserverPattern.pdb
+D:\MHJSP\djjsp\cSharp\StudyObserverPattern\StudyObserverPattern\obj\Debug\StudyObserverPattern.csprojAssemblyReference.cache
+D:\MHJSP\djjsp\cSharp\StudyObserverPattern\StudyObserverPattern\obj\Debug\StudyObserverPattern.Form1.resources
+D:\MHJSP\djjsp\cSharp\StudyObserverPattern\StudyObserverPattern\obj\Debug\StudyObserverPattern.Form2.resources
+D:\MHJSP\djjsp\cSharp\StudyObserverPattern\StudyObserverPattern\obj\Debug\StudyObserverPattern.Form3.resources
+D:\MHJSP\djjsp\cSharp\StudyObserverPattern\StudyObserverPattern\obj\Debug\StudyObserverPattern.Form4.resources
+D:\MHJSP\djjsp\cSharp\StudyObserverPattern\StudyObserverPattern\obj\Debug\StudyObserverPattern.Properties.Resources.resources
+D:\MHJSP\djjsp\cSharp\StudyObserverPattern\StudyObserverPattern\obj\Debug\StudyObserverPattern.csproj.GenerateResource.cache
+D:\MHJSP\djjsp\cSharp\StudyObserverPattern\StudyObserverPattern\obj\Debug\StudyObserverPattern.csproj.CoreCompileInputs.cache
+D:\MHJSP\djjsp\cSharp\StudyObserverPattern\StudyObserverPattern\obj\Debug\StudyObserverPattern.exe
+D:\MHJSP\djjsp\cSharp\StudyObserverPattern\StudyObserverPattern\obj\Debug\StudyObserverPattern.pdb
