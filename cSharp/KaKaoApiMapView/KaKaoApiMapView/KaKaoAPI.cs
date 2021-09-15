@@ -32,11 +32,11 @@ namespace KaKaoApiMapView
             request.Headers.Add("Authorization", header);
 
 
-            //요청된 걸 읽어들이는 작업
+            //응답된 걸 읽어들이는 작업(카카오에서 보내온 응답을 읽는 과정)
             WebResponse response = request.GetResponse();
             Stream stream = response.GetResponseStream();
+            //UTF8형태로 읽음(인코딩 잘못하면 한글이 깨지니까
             StreamReader reader = new StreamReader(stream, Encoding.UTF8);
-
             string json = reader.ReadToEnd();
 
             JavaScriptSerializer js = new JavaScriptSerializer();
@@ -73,6 +73,15 @@ namespace KaKaoApiMapView
 
             //이렇게 객체형태로 받아들이는 이유는
             //json이 객체라서... 임의의 객체 변수로 값을 받아오는 것임
+            //js라는 string변수에 있는 json모양의 데이터를 
+            //하나의 객체로 만들어서 dob에 넣은 거임...
+
+
+            //var를 써도 되지만
+            //dynamic을 쓰는 이유는
+            //var는 오른쪽에 있는 변수가 일단은 타입이 있어야 함
+            //근데 이 json에서 읽어오는 자바스크립트객체는 어떤 "타입"이 정해져 있지 않아
+
             dynamic dob = js.Deserialize<dynamic>(json); //var랑 비슷한 거... 자료형
 
             //json객체에서 document 속성의 값들을 받아온다.

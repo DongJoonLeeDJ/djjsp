@@ -79,6 +79,7 @@ namespace KaKaoApiMapView
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(547, 310);
             this.webBrowser1.TabIndex = 4;
+            this.webBrowser1.Url = new System.Uri("http://ehpub.co.kr/kakaomap.html", System.UriKind.Absolute);
             // 
             // Form1
             // 

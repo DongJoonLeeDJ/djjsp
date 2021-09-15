@@ -24,13 +24,21 @@ namespace KaKaoApiMapView
             listBox1.Items.Clear();
             foreach (MyLocale item in mls)
             {
-                //listBox1.Items.Add(item);
-                listBox1.Items.Insert(0, item);
+                listBox1.Items.Add(item); //가장 나중에 들어간 것이 가장 나중에 위치
+                //listBox1.Items.Insert(0, item); //가장 첫번째 들어간 것이 가장 나중에 위치
             }
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (listBox1.SelectedIndex == -1)
+                return; //엉뚱한 곳을 클릭하게 되면 이 함수를 실행하지 않음
+
+            MyLocale ml = listBox1.SelectedItem as MyLocale;
+            object[] ps = new object[] { ml.Lat, ml.Lng };
+            HtmlDocument hdoc = webBrowser1.Document;
+            hdoc.InvokeScript("setCenter", ps);
+
 
         }
     }
