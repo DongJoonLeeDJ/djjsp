@@ -1,10 +1,11 @@
 D:\MHJSP\djjsp\cSharp\ReadAPI\ReadAPI\bin\Debug\ReadAPI.exe.config
 D:\MHJSP\djjsp\cSharp\ReadAPI\ReadAPI\bin\Debug\ReadAPI.exe
 D:\MHJSP\djjsp\cSharp\ReadAPI\ReadAPI\bin\Debug\ReadAPI.pdb
-D:\MHJSP\djjsp\cSharp\ReadAPI\ReadAPI\obj\Debug\ReadAPI.csprojAssemblyReference.cache
 D:\MHJSP\djjsp\cSharp\ReadAPI\ReadAPI\obj\Debug\ReadAPI.Form1.resources
 D:\MHJSP\djjsp\cSharp\ReadAPI\ReadAPI\obj\Debug\ReadAPI.Properties.Resources.resources
 D:\MHJSP\djjsp\cSharp\ReadAPI\ReadAPI\obj\Debug\ReadAPI.csproj.GenerateResource.cache
 D:\MHJSP\djjsp\cSharp\ReadAPI\ReadAPI\obj\Debug\ReadAPI.csproj.CoreCompileInputs.cache
 D:\MHJSP\djjsp\cSharp\ReadAPI\ReadAPI\obj\Debug\ReadAPI.exe
 D:\MHJSP\djjsp\cSharp\ReadAPI\ReadAPI\obj\Debug\ReadAPI.pdb
+D:\MHJSP\djjsp\cSharp\ReadAPI\ReadAPI\obj\Debug\ReadAPI.csprojAssemblyReference.cache
+D:\MHJSP\djjsp\cSharp\ReadAPI\ReadAPI\obj\Debug\ReadAPI.Form2.resources
