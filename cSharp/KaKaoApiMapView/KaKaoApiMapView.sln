@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaKaoApiMapView", "KaKaoApiMapView\KaKaoApiMapView.csproj", "{FE0D80E2-398A-49A1-A72B-E02B89B71241}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE0D80E2-398A-49A1-A72B-E02B89B71241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE0D80E2-398A-49A1-A72B-E02B89B71241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE0D80E2-398A-49A1-A72B-E02B89B71241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE0D80E2-398A-49A1-A72B-E02B89B71241}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {640F5EF2-6702-40D5-9651-9D03E3D2A80F}
+	EndGlobalSection
+EndGlobal

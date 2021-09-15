@@ -32,11 +32,11 @@ namespace ReadAPI
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.daeguBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.addressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.attractnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.telDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.daeguBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.daeguBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -66,28 +66,6 @@ namespace ReadAPI
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // addressDataGridViewTextBoxColumn
-            // 
-            this.addressDataGridViewTextBoxColumn.DataPropertyName = "address";
-            this.addressDataGridViewTextBoxColumn.HeaderText = "address";
-            this.addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
-            // 
-            // attractnameDataGridViewTextBoxColumn
-            // 
-            this.attractnameDataGridViewTextBoxColumn.DataPropertyName = "attractname";
-            this.attractnameDataGridViewTextBoxColumn.HeaderText = "attractname";
-            this.attractnameDataGridViewTextBoxColumn.Name = "attractnameDataGridViewTextBoxColumn";
-            // 
-            // telDataGridViewTextBoxColumn
-            // 
-            this.telDataGridViewTextBoxColumn.DataPropertyName = "tel";
-            this.telDataGridViewTextBoxColumn.HeaderText = "tel";
-            this.telDataGridViewTextBoxColumn.Name = "telDataGridViewTextBoxColumn";
-            // 
-            // daeguBindingSource
-            // 
-            this.daeguBindingSource.DataSource = typeof(ReadAPI.Daegu);
-            // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(13, 309);
@@ -97,6 +75,28 @@ namespace ReadAPI
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // daeguBindingSource
+            // 
+            this.daeguBindingSource.DataSource = typeof(ReadAPI.Daegu);
+            // 
+            // addressDataGridViewTextBoxColumn
+            // 
+            this.addressDataGridViewTextBoxColumn.DataPropertyName = "address";
+            this.addressDataGridViewTextBoxColumn.HeaderText = "주소";
+            this.addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
+            // 
+            // attractnameDataGridViewTextBoxColumn
+            // 
+            this.attractnameDataGridViewTextBoxColumn.DataPropertyName = "attractname";
+            this.attractnameDataGridViewTextBoxColumn.HeaderText = "장소";
+            this.attractnameDataGridViewTextBoxColumn.Name = "attractnameDataGridViewTextBoxColumn";
+            // 
+            // telDataGridViewTextBoxColumn
+            // 
+            this.telDataGridViewTextBoxColumn.DataPropertyName = "tel";
+            this.telDataGridViewTextBoxColumn.HeaderText = "전화번호";
+            this.telDataGridViewTextBoxColumn.Name = "telDataGridViewTextBoxColumn";
             // 
             // Form1
             // 
@@ -118,11 +118,11 @@ namespace ReadAPI
 
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.BindingSource daeguBindingSource;
+        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataGridViewTextBoxColumn addressDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn attractnameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn telDataGridViewTextBoxColumn;
-        private System.Windows.Forms.BindingSource daeguBindingSource;
-        private System.Windows.Forms.Button button2;
     }
 }
 
