@@ -10,3 +10,5 @@ D:\MHJSP\djjsp\cSharp\ReadJson\ReadJson\obj\Debug\ReadJson.csproj.CoreCompileInp
 D:\MHJSP\djjsp\cSharp\ReadJson\ReadJson\obj\Debug\ReadJson.csproj.CopyComplete
 D:\MHJSP\djjsp\cSharp\ReadJson\ReadJson\obj\Debug\ReadJson.exe
 D:\MHJSP\djjsp\cSharp\ReadJson\ReadJson\obj\Debug\ReadJson.pdb
+D:\MHJSP\djjsp\cSharp\ReadJson\ReadJson\obj\Debug\ReadJson.csprojAssemblyReference.cache
+D:\MHJSP\djjsp\cSharp\ReadJson\ReadJson\obj\Debug\ReadJson.Form2.resources

@@ -1,0 +1,7 @@
+D:\MHJSP\djjsp\cSharp\Last_Linq\Last_Linq\bin\Debug\Last_Linq.exe.config
+D:\MHJSP\djjsp\cSharp\Last_Linq\Last_Linq\bin\Debug\Last_Linq.exe
+D:\MHJSP\djjsp\cSharp\Last_Linq\Last_Linq\bin\Debug\Last_Linq.pdb
+D:\MHJSP\djjsp\cSharp\Last_Linq\Last_Linq\obj\Debug\Last_Linq.csprojAssemblyReference.cache
+D:\MHJSP\djjsp\cSharp\Last_Linq\Last_Linq\obj\Debug\Last_Linq.csproj.CoreCompileInputs.cache
+D:\MHJSP\djjsp\cSharp\Last_Linq\Last_Linq\obj\Debug\Last_Linq.exe
+D:\MHJSP\djjsp\cSharp\Last_Linq\Last_Linq\obj\Debug\Last_Linq.pdb
