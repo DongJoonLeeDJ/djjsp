@@ -42,10 +42,34 @@ namespace KaKaoApiMapView
             JavaScriptSerializer js = new JavaScriptSerializer();
 
 
-            //var => foreach문에서 쓰임
-            //string 이나 int같은 그런 변수들에서 활용되고(foreach문)
-            //임시변수? object와 매우 유사..
-            //임시 객체라고 보면 됨...
+            //공통점
+            //셋다 임시변수
+
+            //var는 선언이 되면서 값이랑 타입이 바로 정해짐
+            var test1 = 1; //int 타입 
+            var test2 = "2"; //string 타입
+
+            int length2= test2.Length;// 따라서 변수 선언하자마자
+            //해당타입의 변수처럼 쓸 수 있음
+            //인텔리센스를 호출할 수 있음(=인텔리센스 = 점 찍으면 나오는 자동완성기능)
+
+
+            //프로그램이 실행이 되어야지만 그 때 타입이 결정됨
+            dynamic test3 = 1;  
+            dynamic test4 = "2";
+            //인텔리센스 못 씀
+
+            //var랑 유사한데...
+            //선언하고나서도, 해당 타입의 인텔리센스 쓰고 싶다면
+            //아래와 같이 형변환해줘야 함
+            object test5 = 1;
+            object test6 = "2";
+            int mylength = (test6 as string).Length;
+            //as를 쓰게 되면, 형변환 실패시 해당 변수를 null값으로 바꿈
+            //is 키워드도 공부해두세요.
+            int mylength2 = ((string)test6).Length;
+
+            
 
             //이렇게 객체형태로 받아들이는 이유는
             //json이 객체라서... 임의의 객체 변수로 값을 받아오는 것임
@@ -65,10 +89,13 @@ namespace KaKaoApiMapView
             //출처 
             //https://velog.io/@hsj0511/%ED%8E%8CCType-C%EC%9D%98-%EB%8B%A4%EC%96%91%ED%95%9C-%ED%83%80%EC%9E%85type-%EC%84%A0%EC%96%B8-var-vs.-dynamic-vs.-object-
 
+            //장소이름, 위도, 경도
             for (int i = 0; i < length; i++)
             {
                 string local_name = docs[i]["place_name"];
-
+                double x = double.Parse(docs[i]["x"]);
+                double y = double.Parse(docs[i]["y"]);
+                mls.Add(new MyLocale(local_name, y, x));
             }
 
             return mls;
