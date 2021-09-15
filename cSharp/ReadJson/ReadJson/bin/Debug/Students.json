@@ -1,0 +1,23 @@
+{
+  "students": {
+    "student": [
+      {
+        "name": "장예진",
+        "age": "24",
+        "hakbeon": "334"
+      },
+	  
+      {
+        "name": "이동준",
+        "age": "4",
+        "hakbeon": "123"
+      },
+	  
+      {
+        "name": "김동영",
+        "age": "14",
+        "hakbeon": "999"
+      }
+    ]
+  }
+}

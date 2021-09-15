@@ -1,0 +1,12 @@
+D:\MHJSP\djjsp\cSharp\ReadJson\ReadJson\bin\Debug\ReadJson.exe.config
+D:\MHJSP\djjsp\cSharp\ReadJson\ReadJson\bin\Debug\ReadJson.exe
+D:\MHJSP\djjsp\cSharp\ReadJson\ReadJson\bin\Debug\ReadJson.pdb
+D:\MHJSP\djjsp\cSharp\ReadJson\ReadJson\bin\Debug\Newtonsoft.Json.dll
+D:\MHJSP\djjsp\cSharp\ReadJson\ReadJson\bin\Debug\Newtonsoft.Json.xml
+D:\MHJSP\djjsp\cSharp\ReadJson\ReadJson\obj\Debug\ReadJson.Form1.resources
+D:\MHJSP\djjsp\cSharp\ReadJson\ReadJson\obj\Debug\ReadJson.Properties.Resources.resources
+D:\MHJSP\djjsp\cSharp\ReadJson\ReadJson\obj\Debug\ReadJson.csproj.GenerateResource.cache
+D:\MHJSP\djjsp\cSharp\ReadJson\ReadJson\obj\Debug\ReadJson.csproj.CoreCompileInputs.cache
+D:\MHJSP\djjsp\cSharp\ReadJson\ReadJson\obj\Debug\ReadJson.csproj.CopyComplete
+D:\MHJSP\djjsp\cSharp\ReadJson\ReadJson\obj\Debug\ReadJson.exe
+D:\MHJSP\djjsp\cSharp\ReadJson\ReadJson\obj\Debug\ReadJson.pdb
