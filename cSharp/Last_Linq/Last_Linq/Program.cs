@@ -58,7 +58,23 @@ namespace Last_Linq
                 System.Console.WriteLine();
             }
 
+            var xmlQuery3 = from item in xxElement.Descendants("data")
+                            select
+                            new Weather()
+                            {
+                                Hour = item.Element("hour").Value,
+                                Day = item.Element("day").Value,
+                                Temp = item.Element("temp").Value
+                            };
 
+            //필요한 것만 정렬해서 출력 xmlQuery2와 동일
+            foreach (var item in xmlQuery3)
+            {
+                System.Console.Write(item.Hour + "\t");
+                System.Console.Write(item.Day + "\t");
+                System.Console.Write(item.Temp + "\t");
+                System.Console.WriteLine();
+            }
         }
     }
 }

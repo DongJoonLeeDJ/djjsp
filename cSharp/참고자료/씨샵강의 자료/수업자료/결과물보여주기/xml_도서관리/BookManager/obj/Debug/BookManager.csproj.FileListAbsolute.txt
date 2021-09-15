@@ -1,0 +1,12 @@
+D:\MHJSP\djjsp\cSharp\참고자료\씨샵강의 자료\수업자료\결과물보여주기\xml_도서관리\BookManager\bin\Debug\BookManager.exe.config
+D:\MHJSP\djjsp\cSharp\참고자료\씨샵강의 자료\수업자료\결과물보여주기\xml_도서관리\BookManager\bin\Debug\BookManager.exe
+D:\MHJSP\djjsp\cSharp\참고자료\씨샵강의 자료\수업자료\결과물보여주기\xml_도서관리\BookManager\bin\Debug\BookManager.pdb
+D:\MHJSP\djjsp\cSharp\참고자료\씨샵강의 자료\수업자료\결과물보여주기\xml_도서관리\BookManager\obj\Debug\BookManager.csprojAssemblyReference.cache
+D:\MHJSP\djjsp\cSharp\참고자료\씨샵강의 자료\수업자료\결과물보여주기\xml_도서관리\BookManager\obj\Debug\BookManager.Form1.resources
+D:\MHJSP\djjsp\cSharp\참고자료\씨샵강의 자료\수업자료\결과물보여주기\xml_도서관리\BookManager\obj\Debug\BookManager.Form2.resources
+D:\MHJSP\djjsp\cSharp\참고자료\씨샵강의 자료\수업자료\결과물보여주기\xml_도서관리\BookManager\obj\Debug\BookManager.Form3.resources
+D:\MHJSP\djjsp\cSharp\참고자료\씨샵강의 자료\수업자료\결과물보여주기\xml_도서관리\BookManager\obj\Debug\BookManager.Properties.Resources.resources
+D:\MHJSP\djjsp\cSharp\참고자료\씨샵강의 자료\수업자료\결과물보여주기\xml_도서관리\BookManager\obj\Debug\BookManager.csproj.GenerateResource.cache
+D:\MHJSP\djjsp\cSharp\참고자료\씨샵강의 자료\수업자료\결과물보여주기\xml_도서관리\BookManager\obj\Debug\BookManager.csproj.CoreCompileInputs.cache
+D:\MHJSP\djjsp\cSharp\참고자료\씨샵강의 자료\수업자료\결과물보여주기\xml_도서관리\BookManager\obj\Debug\BookManager.exe
+D:\MHJSP\djjsp\cSharp\참고자료\씨샵강의 자료\수업자료\결과물보여주기\xml_도서관리\BookManager\obj\Debug\BookManager.pdb
