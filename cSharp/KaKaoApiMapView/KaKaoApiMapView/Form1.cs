@@ -19,7 +19,14 @@ namespace KaKaoApiMapView
 
         private void button1_Click(object sender, EventArgs e)
         {
+            List<MyLocale> mls = KaKaoAPI.Search(textBox1.Text);
 
+            listBox1.Items.Clear();
+            foreach (MyLocale item in mls)
+            {
+                //listBox1.Items.Add(item);
+                listBox1.Items.Insert(0, item);
+            }
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
