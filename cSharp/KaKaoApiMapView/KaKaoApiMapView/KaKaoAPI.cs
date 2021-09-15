@@ -57,7 +57,15 @@ namespace KaKaoApiMapView
             object[] buf = docs;
             int length = buf.Length;
 
-            for(int i = 0; i < length; i++)
+            //var 컴파일 시점(실행되기 전)에 타입 결정 됨
+            //dynamic 런파일(본격적으로 실행될 때)에 타입 결정 됨\
+            //object 모든 변수를 의미함(=객체포함) 단 원본 형식으로 사용할 땐 형변환 필요.
+            //object a = new MyLocale();
+            //(a as MyLocale).ToString();
+            //출처 
+            //https://velog.io/@hsj0511/%ED%8E%8CCType-C%EC%9D%98-%EB%8B%A4%EC%96%91%ED%95%9C-%ED%83%80%EC%9E%85type-%EC%84%A0%EC%96%B8-var-vs.-dynamic-vs.-object-
+
+            for (int i = 0; i < length; i++)
             {
                 string local_name = docs[i]["place_name"];
 
