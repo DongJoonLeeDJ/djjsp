@@ -1,0 +1,5 @@
+jsp
+https://youtu.be/APJAJeePl4g (java도 참고하면 좋음, 스프링은 좀 옛날거라 지금이랑 실습환경이 많이 안 맞을 수 있다.)
+
+스프링
+https://youtu.be/j5WlADp5f_o
