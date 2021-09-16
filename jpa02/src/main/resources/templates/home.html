@@ -1,14 +1,27 @@
-<!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org">
-<head>
-    <title>Getting Started: Serving Web Content</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-</head>
-<body>
-<p th:text="'Hello, ' + ${name} + '!'" >asdnflkqwnre</p>
-<div>
-    home.html
-</div>
-</body>
-</html>
+<!doctype html>
+<html lang="en">
 
+<head th:replace="common/common :: head">
+</head>
+
+<body>
+
+    <nav th:replace="common/common :: nav">
+    </nav>
+
+    <main class="container">
+        <div class="bg-light p-5 rounded">
+            <h1>포트폴리오</h1>
+            <p class="lead">
+                안녕하세요 spring boot , jpa, thymeleaf 사용해서 만든 홈페이지입니다.
+            </p>
+            <a class="btn btn-lg btn-primary" 
+                href="/docs/5.1/components/navbar/" 
+                role="button">프로필 보기</a>
+        </div>
+    </main>
+
+
+</body>
+
+</html>

@@ -18,4 +18,9 @@ public class GreetingController {
         return "home";
     }
 
+    @GetMapping("/board")
+    public String board() {
+        return "board";
+    }
+
 }
