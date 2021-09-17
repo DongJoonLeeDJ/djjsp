@@ -1,0 +1,19 @@
+package com.mh.org;
+
+public class AA {
+
+	AA(){
+		BB b1 = new BB() {
+			@Override
+			public void doA() {
+				System.out.println("b1");
+			}
+		};
+		BB b2 = ()->{
+			System.out.println();
+		};
+		
+		b1.doA();
+		b2.doA();
+	}
+}

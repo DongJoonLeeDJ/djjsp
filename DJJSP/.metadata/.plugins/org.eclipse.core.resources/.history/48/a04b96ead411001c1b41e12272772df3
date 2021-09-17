@@ -1,0 +1,9 @@
+package com.mh.org;
+
+import com.mh.org.domain.Customer;
+
+public interface BB {
+
+	public void doA();
+	public default void doB(Customer cus);
+}

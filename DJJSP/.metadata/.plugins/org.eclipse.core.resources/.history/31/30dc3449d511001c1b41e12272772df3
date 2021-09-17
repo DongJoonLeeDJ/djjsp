@@ -1,0 +1,17 @@
+package com.mh.org;
+
+public class AA {
+
+	AA(){
+//		new BB() {
+//			@Override
+//			public void doA() {
+//				// TODO Auto-generated method stub
+//				
+//			}
+//		};
+		BB bb = (cus)->{
+			System.out.println(c);
+		};
+	}
+}

@@ -20,7 +20,16 @@ public class GreetingController {
 
     @GetMapping("/board")
     public String board() {
-        return "board";
+        return "board/board";
     }
+
+    /*
+        react
+        fetch(url).then((data)->{return data.json()}).then(
+
+        )
+        jquesy.getselector('id').val('asdf')
+        useState()
+     */
 
 }

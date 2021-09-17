@@ -1,0 +1,27 @@
+package com.t3.musicchart;
+
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ChartDataController {
+
+	class Bar{
+		private String score;
+
+		public String getScore() {
+			return score;
+		}
+
+		public void setScore(String score) {
+			this.score = score;
+		}
+	}
+	
+	@RequestMapping(value="barData")
+	public String bar(Model model) {
+		List<Bar> list = new ArrayList();
+		return ;
+	}
+}
