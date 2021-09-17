@@ -12,8 +12,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbar-static/">
 
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link th:href="@{/css/bootstrap.min.css}" href="bootstrap.min.css" rel="stylesheet">
 
     <!-- Favicons -->
     <meta name="theme-color" content="#7952b3">
@@ -75,9 +74,11 @@
     </main>
 
 
-    <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
-    </script>
+    <footer th:fragment="footer">
+        <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
+                th:src="@{/js/bootstrap.bundle.min.js}">
+        </script>
+    </footer>
 
 
 </body>

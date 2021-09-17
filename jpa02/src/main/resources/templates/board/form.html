@@ -17,20 +17,28 @@
     </main>
 
     <div class="container p-5 rounded">
-        <form th:action="@{/form}" method="post">
+        <form th:action="@{/form}" method="post" th:object="${board}">
             <div class="mb-3">
                 <label for="title" class="form-label">제목</label>
-                <input type="email" class="form-control" id="title" aria-describedby="titleHelp">
-                <div id="titleHelp" class="form-text">We'll never share your title with anyone else.</div>
+                <input type="text" name="title" class="form-control" id="title" th:field="*{title}">
+                <div th:if="${#fields.hasErrors('title')}" th:errors="*{title}">
+                    title hasErrors
+                </div>
             </div>
             <div class="mb-3">
                 <label for="content" class="form-label">내용</label>
-                <textarea class="form-control" id="content"></textarea>
+                <textarea class="form-control" name="content" id="content"></textarea>
             </div>
             <a th:href="@{/board}" class="btn btn-primary">취소</a>
             <button type="submit" class="btn btn-primary">저장</button>
         </form>
     </div>
+
+    <footer th:replace="common/common :: footer">
+        <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+        </script>
+    </footer>
 
 </body>
 
