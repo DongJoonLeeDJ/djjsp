@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
 
 <head th:replace="common/common :: head('board')">
 </head>
@@ -37,7 +37,9 @@
         </table>
     </div>
 
-
+    <div class="container d-flex justify-content-end">
+        <a href="#" th:href="@{/form}" class="btn btn-primary" th:text="쓰기">Primary</a>
+    </div>
 </body>
 
 </html>

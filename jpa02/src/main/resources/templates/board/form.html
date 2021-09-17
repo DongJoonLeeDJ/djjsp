@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="common/common :: head('board')">
+</head>
+
+<body>
+
+    <nav th:replace="common/common :: nav('board')">
+
+    </nav>
+
+    <main class="container">
+        <div class="bg-light p-5 rounded">
+            <h1>게시판</h1>
+        </div>
+    </main>
+
+    <div class="container p-5 rounded">
+        <form th:action="@{/form}" method="post">
+            <div class="mb-3">
+                <label for="title" class="form-label">제목</label>
+                <input type="email" class="form-control" id="title" aria-describedby="titleHelp">
+                <div id="titleHelp" class="form-text">We'll never share your title with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="content" class="form-label">내용</label>
+                <textarea class="form-control" id="content"></textarea>
+            </div>
+            <a th:href="@{/board}" class="btn btn-primary">취소</a>
+            <button type="submit" class="btn btn-primary">저장</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
