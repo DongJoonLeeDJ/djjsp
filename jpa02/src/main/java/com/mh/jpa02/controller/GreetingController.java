@@ -1,9 +1,14 @@
 package com.mh.jpa02.controller;
 
+import com.mh.jpa02.model.Board;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+
+import java.util.Arrays;
+import java.util.List;
 
 @Controller
 public class GreetingController {
@@ -19,8 +24,15 @@ public class GreetingController {
     }
 
     @GetMapping("/board")
-    public String board() {
+    public String board(Model model) {
+        List<Board> list = Arrays.asList(
+                new Board(1l,"board1",
+                        "title1111","1111content","20210916"),
+                new Board(2l,"board2",
+                        "title2222","2222content","20210917"));
+        model.addAttribute("list",list);
         return "board/board";
+
     }
 
     /*
