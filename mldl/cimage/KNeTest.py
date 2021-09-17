@@ -80,6 +80,6 @@ def getresult(urliamge):
             yon = mychar
 
     revalue = result.split(yon)
-    evalvalue = str(int(revalue[0]))+yon+revalue[1]
+    evalvalue = str(int(revalue[0]))+yon+str(int(revalue[1]))
 
     return eval(evalvalue)
