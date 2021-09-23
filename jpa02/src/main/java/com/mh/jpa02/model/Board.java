@@ -20,7 +20,11 @@ public class Board {
 
     @Size(min=2, max=30, message = "제목은 2이상 30이하 길이여야합니다.")
     private String title;
+
+    @Size(min=2, max=30)
     private String content;
+
+
     private String date;
 
 }

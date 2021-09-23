@@ -17,7 +17,14 @@
     </main>
 
     <div class="container p-5 rounded">
-        <table class="table table-dark table-hover">
+        <table class="table table-dark table-hover
+                       text-center" style="cursor:pointer">
+            <colgroup>
+                <col width="10%">
+                <col width="50%">
+                <col width="20%">
+                <col width="20%">
+            </colgroup>
             <thead>
                 <tr>
                     <th>순번</th>
@@ -30,8 +37,8 @@
                 <tr class="table-active" th:each="board : ${list}">
                     <td th:text=${board.id}></td>
                     <td th:text=${board.title}></td>
-                    <td th:text=${board.date}></td>
                     <td th:text=${board.name}></td>
+                    <td th:text=${board.date}></td>
                 </tr>
             </tbody>
         </table>

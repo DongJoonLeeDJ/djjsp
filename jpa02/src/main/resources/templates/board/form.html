@@ -27,7 +27,9 @@
             </div>
             <div class="mb-3">
                 <label for="content" class="form-label">내용</label>
-                <textarea class="form-control" name="content" id="content"></textarea>
+                <textarea class="form-control" name="content" id="content" th:field="*{content}"></textarea>
+                <div th:if="${#fields.hasErrors('content')}" th:errors="*{content}">
+                </div>
             </div>
             <a th:href="@{/board}" class="btn btn-primary">취소</a>
             <button type="submit" class="btn btn-primary">저장</button>
