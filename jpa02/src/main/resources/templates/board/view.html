@@ -17,23 +17,17 @@
     </main>
 
     <div class="container p-5 rounded">
-        <form th:action="@{/board/form}" method="post" th:object="${board}">
-            <div class="mb-3">
-                <label for="title" class="form-label">제목</label>
-                <input type="text" name="title" class="form-control" id="title" th:field="*{title}">
-                <div th:if="${#fields.hasErrors('title')}" th:errors="*{title}">
-                    title hasErrors
-                </div>
-            </div>
-            <div class="mb-3">
-                <label for="content" class="form-label">내용</label>
-                <textarea class="form-control" name="content" id="content" th:field="*{content}"></textarea>
-                <div th:if="${#fields.hasErrors('content')}" th:errors="*{content}">
-                </div>
-            </div>
-            <a th:href="@{/board/list}" class="btn btn-primary">취소</a>
-            <button type="submit" class="btn btn-primary">저장</button>
-        </form>
+        <div class="mb-3">
+            <label for="title" class="form-label">제목</label>
+            <div id="title" th:text="${board.title}"></div>
+        </div>
+        <div class="mb-3">
+            <label for="content" class="form-label">내용</label>
+            <div id="content" th:text="${board.content}"></div>
+        </div>
+        <a th:href="@{/board/list}" class="btn btn-primary">목록</a>
+        <a th:href="@{/board/delete}" id="delete" class="btn btn-primary">삭제</a>
+        <a th:href="@{/board/form(id=${board.id})}" class="btn btn-primary">수정</a>
     </div>
 
     <footer th:replace="common/common :: footer">

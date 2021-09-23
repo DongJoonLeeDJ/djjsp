@@ -2,6 +2,7 @@ package com.mh.jpa02.controller;
 
 import com.mh.jpa02.model.Board;
 import com.mh.jpa02.repository.BoardRepository;
+import com.sun.org.apache.xpath.internal.operations.Mod;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Controller;
@@ -10,10 +11,12 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.validation.Valid;
 import java.text.SimpleDateFormat;
 import java.util.List;
+
 
 @Controller
 @RequestMapping("/board")
@@ -36,9 +39,11 @@ public class BoardController {
         model.addAttribute("board",board);
         return "board/view";
     }
-
+    
     @GetMapping("/form")
-    public String form(Board board) {
+    public String form(Model model, @RequestParam(required = false, defaultValue = "0") long id) {
+        Board board = boardRepository.findById(id).orElse(new Board());
+        model.addAttribute("board", board);
         return "board/form";
     }
 
