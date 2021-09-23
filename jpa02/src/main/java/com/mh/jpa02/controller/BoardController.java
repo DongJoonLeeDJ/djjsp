@@ -47,6 +47,10 @@ public class BoardController {
         return "board/form";
     }
 
+    // 삭제.. 
+    // validater 
+    // page 모양만들기
+    // # 문법 봐야됨 #filed
     @PostMapping("/form")
     public String form(Model model, @Valid Board board, BindingResult bindingResult) {
         model.addAttribute("board",board);
@@ -56,6 +60,7 @@ public class BoardController {
         long nano = System.currentTimeMillis();
         String curDate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(nano);
         board.setDate(curDate);
+//        board.setId(1l);
         boardRepository.save(board);
         return "redirect:/board/list";
     }

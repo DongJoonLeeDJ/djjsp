@@ -18,6 +18,7 @@
 
     <div class="container p-5 rounded">
         <form th:action="@{/board/form}" method="post" th:object="${board}">
+            <input type="hidden" th:field="*{id}"/>
             <div class="mb-3">
                 <label for="title" class="form-label">제목</label>
                 <input type="text" name="title" class="form-control" id="title" th:field="*{title}">
