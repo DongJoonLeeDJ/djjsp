@@ -1,6 +1,12 @@
 body {
   min-height: 75rem;
 }
+a{
+    text-decoration : none;
+}
+a:hover{
+    color: #fff;
+}
 .icon-list {
   padding-left: 0;
   list-style: none;

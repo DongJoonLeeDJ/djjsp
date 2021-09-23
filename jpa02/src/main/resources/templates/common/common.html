@@ -34,7 +34,7 @@
     </style>
 
     <!-- Custom styles for this template -->
-    <link href="navbar-top.css" th:href="@{/starter-template.css}" rel="stylesheet">
+    <link href="" th:href="@{/starter-template.css}" rel="stylesheet">
 </head>
 
 <body>
@@ -52,7 +52,7 @@
                         <a class="nav-link" th:classappend="${menu} == 'home'? 'active'" aria-current="page" href="#" th:href="@{/}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" th:classappend="${menu} == 'board'? 'active'" href="#" th:href="@{/board}">게시판</a>
+                        <a class="nav-link" th:classappend="${menu} == 'board'? 'active'" href="#" th:href="@{/board/list}">게시판</a>
                     </li>
                 </ul>
                 <form class="d-flex">
