@@ -26,16 +26,29 @@
             <div id="content" th:text="${board.content}"></div>
         </div>
         <a th:href="@{/board/list}" class="btn btn-primary">목록</a>
-        <a th:href="@{/board/delete}" id="delete" class="btn btn-primary">삭제</a>
+        <div id="delete" class="btn btn-primary">삭제</div>
+<!--        <div id="delete" class="btn btn-primary" th:onclick="doDelete();">삭제</div>-->
         <a th:href="@{/board/form(id=${board.id})}" class="btn btn-primary">수정</a>
     </div>
 
     <footer th:replace="common/common :: footer">
-        <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
-        </script>
     </footer>
+    <script>
+        /*function doDelete(){
+            var result = confirm('삭제하시겠습니까?');
+            if(result == true){
+                location.href='/board/delete?id=[[${board.id}]]';
+            }
+        }*/
+        $('#delete').on('click',function(){
+            var result = confirm('삭제하시겠습니까?');
+            if(result == true){
+                location.href='/board/delete?id=[[${board.id}]]';
+            }
+        });
+    </script>
 
 </body>
 
 </html>
+
