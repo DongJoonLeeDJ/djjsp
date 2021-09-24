@@ -14,6 +14,12 @@ public class Jpa02Application {
         SpringApplication.run(Jpa02Application.class, args);
     }
 
+    /*
+        Member 객체 선언
+        MemberRepository 구현
+        MemberService
+        securityConfiguration 구현해야됨.
+     */
     @Bean
     public WebMvcConfigurer webMvcConfigurer() {
         return new WebMvcConfigurer() {
