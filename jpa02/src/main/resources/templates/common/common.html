@@ -56,8 +56,10 @@
                         <a class="nav-link" th:classappend="${menu} == 'board'? 'active'" href="#" th:href="@{/board/list}">게시판</a>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <form th:action="@{/board/list}" method="get" class="d-flex">
+                    <input class="form-control me-2" type="search"
+                           placeholder="Search" aria-label="Search"
+                            name="searchtxt">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>

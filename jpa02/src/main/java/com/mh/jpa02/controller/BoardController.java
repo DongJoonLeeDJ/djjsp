@@ -34,19 +34,21 @@ public class BoardController {
 
     @GetMapping("/list")
     public String board(Model model,
-                        @RequestParam(required = false,defaultValue = "0")int page) {
+                        @RequestParam(required = false,defaultValue = "0")int page,
+                        @RequestParam(required = false,defaultValue = "")String searchtxt) {
         int size = 5;
-        Page<Board> list = boardRepository.findAll(
+        Page<Board> list = boardRepository.findByTitleContainingOrContentContaining(
+                searchtxt,
+                searchtxt,
                 PageRequest.of(page,size,
                     Sort.by(Sort.Direction.DESC, "id")
                 )
         );
-//        System.out.println("curpageNumber"+list.getPageable().getPageNumber());
-        model.addAttribute("startpage",1);
-        // th:classappend -> active
-        model.addAttribute("curpage",(list.getPageable().getPageNumber()+1));
 
+        model.addAttribute("startpage",1);
+        model.addAttribute("curpage",(list.getPageable().getPageNumber()+1));
         model.addAttribute("endpage",list.getTotalPages());
+
         model.addAttribute("list", list);
         return "board/list";
     }

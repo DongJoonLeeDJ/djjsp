@@ -46,8 +46,12 @@
     </table>
     <nav class="d-flex justify-content-center" aria-label="page navigation">
         <ul class="pagination">
-            <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1">Previous</a>
+            <li class="page-item"
+                th:classappend="${curpage==1} ?'disabled'">
+                <a class="page-link"
+                   th:href="@{/board/list(page=${curpage-2})}"
+                   href="#"
+                   tabindex="-1">Previous</a>
             </li>
             <li class="page-item"
                 th:each="i : ${#numbers.sequence(startpage,endpage)}"
@@ -58,8 +62,11 @@
                    href="#">
                 </a>
             </li>
-            <li class="page-item">
-                <a class="page-link" href="#">Next</a>
+            <li class="page-item"
+                th:classappend="${curpage==endpage} ?'disabled'">
+                <a class="page-link"
+                   th:href="@{/board/list(page=${curpage})}"
+                   href="#">Next</a>
             </li>
         </ul>
     </nav>
