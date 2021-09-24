@@ -34,7 +34,7 @@
     </style>
 
     <!-- Custom styles for this template -->
-    <link href="" th:href="@{/starter-template.css}" rel="stylesheet">
+    <link href="" th:href="@{/starter/starter-template.css}" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
@@ -51,6 +51,9 @@
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
                         <a class="nav-link" th:classappend="${menu} == 'home'? 'active'" aria-current="page" href="#" th:href="@{/}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" th:classappend="${menu} == 'member'? 'active'" href="#" th:href="@{/members/signup}">회원가입</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" th:classappend="${menu} == 'board'? 'active'" href="#" th:href="@{/board/list}">게시판</a>

@@ -44,14 +44,14 @@
         </tr>
         </tbody>
     </table>
-    <nav class="d-flex justify-content-center" aria-label="page navigation">
+    <nav class="d-flex justify-content-center">
         <ul class="pagination">
             <li class="page-item"
                 th:classappend="${curpage==1} ?'disabled'">
                 <a class="page-link"
                    th:href="@{/board/list(page=${curpage-2})}"
                    href="#"
-                   tabindex="-1">Previous</a>
+                   >Previous</a>
             </li>
             <li class="page-item"
                 th:each="i : ${#numbers.sequence(startpage,endpage)}"

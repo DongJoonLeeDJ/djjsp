@@ -15,6 +15,12 @@ public class Jpa02Application {
     }
 
     /*
+    configuration설정...
+
+    / 페이지 접속...
+    member/reg
+
+
         Member 객체 선언
         MemberRepository 구현
         MemberService
