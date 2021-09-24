@@ -6,52 +6,71 @@
 
 <body>
 
-    <nav th:replace="common/common :: nav('board')">
+<nav th:replace="common/common :: nav('board')">
 
-    </nav>
+</nav>
 
-    <main class="container">
-        <div class="bg-light p-5 rounded">
-            <h1>게시판</h1>
-        </div>
-    </main>
+<main class="container">
+    <div class="bg-light p-5 rounded">
+        <h1>게시판</h1>
+    </div>
+</main>
 
-    <div class="container p-5 rounded">
-        <table class="table table-dark table-hover
+<div class="container p-5 rounded">
+    <table class="table table-dark table-hover
                        text-center" style="cursor:pointer">
-            <colgroup>
-                <col width="10%">
-                <col width="50%">
-                <col width="20%">
-                <col width="20%">
-            </colgroup>
-            <thead>
-                <tr>
-                    <th>순번</th>
-                    <th>제목</th>
-                    <th>작성자</th>
-                    <th>작성일자</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="table-active" th:each="board : ${list}">
-                    <td th:text="${board.id}"></td>
-                    <td>
-                        <a th:href="@{/board/view(id=${board.id})}" th:text="${board.title}"></a>
-                    </td>
-                    <td th:text="${board.name}"></td>
-                    <td th:text="${board.date}"></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+        <colgroup>
+            <col width="10%">
+            <col width="50%">
+            <col width="20%">
+            <col width="20%">
+        </colgroup>
+        <thead>
+        <tr>
+            <th>순번</th>
+            <th>제목</th>
+            <th>작성자</th>
+            <th>작성일자</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="table-active" th:each="board : ${list}">
+            <td th:text="${board.id}"></td>
+            <td>
+                <a th:href="@{/board/view(id=${board.id})}" th:text="${board.title}"></a>
+            </td>
+            <td th:text="${board.name}"></td>
+            <td th:text="${board.date}"></td>
+        </tr>
+        </tbody>
+    </table>
+    <nav class="d-flex justify-content-center" aria-label="page navigation">
+        <ul class="pagination">
+            <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Previous</a>
+            </li>
+            <li class="page-item"
+                th:each="i : ${#numbers.sequence(startpage,endpage)}"
+                th:classappend="${curpage==i} ?'active'">
+                <a class="page-link"
+                   th:text="${i}"
+                   th:href="@{/board/list(page=${i-1})}"
+                   href="#">
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
+        </ul>
+    </nav>
+</div>
 
-    <div class="container d-flex justify-content-end">
-        <a href="#" th:href="@{/board/form}" class="btn btn-primary" th:text="쓰기">Primary</a>
-    </div>
+<div class="container d-flex justify-content-end">
+    <a href="#" th:href="@{/board/form}" class="btn btn-primary" th:text="쓰기">Primary</a>
+</div>
 
-    <footer th:replace="common/common :: footer">
-    </footer>
+<footer th:replace="common/common :: footer">
+</footer>
 </body>
 
 </html>
