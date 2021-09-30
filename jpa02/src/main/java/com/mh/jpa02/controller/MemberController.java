@@ -8,8 +8,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("members")
 public class MemberController {
 
-    @GetMapping("/signup")
+    // 로그인 페이지
+    @GetMapping("/login")
+    public String login(){
+        return "members/memberLoginForm";
+    }
+
+    // 회원가입 페이지
+    @GetMapping("/sign")
     public String signup(){
-        return "members/memberForm";
+        return "members/memberSignForm";
     }
 }

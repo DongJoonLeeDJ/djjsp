@@ -1,5 +1,7 @@
 <!doctype html>
-<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<html lang="ko"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
 
 <head th:fragment="head(title)">
     <meta charset="utf-8">
@@ -53,7 +55,13 @@
                         <a class="nav-link" th:classappend="${menu} == 'home'? 'active'" aria-current="page" href="#" th:href="@{/}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" th:classappend="${menu} == 'member'? 'active'" href="#" th:href="@{/members/signup}">회원가입</a>
+                        <a class="nav-link" th:classappend="${menu} == 'login'? 'active'" href="#" th:href="@{/members/login}" sec:authorize="isAnonymous()">로그인</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" th:classappend="${menu} == 'logout'? 'active'" href="#" th:href="@{/members/logout}" sec:authorize="isAuthenticated()">로그아웃</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" th:classappend="${menu} == 'sign'? 'active'" href="#" th:href="@{/members/sign}" sec:authorize="isAnonymous()">회원가입</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" th:classappend="${menu} == 'board'? 'active'" href="#" th:href="@{/board/list}">게시판</a>
