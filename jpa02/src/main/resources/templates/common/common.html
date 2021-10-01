@@ -20,6 +20,10 @@
     <meta name="theme-color" content="#7952b3">
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+        *{
+            font-family: 'Noto Sans KR', sans-serif;
+        }
         .bd-placeholder-img {
             font-size: 1.125rem;
             text-anchor: middle;
@@ -38,6 +42,7 @@
     <!-- Custom styles for this template -->
     <link href="" th:href="@{/starter/starter-template.css}" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
 </head>
 
 <body>
@@ -89,7 +94,10 @@
     </main>
 
 
-    <footer th:fragment="footer">
+    <footer class="bg-dark p-3" th:fragment="footer">
+        <div class="d-flex justify-content-center " style="color: white;">
+            꿈꾸는 개발자 copy right
+        </div>
         <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
                 th:src="@{/js/bootstrap.bundle.min.js}">
         </script>

@@ -15,17 +15,180 @@
             <p class="lead">
                 안녕하세요 spring boot , jpa, thymeleaf 사용해서 만든 홈페이지입니다.
             </p>
-            <a class="btn btn-lg btn-primary" 
-                href="/docs/5.1/components/navbar/" 
-                role="button">프로필 보기</a>
+            <a class="btn btn-lg btn-primary" href="/docs/5.1/components/navbar/" role="button">프로필 보기</a>
+        </div>
+        <div class="m-3">
+            <div class="row">
+                <div class="col-md-3">
+                    <select class="form-select" id="city" onchange="drawGra()">
+                        <option value='서울'>서울</option>
+                        <option value='경기'>경기</option>
+                        <option value='부산'>부산</option>
+                        <option value='대구'>대구</option>
+                        <option value='인천'>인천</option>
+                        <option value='경남'>경남</option>
+                        <option value='충남'>충남</option>
+                        <option value='경북'>경북</option>
+                        <option value='대전'>대전</option>
+                        <option value='강원'>강원</option>
+                        <option value='충북'>충북</option>
+                        <option value='울산'>울산</option>
+                        <option value='광주'>광주</option>
+                        <option value='전북'>전북</option>
+                        <option value='전남'>전남</option>
+                        <option value='제주'>제주</option>
+                        <option value='세종'>세종</option>
+                    </select>
+                </div>
+                <div class="col-md-3 p1">
+                    <span><small>도시를 선택 하세요</small></span>
+                </div>
+            </div>
+            <div class="m-2" id="citytotal">누적 환진자 수 : </div>
+            <div class="row">
+                <div class="col-xl-8" id="my_dataviz"></div>
+                <div class="col-xl-4">
+                    <h3>최근 확진자수</h3>
+                    <table class="table" id="covid-tb">
+                        <thead class="thead-dark">
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">일자</th>
+                              <th scope="col">확진자수</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>20211001</td>
+                              <td>2400</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>20210931</td>
+                              <td>2400</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>20210930</td>
+                                <td>2400</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>20210929</td>
+                                <td>2400</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>20210928</td>
+                                <td>2400</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>20210927</td>
+                                <td>2400</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td>20210926</td>
+                                <td>2400</td>
+                            </tr>
+                          </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </main>
 
     <footer th:replace="common/common :: footer">
         <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
         </script>
     </footer>
 </body>
 
 </html>
+<script>
+    function drawGra() {
+        var total = 0;
+        var tr_arr = "";
+        d3.select("#my_dataviz").selectAll('svg').remove();
+        // set the dimensions and margins of the graph
+        var margin = {
+                top: 10,
+                right: 30,
+                bottom: 30,
+                left: 50
+            },
+            width = 750 - margin.left - margin.right,
+            height = 400 - margin.top - margin.bottom;
+
+        // append the svg object to the body of the page
+        var svg = d3.select("#my_dataviz")
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+
+        //Read the data
+        d3.csv("https://raw.githubusercontent.com/jooeungen/coronaboard_kr/master/kr_regional_daily.csv",
+            function (d) {
+                if (d.region == $('#city').val())
+                    return {
+                        date: d3.timeParse("%Y%m%d")(d.date),
+                        value: d.confirmed
+                    }
+            },
+
+            // Now I can use this dataset:
+            function (data) {
+
+                // Add X axis --> it is a date format
+                var x = d3.scaleTime()
+                    .domain(d3.extent(data, function (d) {
+                        return d.date;
+                    }))
+                    .range([0, width]);
+                svg.append("g")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(d3.axisBottom(x));
+
+                // Add Y axis
+                var y = d3.scaleLinear()
+                    .domain([0, d3.max(data, function (d) {
+                        return +d.value;
+                    })])
+                    .range([height, 0]);
+                svg.append("g")
+                    .call(d3.axisLeft(y));
+
+                // Add the area
+                svg.append("path")
+                    .datum(data)
+                    .attr("fill", "#cce5df")
+                    .attr("stroke", "#69b3a2")
+                    .attr("stroke-width", 1.5)
+                    .attr("d", d3.area()
+                        .x(function (d) {
+                            return x(d.date)
+                        })
+                        .y0(y(0))
+                        .y1(function (d) {
+                            total = d.value;
+                            return y(d.value)
+                        })
+                    )
+
+                $('#citytotal').html('<h1>누적 확진자 수 ' + total.replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '명</h1>');
+
+                svg.append("circle").attr("cx", 300).attr("cy", 30).attr("r", 6)
+                    .style("fill", "#69b3a2")
+                svg.append("text").attr("x", 320).attr("y", 30)
+                    .text($('#city').val() + '누적 확진자 수 ' + total.replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '명')
+                    .style("font-size", "15px").attr("alignment-baseline", "middle")
+            })
+    }
+    drawGra();
+</script>
