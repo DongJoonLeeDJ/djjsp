@@ -54,6 +54,14 @@ public class BoardController {
         return "board/list";
     }
 
+    /*
+select * from board a, board_tail b
+where a.id = b.board_id;
+
+select * from board a
+left outer join board_tail b on a.id = b.board_id;
+     */
+
     @GetMapping("/view")
     public String view(long id,Model model) {
         Board board = boardRepository.findById(id).orElse(null);

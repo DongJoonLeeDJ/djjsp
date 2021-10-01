@@ -30,6 +30,19 @@
         <!--        <div id="delete" class="btn btn-primary" th:onclick="doDelete();">삭제</div>-->
         <a th:href="@{/board/form(id=${board.id})}" class="btn btn-primary">수정</a>
 
+        <div class="row m-1">
+            댓글
+            <div class="border" th:each="boardtail : ${board.boardTailList}">
+                <div>
+                    <div>이름 <span th:text="${boardtail.tuser_name}"></span> </div>
+                </div>
+                <div>
+                    <div>내용</div>
+                    <div th:text="${boardtail.tcontent}"></div>
+                </div>
+            </div>
+        </div>
+
         <div class="row border-top mt-2">
             <form th:action="@{/boardtail/form}" method="post">
                 <input type="hidden" name="board_id" th:value="${board.id}">
