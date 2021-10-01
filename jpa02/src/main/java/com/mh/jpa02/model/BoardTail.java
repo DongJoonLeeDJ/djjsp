@@ -1,6 +1,5 @@
 package com.mh.jpa02.model;
 
-import com.mh.jpa02.constant.Role;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
@@ -10,25 +9,16 @@ import javax.persistence.*;
 
 @Entity
 @Data
+@ToString
 @AllArgsConstructor
 @RequiredArgsConstructor
-@ToString
-public class Member {
+public class BoardTail {
     @Id
-    @Column(name ="member_id")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    private String name;
+    private String tuser_name;
+    private String tcontent;
 
-    @Column(unique = true)
-    private String password;
-
-    private String address;
-
-    @Column(unique = true)
-    private String email;
-
-    @Enumerated(EnumType.STRING)
-    private Role role;
+    private long board_id;
 }

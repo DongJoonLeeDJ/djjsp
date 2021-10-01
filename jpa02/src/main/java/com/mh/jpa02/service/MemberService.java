@@ -17,13 +17,18 @@ public class MemberService implements UserDetailsService {
     MemberRepository memberRepository;
 
     @Override
-    public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
+    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+//        System.out.println(email);
+        Member member = memberRepository.findByEmail(email);
+//        System.out.println(member);
+        if ( member == null)
+            throw new UsernameNotFoundException(email);
         return User.builder()
-                .username("aa@naver.com")
-                .password(new BCryptPasswordEncoder().encode("12341234"))
-                .roles("USER")
+                .username(member.getEmail())
+                .password(member.getPassword())
+//                .password(new BCryptPasswordEncoder().encode("12341234"))
+                .roles(member.getRole().toString())
                 .build();
-
         // ADMIN USER
     }
 

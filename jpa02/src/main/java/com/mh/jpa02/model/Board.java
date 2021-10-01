@@ -2,13 +2,16 @@ package com.mh.jpa02.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.ToString;
 
 import javax.persistence.*;
 import javax.validation.constraints.Size;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
 @Entity
+@ToString
 public class Board {
 
     public Board(){}
@@ -24,5 +27,11 @@ public class Board {
     private String content;
 
     private String date;
+
+    // spring boot -> thymeleaf, security, OnetoMany ManyToOne
+    @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinColumn(name="board_id")
+    private List<BoardTail> boardTailList;
+
 
 }

@@ -19,9 +19,9 @@ public class RestApiController {
     // DB Board 한개 행 return
     // spring -> gson lib
     // react -> spring RestController
-    @GetMapping("test")
-    public Board one(){
-        return new Board(1l,"name",
-                "title","content","20210916");
-    }
+//    @GetMapping("test")
+//    public Board one(){
+//        return new Board(1l,"name",
+//                "title","content","20210916");
+//    }
 }

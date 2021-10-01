@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
+import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -86,7 +87,10 @@ public class BoardController {
     // @ManyToOne
 
     @PostMapping("/form")
-    public String form(Model model, @Valid Board board, BindingResult bindingResult) {
+    public String form(Model model, @Valid Board board, BindingResult bindingResult, Authentication authentication ) {
+//        System.out.println("작성자 = "+authentication.getName());
+//        System.out.println(board);
+        board.setName(authentication.getName());
         model.addAttribute("board",board);
         boardValidator.validate(board,bindingResult);
         if( bindingResult.hasErrors()){

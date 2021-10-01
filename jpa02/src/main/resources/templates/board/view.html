@@ -27,8 +27,23 @@
         </div>
         <a th:href="@{/board/list}" class="btn btn-primary">목록</a>
         <div id="delete" class="btn btn-primary">삭제</div>
-<!--        <div id="delete" class="btn btn-primary" th:onclick="doDelete();">삭제</div>-->
+        <!--        <div id="delete" class="btn btn-primary" th:onclick="doDelete();">삭제</div>-->
         <a th:href="@{/board/form(id=${board.id})}" class="btn btn-primary">수정</a>
+
+        <div class="row border-top mt-2">
+            <form th:action="@{/boardtail/form}" method="post">
+                <input type="hidden" name="board_id" th:value="${board.id}">
+                <div class="row p-3">
+                    <label class="form-label" for="user_name">작성자(*)</label>
+                    <input class="form-control" id="user_name" name="tuser_name" value="" type="text">
+                </div>
+                <div class="row p-3">
+                    <label class="form-label" for="tcontent">내용(*)</label>
+                    <textarea class="form-control" id="tcontent" name="tcontent" ></textarea>
+                </div>
+                <input class="btn btn-primary" type="submit" value="댓글저장">
+            </form>
+        </div>
     </div>
 
     <footer th:replace="common/common :: footer">
@@ -40,10 +55,10 @@
                 location.href='/board/delete?id=[[${board.id}]]';
             }
         }*/
-        $('#delete').on('click',function(){
+        $('#delete').on('click', function () {
             var result = confirm('삭제하시겠습니까?');
-            if(result == true){
-                location.href='/board/delete?id=[[${board.id}]]';
+            if (result == true) {
+                location.href = '/board/delete?id=[[${board.id}]]';
             }
         });
     </script>
@@ -51,4 +66,3 @@
 </body>
 
 </html>
-
