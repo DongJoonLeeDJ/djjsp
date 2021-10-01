@@ -111,7 +111,6 @@
 <script>
     function drawGra() {
         var total = 0;
-        var tr_arr = "";
         d3.select("#my_dataviz").selectAll('svg').remove();
         // set the dimensions and margins of the graph
         var margin = {
@@ -120,7 +119,7 @@
                 bottom: 30,
                 left: 50
             },
-            width = 750 - margin.left - margin.right,
+            width = 700 - margin.left - margin.right,
             height = 400 - margin.top - margin.bottom;
 
         // append the svg object to the body of the page
@@ -144,7 +143,6 @@
 
             // Now I can use this dataset:
             function (data) {
-
                 // Add X axis --> it is a date format
                 var x = d3.scaleTime()
                     .domain(d3.extent(data, function (d) {
@@ -183,11 +181,11 @@
 
                 $('#citytotal').html('<h1>누적 확진자 수 ' + total.replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '명</h1>');
 
-                svg.append("circle").attr("cx", 300).attr("cy", 30).attr("r", 6)
+                svg.append("circle").attr("cx", 300).attr("cy", 100).attr("r", 6)
                     .style("fill", "#69b3a2")
-                svg.append("text").attr("x", 320).attr("y", 30)
+                svg.append("text").attr("x", 320).attr("y", 100)
                     .text($('#city').val() + '누적 확진자 수 ' + total.replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '명')
-                    .style("font-size", "15px").attr("alignment-baseline", "middle")
+                    .style("font-size", "20px").attr("alignment-baseline", "middle")
             })
     }
     drawGra();

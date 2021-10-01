@@ -69,6 +69,9 @@
                         <a class="nav-link" th:classappend="${menu} == 'sign'? 'active'" href="#" th:href="@{/members/sign}" sec:authorize="isAnonymous()">회원가입</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" th:classappend="${menu} == 'chart'? 'active'" href="#" th:href="@{/chart}">차트</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" th:classappend="${menu} == 'board'? 'active'" href="#" th:href="@{/board/list}">게시판</a>
                     </li>
                 </ul>

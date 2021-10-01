@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="common/common :: head('chart')">
+</head>
+<body>
+
+    <nav th:replace="common/common :: nav('chart')">
+    </nav>
+
+    <main>
+        <div class="d-flex justify-content-center">
+            <div>
+                <div class="m-2">a : <input class="form-control" type="text" name="a" id="a" value="50"/></div>
+                <div class="m-2">b : <input class="form-control" type="text" name="b" id="b" value="40"/></div>
+                <div class="m-2">c : <input class="form-control" type="text" name="c" id="c" value="30"/></div>
+                <div class="m-2">d : <input class="form-control" type="text" name="d" id="d" value="20"/></div>
+                <div class="m-2">e : <input class="form-control" type="text" name="e" id="e" value="10"/></div>
+                <button class="btn btn-primary" onclick="drawg();">차트그리기</button>
+            </div>
+            <div>
+                <div class="row">
+                    <h1>파이차트</h1>
+                </div>
+                <div class="row">
+                    <div id="my_dataviz"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer th:replace="common/common :: footer">
+    </footer>
+</body>
+
+</html>
+<script>
+    function drawg(){
+        // 한개 지우기
+        d3.select('#my_dataviz').selectAll('svg').remove();
+        // set the dimensions and margins of the graph
+        var width = 450
+        height = 450
+        margin = 40
+
+        // The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
+        var radius = Math.min(width, height) / 2 - margin
+
+        // append the svg object to the div called 'my_dataviz'
+        var svg = d3.select("#my_dataviz")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .append("g")
+            .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+        // Create dummy data
+        var data = {
+            a: $('#a').val(),
+            b: $('#b').val(),
+            c: $('#c').val(),
+            d: $('#d').val(),
+            e: $('#e').val()
+        }
+
+        // set the color scale
+        var color = d3.scaleOrdinal()
+            .domain(data)
+            .range(["#9b32a8", "#8a89a6", "#cc1f7e", "#6b486b", "#a05d56"])
+
+        // Compute the position of each group on the pie:
+        var pie = d3.pie()
+            .value(function (d) {
+                return d.value;
+            })
+        var data_ready = pie(d3.entries(data))
+
+        // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
+        svg
+            .selectAll('whatever')
+            .data(data_ready)
+            .enter()
+            .append('path')
+            .attr('d', d3.arc()
+                .innerRadius(100) // This is the size of the donut hole
+                .outerRadius(radius)
+            )
+            .attr('fill', function (d) {
+                return (color(d.data.key))
+            })
+            .attr("stroke", "black")
+            .style("stroke-width", "2px")
+            .style("opacity", 0.7)
+    }
+    drawg();
+<!--
+</script>
