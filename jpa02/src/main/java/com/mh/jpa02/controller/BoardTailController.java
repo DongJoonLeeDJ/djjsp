@@ -29,13 +29,17 @@ public class BoardTailController {
     @Autowired
     BoardTailRepository boardTailRepository;
 
+    @Autowired
+    BoardRepository boardRepository;
 
     @PostMapping("/form")
-    public String form(BoardTail boardtail) {
+    public String form(BoardTail boardtail,long board_id) {
+        Board board = boardRepository.findById(board_id).orElse(new Board());
         System.out.println(boardtail);
 //        boardtail.setBoard_id(1l);
+        boardtail.setBoard(board);
         boardTailRepository.save(boardtail);
-        return "redirect:/board/view?id="+boardtail.getBoard_id();
+        return "redirect:/board/view?id="+board.getId();
     }
 
 }

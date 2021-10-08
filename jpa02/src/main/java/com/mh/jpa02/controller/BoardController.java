@@ -78,7 +78,10 @@ left outer join board_tail b on a.id = b.board_id;
 
     @GetMapping("/delete")
     public String delete(@RequestParam(required = false, defaultValue = "0") long id) {
-        boardRepository.deleteById(id);
+        System.out.println("id = "+ id);
+        Board board = boardRepository.findById(id).orElse(new Board());
+        board.getBoardTailList().clear();
+        boardRepository.delete(board);
         return "redirect:/board/list";
     }
 
@@ -96,6 +99,7 @@ left outer join board_tail b on a.id = b.board_id;
 
     @PostMapping("/form")
     public String form(Model model, @Valid Board board, BindingResult bindingResult, Authentication authentication ) {
+        Board newboard = new Board();
 //        System.out.println("작성자 = "+authentication.getName());
 //        System.out.println(board);
         board.setName(authentication.getName());
@@ -107,8 +111,21 @@ left outer join board_tail b on a.id = b.board_id;
         long nano = System.currentTimeMillis();
         String curDate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(nano);
         board.setDate(curDate);
-//        board.setId(1l);
-        boardRepository.save(board);
+
+        System.out.println("board.getId = "+board.getId());
+        if (board.getId() !=0){
+            newboard = boardRepository.findById(board.getId()).orElse(board);
+            newboard.setTitle(board.getTitle());
+            newboard.setContent(board.getContent());
+            newboard.setName(board.getName());
+            newboard.setDate(board.getDate());
+            newboard.setContent(board.getContent());
+            newboard.setId(board.getId());
+            boardRepository.save(newboard);
+        }
+        else {
+            boardRepository.save(board);
+        }
         return "redirect:/board/list";
     }
 

@@ -14,11 +14,14 @@ import javax.persistence.*;
 @RequiredArgsConstructor
 public class BoardTail {
     @Id
+    @Column(name = "boardtail_id")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     private String tuser_name;
     private String tcontent;
 
-    private long board_id;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "board_id")
+    private Board board;
 }
