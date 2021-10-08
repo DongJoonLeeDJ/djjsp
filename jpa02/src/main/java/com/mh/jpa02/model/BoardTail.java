@@ -9,7 +9,7 @@ import javax.persistence.*;
 
 @Entity
 @Data
-@ToString
+@ToString(exclude = "board")
 @AllArgsConstructor
 @RequiredArgsConstructor
 public class BoardTail {
@@ -24,4 +24,5 @@ public class BoardTail {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "board_id")
     private Board board;
+
 }

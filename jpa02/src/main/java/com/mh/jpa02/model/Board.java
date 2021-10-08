@@ -32,6 +32,11 @@ public class Board {
     private String date;
 
     // spring boot -> thymeleaf, security, OnetoMany ManyToOne
+    /*
+        jpa
+        @OneToMany
+        @ManyToOne
+     */
     @OneToMany(mappedBy = "board", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     private List<BoardTail> boardTailList;
 

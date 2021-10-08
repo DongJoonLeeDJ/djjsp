@@ -1,6 +1,7 @@
 package com.mh.jpa02.controller;
 
 import com.mh.jpa02.model.Board;
+import com.mh.jpa02.model.BoardTail;
 import com.mh.jpa02.repository.BoardRepository;
 import com.mh.jpa02.validator.BoardValidator;
 import com.sun.org.apache.xpath.internal.operations.Mod;
@@ -80,6 +81,9 @@ left outer join board_tail b on a.id = b.board_id;
     public String delete(@RequestParam(required = false, defaultValue = "0") long id) {
         System.out.println("id = "+ id);
         Board board = boardRepository.findById(id).orElse(new Board());
+//        for(BoardTail bt :board.getBoardTailList()){
+//            System.out.println(bt);
+//        }
         board.getBoardTailList().clear();
         boardRepository.delete(board);
         return "redirect:/board/list";
@@ -99,9 +103,9 @@ left outer join board_tail b on a.id = b.board_id;
 
     @PostMapping("/form")
     public String form(Model model, @Valid Board board, BindingResult bindingResult, Authentication authentication ) {
+
         Board newboard = new Board();
-//        System.out.println("작성자 = "+authentication.getName());
-//        System.out.println(board);
+
         board.setName(authentication.getName());
         model.addAttribute("board",board);
         boardValidator.validate(board,bindingResult);
